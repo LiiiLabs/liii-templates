@@ -1,0 +1,537 @@
+<TMU|<tuple|1.1.0|2025.2.3-beta3>>
+
+<style|<tuple|generic|chinese|number-europe>>
+
+<\body>
+  <\hide-preamble>
+    <assign|nbsp|<macro| <no-break><specific|screen|<resize|<move|<with|color|#FFFFFF|->|-0.3em|>|0em||0em|>>>>
+  </hide-preamble>
+
+  <\with|math-display|true>
+    <doc-data|<\doc-title>
+      2026年全国硕士研究生招生考试试题及参考答案
+    </doc-title>|<doc-subtitle|（数学三）>|<doc-author|<author-data|<author-name|By Liii stem>>>>
+
+    <subsection*|一、选择题：1～10小题,每小题5分,共50分,下列每题给出的四个选项中,只有一个选项是符合题目要求的。请将所选选项前的字母填在答题卡指定位置。>
+
+    <with|item-nr|0|<\enumerate>
+      <item>曲线<nbsp><math|y=x*e<rsup|x>><nbsp>（ ）
+
+      (A) 无水平渐近线，无铅直渐近线
+
+      (B) 有水平渐近线，有铅直渐近线
+
+      (C) 无水平渐近线，有铅直渐近线
+
+      (D) 有水平渐近线，无铅直渐近线
+
+      <with|marked-color|#aff|<marked|【答案】C>>
+
+      【解析】由于 <math|<below|lim\<nospace\>|x\<rightarrow\>\<infty\>>y=<below|lim|x\<rightarrow\>\<infty\>>x*e<rsup|x>=\<infty\>>，故无水平渐近线。又因为 <math|<below|lim\<nospace\>|x\<rightarrow\>0<rsup|+>>y=<below|lim|x\<rightarrow\>0<rsup|->>x*e<rsup|x>=0>，则<nbsp><math|x=0><nbsp>为曲线的铅直渐近线，故选 (C)。
+
+      <item>设函数<nbsp><math|z=z<around*|(|x,y|)>><nbsp>由方程<nbsp><math|x-a*z=e<rsup|-a*z>><nbsp>（a为非零常数）确定，则（ ）
+
+      (A)<nbsp><math|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>
+
+      (B)<nbsp><math|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>
+
+      (C)<nbsp><math|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>
+
+      (D)<nbsp><math|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>
+
+      <with|marked-color|#aff|<marked|【答案】A>>
+
+      【解析】
+
+      方程<nbsp><math|x-a*z=e<rsup|y+a*z>><nbsp>两边对<nbsp><math|x><nbsp>求导得 <equation*|1-a*<frac|\<partial\>z|\<partial\>x>=a*e<rsup|y+a*z>*<frac|\<partial\>z|\<partial\>x>>，则 <equation*|<frac|\<partial\>z|\<partial\>x>=<frac|1|a*<around*|(|e<rsup|y+z>+1|)>>>；
+
+      方程<nbsp><math|x-a*z=e<rsup|y+a*z>><nbsp>两边对<nbsp><math|y><nbsp>求导得 <equation*|-a*<frac|\<partial\>z|\<partial\>y>=e<rsup|y+a*z><around*|[|1+a*<frac|\<partial\>z|\<partial\>y>|]>>，则 <equation*|<frac|\<partial\>z|\<partial\>y>=-<frac|e<rsup|y+z>|a<around*|(|e<rsup|y+z>+1|)>>>，
+
+      从而有 <equation*|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>，故选 (A)。
+
+      <item>设<nbsp><math|f<around*|(|x|)>=<big|int><rsub|0><rsup|x><frac|e<rsup|t>|1+t<rsup|2>>*\<mathd\>t>，<math|f<around*|(|x|)>><nbsp>的麦克劳林展开式为<nbsp><math|g<around*|(|x|)>>，则（ ）
+
+      (A)<nbsp><math|g<around*|(|0|)>=0,g<rsup|\<prime\>><around*|(|0|)>=<frac|3|2>*e>
+
+      (B)<nbsp><math|g<around*|(|0|)>=1,g<rsup|\<prime\>><around*|(|0|)>=<frac|2|3*e>>
+
+      (C)<nbsp><math|g<around*|(|1|)>=0,g<rsup|\<prime\>><around*|(|1|)>=<frac|3|2>*e>
+
+      (D)<nbsp><math|g<around*|(|1|)>=0,g<rsup|\<prime\>><around*|(|1|)>=<frac|2|3*e>>
+
+      <\with|marked-color|#aff>
+        <marked|【答案】B>
+
+        【解析】
+
+        当<nbsp><math|x=1><nbsp>时，<math|f<around*|(|1|)>=0>，故<nbsp><math|g<around*|(|0|)>=1>；又 <equation*|f<rsup|\<prime\>><around*|(|x|)>=<frac|e<rsup|x>|1+x<rsup|2>>*3*x<rsup|2>>，可得 <equation*|f<rsup|\<prime\>><around*|(|1|)>=<frac|3*e|2>>，故 <equation*|g<rsup|\<prime\>><around*|(|0|)>=<frac|1|f<rsup|\<prime\>><around*|(|1|)>>=<frac|2|3*e>>，应选（B）。
+      </with>
+
+      <item>设 <math|t> 时刻某证券的交易价格为<nbsp><math|p<around*|(|t|)>>，某机构持有该证券的份额为<nbsp><math|q<around*|(|t|)>>，若该机构在<nbsp><math|t\<in\><around*|[|0,T|]>><nbsp>时陆续购入一定份额证券，则这些证券的平均购入价格为（ ）
+
+      (A)<nbsp><math|<frac|1|T>*<big|int><rsub|0><rsup|T>p<around*|(|t|)>*\<mathd\>t>
+
+      (B)<nbsp><math|<frac|1|q<around*|(|T|)>-q<around*|(|0|)>>*<big|int><rsub|0><rsup|T>p<around*|(|t|)>\<mathd\>q<around*|(|t|)>>
+
+      (C)<nbsp><math|<frac|1|T>*<big|int><rsub|0><rsup|T>p<around*|(|t|)>*q<around*|(|t|)>*\<mathd\>t>
+
+      (D)<nbsp><math|<frac|1|q<around*|(|T|)>-q<around*|(|0|)>>*<big|int><rsub|0><rsup|T>p<around*|(|t|)>*q<around*|(|t|)>*\<mathd\>t>
+
+      <with|marked-color|#aff|<marked|【答案】D>>
+
+      【解析】先计算任意<nbsp><math|\<Delta\>*t><nbsp>时间内购入的金额，即单价<nbsp><math|p<around*|(|t|)>><nbsp>乘以该时间间隔内购入的份额<nbsp><math|\<Delta\>*q<around*|(|t|)>>，取为<nbsp><math|\<mathd\>q<around*|(|t|)>>，则<nbsp><math|\<Delta\>*t><nbsp>时间间隔购入金额为<nbsp><math|p<around*|(|t|)>\<mathd\>q<around*|(|t|)>>，则<nbsp><math|<around*|[|0,T|]>><nbsp>购入总金额为
+
+      <equation*|<big|int><rsub|0><rsup|T>p<around*|(|t|)><with|mode|text| >\<mathd\>q<around*|(|t|)>=<big|int><rsub|0><rsup|T>p<around*|(|t|)>*q<rsup|\<prime\>><around*|(|t|)><with|mode|text| >\<mathd\>t.>
+
+      <math|<around*|[|0,T|]>><nbsp>内购入份额为<nbsp><math|q<around*|(|T|)>-q<around*|(|0|)>>，则平均购入价格为
+
+      <equation*|<frac|1|q<around*|(|T|)>-q<around*|(|0|)>>*<big|int><rsub|0><rsup|T>p<around*|(|t|)>*q<rsup|\<prime\>><around*|(|t|)><with|mode|text| >\<mathd\>t.>
+
+      <item>设矩阵
+
+      <equation*|A=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|3>>>|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>>>>>|)>,C=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|2>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|a>>|<cell|<with|math-level|0|math-display|false|b>>>>>>|)>,>
+
+      若存在矩阵<nbsp><math|B><nbsp>满足<nbsp><math|A B=C>，则（ ）
+
+      (A)<nbsp><math|a=-1,b=-1>
+
+      (B)<nbsp><math|a=2,b=2>
+
+      (C)<nbsp><math|a=-1,b=2>
+
+      (D)<nbsp><math|a=2,b=-1>
+
+      <with|marked-color|#aff|<marked|<strong|【答案】>A>>
+
+      【解析】由条件得，<math|r<around*|(|A|)>=r<around*|(|A,C|)>=3>；
+
+      <equation*|<around*|(|A,C|)>\<rightarrow\><around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<cwith|1|-1|5|5|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|2>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|2>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-2>>|<cell|<with|math-level|0|math-display|false|a-1>>|<cell|<with|math-level|0|math-display|false|b-1>>>>>>|)>>，由于<nbsp><math|r<around*|(|A,C|)>=3>，故 <equation*|<frac|1|-2>=<frac|1|a-1>=<frac|1|b-1>>；
+
+      得<equation*|a=-1,b=-1>。
+
+      <item>设<nbsp><math|A><nbsp>为 3 阶非零矩阵，<math|A<rsup|\<ast\>>><nbsp>为<nbsp><math|A><nbsp>的伴随矩阵，若<nbsp><math|A<rsup|\<ast\>>=-2*A>，则<nbsp><math|A<rsup|2>=>（ ）
+
+      (A)<nbsp><math|<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|-4>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-4>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-4>>>>>>|)>>
+
+      (B)<nbsp><math|<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|-4>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-4>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|4>>>>>>|)>>
+
+      (C)<nbsp><math|<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|-4>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|4>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|4>>>>>>|)>>
+
+      (D)<nbsp><math|<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|4>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|4>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|4>>>>>>|)>>
+
+      <with|marked-color|#aff|<marked|<strong|【答案】>D>>
+
+      【解析】<nbsp>由<nbsp><math|A*A<rsup|\<ast\>>=-2*A*A\<Rightarrow\>A<rsup|2>=<frac|\<mid\>A\<mid\>|-2>*E>，由<nbsp><math|A<rsup|\<ast\>>=-2*A><nbsp>得<nbsp><math|r<around*|(|A<rsup|\<ast\>>|)>=r<around*|(|A|)>>。由<nbsp><math|A<rsup|\<ast\>>=-2*A><nbsp>得
+
+      <equation*|\<mid\>A<rsup|\<ast\>>\<mid\>=\<mid\>-2*A\<mid\>\<Rightarrow\>\<mid\>A\<mid\><rsup|2>=<around*|(|-2|)><rsup|3>\<mid\>A\<mid\>\<Rightarrow\>\<mid\>A\<mid\>=<around*|(|-2|)><rsup|3>>，从而<nbsp><math|A<rsup|2>=4*E>。故答案 (D)。
+
+      <item>设 3 阶矩阵<nbsp><math|A,B><nbsp>满足<nbsp><math|A*B+B*A=A<rsup|2>+B<rsup|2>>，且<nbsp><math|A\<neq\>B>，则下列结论错误的是（ ）
+
+      (A)<nbsp><math|<around*|(|A-B|)><rsup|3>=O>
+
+      (B)<nbsp><math|A-B><nbsp>只有零特征值
+
+      (C)<nbsp><math|A,B><nbsp>不能都是对角矩阵
+
+      (D)<nbsp><math|A-B><nbsp>只有一个线性无关的特征向量
+
+      <with|marked-color|#aff|<marked|<strong|【答案】>D>>
+
+      【解析】\ 
+
+      由<nbsp><math|A*B+B*A=A<rsup|2>+B<rsup|2>>，得<nbsp><math|<around*|(|A-B|)><rsup|2>=O>；故选项 A, B 正确；
+
+      由<nbsp><math|<around*|(|A-B|)><rsup|2>=O><nbsp>且<nbsp><math|A\<neq\>B>，故<nbsp><math|A,B><nbsp>不能都是对角阵，所以选项 C 正确。
+
+      由<nbsp><math|<around*|(|A-B|)><rsup|2>=O><nbsp>得<nbsp><math|r<around*|(|A-B|)>+r<around*|(|A-B|)>\<leq\>3\<Rightarrow\>r<around*|(|A-B|)>\<leq\><frac|3|2>>。
+
+      又因为<nbsp><math|A\<neq\>B><nbsp>得<nbsp><math|r<around*|(|A-B|)>=1>，所以当<nbsp><math|A-B><nbsp>的特征值为 0 时，对应 2 个无关特征向量，故选项 D 错误。
+
+      <item>设随机变量<nbsp><math|X><nbsp>与<nbsp><math|Y><nbsp>独立同分布，且<nbsp><math|X><nbsp>的概率密度为
+
+      <equation*|f<around*|(|x|)>=<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|<frac|1|<around*|(|1+x|)><rsup|2>>,>>|<cell|<with|math-level|0|math-display|false|x\<gtr\>0>>>|<row|<cell|<with|math-level|0|math-display|false|0,>>|<cell|<with|math-level|0|math-display|false|x\<leq\>0>>>>>>|\<nobracket\>>>
+
+      则<nbsp><math|P<around*|(|X*Y\<leq\>1|)>=>（ ）
+
+      <\wide-tabular>
+        <tformat|<table|<row|<\cell>
+          (A)<nbsp><math|<frac|3|4>>
+        </cell>|<\cell>
+          (B)<nbsp><math|<frac|1|2>>
+        </cell>|<\cell>
+          (C)<nbsp><math|<frac|1|3>>
+        </cell>|<\cell>
+          (D)<nbsp><math|<frac|1|6>>
+        </cell>>>>
+      </wide-tabular>
+
+      <\with|marked-color|#aff>
+        <\marked>
+          <strong|【答案】>B
+        </marked>
+
+        【解析】因为<nbsp><math|X,Y><nbsp>独立，
+
+        <equation*|f<around*|(|x,y|)>=f<rsub|X><around*|(|x|)>*f<rsub|Y><around*|(|y|)>=<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|<frac|1|<around*|(|1+x|)><rsup|2><around*|(|1+y|)><rsup|2>>>>|<cell|<with|math-level|0|math-display|false|x\<gtr\>0,y\<gtr\>0>>>|<row|<cell|<with|math-level|0|math-display|false|0,>>|<cell|<with|math-level|0|math-display|false|<with|mode|text|其他>>>>>>>|\<nobracket\>>>
+
+        于是
+
+        <\align>
+          <tformat|<table|<row|<cell|P<around*|{|X Y\<leq\>1|}>=>|<cell|<big|int><rsub|0><rsup|\<infty\>>\<mathd\>x*<big|int><rsub|0><rsup|<frac|1|x>><frac|1|<around*|(|1+x|)><rsup|2><around*|(|1+y|)><rsup|2>>\<mathd\>y>>|<row|<cell|=>|<cell|<big|int><rsub|0><rsup|\<infty\>><frac|1|<around*|(|1+x|)><rsup|2>><around*|[|<frac|1|1+y>|]><rsub|0><rsup|<frac|1|x>>\<mathd\>x>>|<row|<cell|=>|<cell|<big|int><rsub|0><rsup|\<infty\>><frac|1|<around*|(|1+x|)><rsup|3>>\<mathd\>x>>|<row|=|<cell|-<frac|1|2><around*|[|<frac|1|1+x>|]><rsub|0><rsup|\<infty\>>>>|<row|<cell|=>|<cell|<frac|1|2>>>>>
+        </align>
+      </with>
+
+      <item>设随机变量<nbsp><math|X\<sim\>N<around*|(|0,1|)>>，随机变量<nbsp><math|Y\<sim\>B<around*|(|2,<frac|1|2>|)>>，且<nbsp><math|X><nbsp>与<nbsp><math|Y><nbsp>相互独立，则<nbsp><math|X Y><nbsp>与<nbsp><math|X+Y><nbsp>的相关系数为（ ）
+
+      <tabular|<tformat|<twith|table-width|1par>|<twith|table-hmode|exact>|<table|<row|<\cell>
+        (A)<math|<frac|<sqrt|6>|3>>
+      </cell>|<\cell>
+        (B)<math|<frac|<sqrt|2>|2>>
+      </cell>|<\cell>
+        (C)<math|<frac|2|3>>
+      </cell>|<\cell>
+        (D)<math|<frac|1|2>>
+      </cell>>>>>
+
+      <with|marked-color|#aff|<marked|<strong|【答案】>C>>
+
+      【解析】<nbsp>由题可知：
+
+      <equation*|E<around*|(|X|)>=0，D<around*|(|X|)>=1，E<around*|(|X<rsup|2>|)>=D<around*|(|X|)>+<around*|[|E<around*|(|X|)>|]><rsup|2>=1>；
+
+      <math|E<around*|(|Y|)>=1，D<around*|(|Y|)>=<frac|1|2>，E<around*|(|Y<rsup|2>|)>=D<around*|(|Y|)>+<around*|[|E<around*|(|Y|)>|]><rsup|2>=<frac|3|2>>；
+
+      <\align>
+        <tformat|<cwith|1|1|1|1|cell-halign|r>|<table|<row|<cell|Cov\<nospace\><around*|(|X*Y,X+Y|)>=>|<cell|E<around*|[|X*Y<around*|(|X+Y|)>|]>-E<around*|(|X*Y|)>*E<around*|(|X+Y|)>>>|<row|<cell|=>|<cell|E<around*|(|X<rsup|2>*Y+X*Y<rsup|2>|)>-E<around*|(|X|)>*E<around*|(|Y|)><around*|(|E*X+E*Y|)>>>|<row|<cell|=>|<cell|E<around*|(|X<rsup|2>|)>*E*Y+E<around*|(|X|)>*E<around*|(|Y<rsup|2>|)>-E<around*|(|X|)>*E<around*|(|Y|)><around*|[|E<around*|(|X|)>+E<around*|(|Y|)>|]><space|8em>>>|<row|<cell|=>|<cell|1>>>>
+      </align>
+
+      <\align>
+        <tformat|<cwith|1|-1|1|-1|cell-hyphen|n>|<cwith|1|-1|1|-1|cell-halign|l>|<cwith|1|-1|1|1|cell-halign|r>|<table|<row|<cell|D<around*|(|X*Y|)>=>|<cell|E<around*|(|X*Y|)><rsup|2>-<around*|[|E<around*|(|X*Y|)>|]><rsup|2>>>|<row|<cell|=>|<cell|E<around*|(|X<rsup|2>|)>*E<around*|(|Y<rsup|2>|)>>>|<row|<cell|=>|<cell|<frac|3|2>*D<around*|(|X+Y|)>>>|<row|<cell|=>|<cell|D<around*|(|X|)>+D<around*|(|Y|)><space|30em>>>|<row|<cell|=>|<cell|<frac|3|2>>>>>
+      </align>
+
+      <math|\<rho\>=<frac|Cov\<nospace\><around*|(|XY,X+Y|)>|<sqrt|D<around*|(|XY|)>>*<sqrt|D<around*|(|X+Y|)>>>=<frac|2|3>>.\ 
+
+      <item>设随机变量<nbsp><math|X><nbsp>的概率分布为 <equation*|P<around*|(|X=k|)>=<frac|1|2<rsup|k+1>>+<frac|1|3<rsup|k>>，<around*|(|k=1,2,\<ldots\>|)>，>对于任意的正整数<nbsp><math|m,n>,有（ ）
+
+      (A)<nbsp><math|P<around*|{|X\<gtr\>m+n\<mid\>X\<gtr\>m|}>=P<around*|{|X\<gtr\>m|}>>
+
+      (B)<nbsp><math|P<around*|{|X\<gtr\>m+n\<mid\>X\<gtr\>m|}>=P<around*|{|X\<gtr\>n|}>>
+
+      (C)<nbsp><math|P<around*|{|X\<gtr\>m+n\<mid\>X\<gtr\>m|}>\<gtr\>P<around*|{|X\<gtr\>m|}>>
+
+      (D)<nbsp><math|P<around*|{|X\<gtr\>m+n\<mid\>X\<gtr\>m|}>\<gtr\>P<around*|{|X\<gtr\>n|}>>
+
+      <with|marked-color|#aff|<marked|<strong|【答案】>D>>
+
+      【解析】
+
+      \;
+    </enumerate>>
+
+    <subsection*|二、填空题：11～16小题，每小题5分，共30分。>
+
+    <with|item-nr|10|<\enumerate>
+      <item><math|<big|int><rsub|0><rsup|1>x<around*|(|x-1|)><around*|(|x-<frac|1|2>|)><with|mode|text| >\<mathd\>x=><underline| \ \ \ \ \ \ \ >.
+
+      <with|marked-color|#aff|<marked|【答案】0>>
+
+      【解析】
+
+      <\align>
+        <tformat|<table|<row|<cell|<big|int><rsub|0><rsup|1>x<around*|(|x-1|)><around*|(|x-<frac|1|2>|)>\<mathd\>x=>|<cell|<big|int><rsub|0><rsup|1><around*|(|x<rsup|3>-<frac|3|2>*x<rsup|2>+<frac|1|2>*x|)>\<mathd\>x<space|19em>>>|<row|<cell|=>|<cell|<around*|(|<frac|1|4>*x<rsup|4>-<frac|1|2>*x<rsup|3>+<frac|1|4>*x<rsup|2>|)>\<barsuchthat\><rsub|0><rsup|1><rsup|\<nosymbol\>>>>|<row|<cell|=>|<cell|<frac|1|4>-<frac|1|2>+<frac|1|4>>>|<row|<cell|=>|<cell|0>>>>
+      </align>
+
+      <item><math|<below|lim\<nospace\>|x\<rightarrow\>0><around*|(|<frac|<sqrt|1+x<rsup|2>>|sin\<nospace\>x>-<frac|1|tan\<nospace\>x>|)>=><underline| \ \ \ \ \ \ \ >.
+
+      <with|marked-color|#aff|<marked|【答案】1>>
+
+      【解析】\ 
+
+      <\align>
+        <tformat|<table|<row|<cell|<below|lim\<nospace\>|x\<rightarrow\>0><frac|1|x><around*|(|<frac|<sqrt|1+x<rsup|2>>|sin\<nospace\>x>-<frac|1|tan\<nospace\>x>|)>=>|<cell|<below|lim\<nospace\>|x\<rightarrow\>0><frac|tan\<nospace\>x*<sqrt|1+x<rsup|2>>-tan\<nospace\>x+tan\<nospace\>x-sin\<nospace\>x|x<rsup|3>>>>|<row|<cell|=>|<cell|<below|lim\<nospace\>|x\<rightarrow\>0><frac|tan\<nospace\>x<around*|(|<sqrt|1+x<rsup|2>>-1|)>|x<rsup|3>>+<frac|tan\<nospace\>x-sin\<nospace\>x|x<rsup|3>><space|11em>>>|<row|<cell|=>|<cell|<frac|1|2>+<frac|1|2>>>|<row|<cell|=>|<cell|1>>>>
+      </align>
+
+      <item>设<nbsp><math|p><nbsp>为常数，若反常积分<math|<big|int><rsub|0><rsup|\<infty\>><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>><with|mode|text| >\<mathd\>x>收敛，则<nbsp><math|p><nbsp>的取值范围是 <underline| \ \ \ \ \ \ \ >.
+
+      <with|marked-color|#aff|<marked|【答案】<math|<around*|(|0,2|)>>>>
+
+      【解析】 <math|<big|int><rsub|0><rsup|\<infty\>><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>\<mathd\>x=<big|int><rsub|0><rsup|1><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>\<mathd\>x+<big|int><rsub|1><rsup|\<infty\>><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>\<mathd\>x>，
+
+      由题可知<nbsp><math|<big|int><rsub|0><rsup|1><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>\<mathd\>x><nbsp>和<nbsp><math|<big|int><rsub|1><rsup|\<infty\>><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>\<mathd\>x><nbsp>都收敛；
+
+      \;
+
+      对于<nbsp><math|<big|int><rsub|0><rsup|1><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>\<mathd\>x>，因为 <equation*|<below|lim\<nospace\>|x\<rightarrow\>0>x<rsup|p-1>*<frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>=1>，
+
+      则<nbsp><math|<big|int><rsub|0><rsup|1><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>\<mathd\>x><nbsp>和<nbsp><math|<big|int><rsub|0><rsup|1><frac|1|x<rsup|p-1>>\<mathd\>x><nbsp>同收敛，故<nbsp><math|p-1\<less\>1>，即<nbsp><math|p\<less\>2>。
+
+      对于<nbsp><math|<big|int><rsub|1><rsup|\<infty\>><frac|arctan\<nospace\>x|x<rsup|p>*<around*|(|x+1|)>>\<mathd\>x>，因为 <equation*|<below|lim\<nospace\>|x\<rightarrow\>\<infty\>>x<rsup|p+1>\<cdot\><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>=<frac|\<pi\>|2>>，
+
+      则<nbsp><math|<big|int><rsub|1><rsup|\<infty\>><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>\<mathd\>x><nbsp>和<nbsp><math|<big|int><rsub|1><rsup|\<infty\>><frac|1|x<rsup|p+1>>\<mathd\>x><nbsp>同收敛，故<nbsp><math|p+1\<gtr\>1>，即<nbsp><math|p\<gtr\>0>；
+
+      综上，当<nbsp><math|0\<less\>p\<less\>2><nbsp>时，<math|<with|math-level|0|math-display|true|<big|int><rsub|0><rsup|\<infty\>><frac|arctan\<nospace\>x|x<rsup|p><around*|(|x+1|)>>\<mathd\>x>><nbsp>收敛。
+
+      <item>微分方程 <equation*|y<rsup|\<prime\>\<prime\>>-2*y<rsup|\<prime\>>=e<rsup|x>> 满足<nbsp><math|y<around*|(|0|)>=1>，<math|y<rsup|\<prime\>><around*|(|0|)>=1><nbsp>的解为<math|y=><underline| \ \ \ \ \ \ \ >.
+
+      <with|marked-color|#aff|<marked|【答案】<math|y=1+e<rsup|2*x>-e<rsup|x>>>>
+
+      【解析】特征方程为<nbsp><math|r<rsup|2>-2*r=0>，特征根为<nbsp><math|r<rsub|1>=0，r<rsub|2>=2>，则齐次通解为<nbsp><math|<above|y|ˉ>=C<rsub|1>+C<rsub|2>*e<rsup|2*x>>；
+
+      设特解为<nbsp><math|y<rsup|\<ast\>>=A*e<rsup|x>>，代入原方程得<nbsp><math|A=-1>，特解为<nbsp><math|y<rsup|\<ast\>>=-e<rsup|x>>；故方程通解为
+
+      <\equation*>
+        y=C<rsub|1>+C<rsub|2>*e<rsup|2*x>-e<rsup|x>
+      </equation*>
+
+      代入初始条件<nbsp><math|y<around*|(|0|)>=1，y<rsup|\<prime\>><around*|(|0|)>=1><nbsp>得<nbsp><math|C<rsub|1>=1，C<rsub|2>=1>，则 <equation*|y=1+e<rsup|2*x>-e<rsup|x><with|mode|text|。>>\ 
+
+      <item>设矩阵<nbsp><math|A=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|b>>|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|a+2>>|<cell|<with|math-level|0|math-display|false|3>>|<cell|<with|math-level|0|math-display|false|-3*a>>>>>>|)>>，若二次型<nbsp><math|x<rsup|T><around*|(|AA<rsup|T>|)>*x><nbsp>的规范形为<nbsp><math|y<rsub|1><rsup|2>>，则<nbsp><math|a+b=><underline| \ \ \ \ \ \ \ >.
+
+      <with|marked-color|#aff|<marked|【答案】<math|2>>>
+
+      【解析】由题知二次型的秩为<nbsp><math|1>，则<nbsp><math|r<around*|(|A|)>=r<around*|(|A*A<rsup|T>|)>=1>，则矩阵<nbsp><math|A><nbsp>的两行成比例，得
+
+      <equation*|<frac|1|a+2>=<frac|b|3>=<frac|-1|-3*a>>
+
+      得<nbsp><math|a=1，b=1>，故<nbsp><math|a+b=2>。
+
+      <item>设随机变量<nbsp><math|X><nbsp>服从参数为 1 的泊松分布，随机变量<nbsp><math|Y><nbsp>服从参数为 3 的泊松分布，且<nbsp><math|X><nbsp>与<nbsp><math|Y-X><nbsp>相互独立，则<math|E<around*|(|XY|)>=><underline| \ \ \ \ \ \ \ >.
+
+      <with|marked-color|#aff|<marked|【答案】4>>
+
+      【解析】由条件得<nbsp><math|E<around*|(|X|)>=1，D<around*|(|X|)>=1，E<around*|(|Y|)>=3，D<around*|(|Y|)>=3>；
+
+      <\align>
+        <tformat|<table|<row|<cell|E<around*|[|X<around*|(|Y-X|)>|]>=>|<cell|E<around*|[|X\<cdot\>E<around*|(|Y-X|)><with|mode|text| >|]>>>|<row|<cell|=>|<cell|<with|mode|text|  >E<around*|(|X*Y|)>-E<around*|(|X<rsup|2>|)>>>|<row|<cell|=>|<cell|E<around*|(|X|)>*<around*|[|E<around*|(|Y|)>-E<around*|(|X|)>|]>>>|<row|<cell|=>|<cell|E<around*|(|X|)>*E<around*|(|Y|)>-<around*|[|E<around*|(|X|)>|]><rsup|2><space|24em>>>>>
+      </align>
+
+      <math|\<Rightarrow\>>
+
+      <\align>
+        <tformat|<table|<row|<cell|E<around*|(|X*Y|)>=>|<cell|E<around*|(|X<rsup|2>|)>+E<around*|(|X|)>*E<around*|(|Y|)>-<around*|[|E<around*|(|X|)>|]><rsup|2><space|23em>>>|<row|<cell|=>|<cell|D<around*|(|X|)>+E<around*|(|X|)>*E<around*|(|Y|)>>>|<row|<cell|=>|<cell|4>>>>
+      </align>
+    </enumerate>>
+
+    <subsection*|三、解答题：17～22小题，共70分.解答应写出文字说明、证明过程或演算步骤。>
+
+    <with|item-nr|16|<\enumerate>
+      <item>(本题满分10分）
+
+      已知<nbsp><math|f<around*|(|x|)>><nbsp>连续，且
+
+      <equation*|f<around*|(|x|)>=<frac|1|<around*|(|2-x|)><rsup|2>>-<big|int><rsub|0><rsup|1>f<around*|(|x|)>\<mathd\>x,>
+
+      将<nbsp><math|f<around*|(|x|)>><nbsp>展开成<nbsp><math|x><nbsp>的幂级数。
+
+      <strong|【答案】>
+
+      <equation*|<with|marked-color|#aff|<marked|<big|sum><rsub|n=2><rsup|\<infty\>><frac|n*x<rsup|n-1>|2<rsup|n+1>>,-2\<less\>x\<less\>2>>>
+
+      【解析】设<nbsp><math|<with|math-level|0|math-display|true|<big|int><rsub|0><rsup|1>f<around*|(|x|)>\<mathd\>x=A>>，则<nbsp><math|f<around*|(|x|)>=<frac|1|<around*|(|2-x|)><rsup|2>>-A>，两边在<nbsp><math|<around*|[|0,1|]>><nbsp>上积分：\ 
+
+      <\equation*>
+        <big|int><rsub|0><rsup|1>f<around*|(|x|)>\<mathd\>x=<big|int><rsub|0><rsup|1><frac|1|<around*|(|2-x|)><rsup|2>>\<mathd\>x-<big|int><rsub|0><rsup|1>A\<mathd\>x；
+      </equation*>
+
+      <\equation*>
+        2*A=<big|int><rsub|0><rsup|1><frac|1|<around*|(|2-x|)><rsup|2>>\<mathd\>x=<around*|[|<frac|1|2-x>|]><rsub|0><rsup|1>=<frac|1|2>；
+      </equation*>
+
+      \;
+
+      <equation*|A=<frac|1|4>，<with|mode|text|所以>f<around*|(|x|)>=<frac|1|<around*|(|2-x|)><rsup|2>>-<frac|1|4>；>
+
+      <equation*|<frac|1|<around*|(|2-x|)><rsup|2>>=<around*|[|<frac|1|2-x>|]><rsup|\<prime\>>=<around*|[|<frac|1|2><big|sum><rsub|n=0><rsup|\<infty\>><around*|(|<frac|x|2>|)><rsup|n>|]><rsup|\<prime\>>=<frac|1|2>*<big|sum><rsub|n=1><rsup|\<infty\>>n<around*|(|<frac|x|2>|)><rsup|n-1>=<big|sum><rsub|n=1><rsup|\<infty\>><frac|n*x<rsup|n-1>|2<rsup|n+1>>；>
+
+      <equation*|f<around*|(|x|)>=<big|sum><rsub|n=1><rsup|\<infty\>><frac|n*x<rsup|n-1>|2<rsup|n+1>>-<frac|1|4>=<big|sum><rsub|n=0><rsup|\<infty\>><around*|(|n+1|)>*<frac|x<rsup|n>|2<rsup|n+2>>-<frac|1|4>=<big|sum><rsub|n=1><rsup|\<infty\>><around*|(|n+1|)>*<frac|x<rsup|n>|2<rsup|n+2>><around*|(|<with|mode|text|收敛域为>-2\<less\>x\<less\>2|)>。>
+
+      \;
+
+      <item>（本题满分10分）
+
+      已知<nbsp><math|g<around*|(|x|)>><nbsp>是连续函数，且
+
+      <equation*|f<around*|(|x|)>=<big|int><rsub|0><rsup|x<rsup|2>>g<around*|(|t|)><with|mode|text| >\<mathd\>t,>
+
+      求<nbsp><math|f<rsup|\<prime\>><around*|(|x|)>>，并讨论<nbsp><math|f<rsup|\<prime\>><around*|(|x|)>><nbsp>在<nbsp><math|x=0><nbsp>处的连续性。
+
+      【答案】
+
+      <equation*|<with|marked-color|#aff|<marked|f<rsup|\<prime\>><around*|(|x|)>=<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|-<frac|1|x<rsup|2>><big|int><rsub|0><rsup|x<rsup|2>>g<around*|(|u|)><with|mode|text| >\<mathd\>u+3*x*g<around*|(|x<rsup|3>|)>,>>|<cell|<with|math-level|0|math-display|false|x\<neq\>0>>>|<row|<cell|<with|math-level|0|math-display|false|0,>>|<cell|<with|math-level|0|math-display|false|x=0>>>>>>|\<nobracket\>>,连续>>>
+
+      【解析】
+
+      当<nbsp><math|x=0><nbsp>时，<math|f<around*|(|0|)>=0>；
+
+      当<nbsp><math|x\<neq\>0><nbsp>时，令<nbsp><math|u=x*t>，则<nbsp><math|du=xdt>，于是 <equation*|f<around*|(|x|)>=<frac|1|x>*<big|int><rsub|0><rsup|x<rsup|3>>g<around*|(|u|)>\<mathd\>u；>
+
+      <math|x\<neq\>0><nbsp>时，<equation*|f<rsup|\<prime\>><around*|(|x|)>=-<frac|1|x<rsup|2>>*<big|int><rsub|0><rsup|x<rsup|3>>g<around*|(|u|)>\<mathd\>u+3*x*g<around*|(|x<rsup|3>|)>>，
+
+      <equation*|f<rsup|\<prime\>><around*|(|0|)>=<below|lim\<nospace\>|x\<rightarrow\>0><frac|f<around*|(|x|)>-f<around*|(|0|)>|x>=<below|lim\<nospace\>|x\<rightarrow\>0><frac|<frac|1|x>*<big|int><rsub|0><rsup|x<rsup|3>>g<around*|(|u|)>du|x>=<below|lim\<nospace\>|x\<rightarrow\>0><frac|<big|int><rsub|0><rsup|x<rsup|3>>g<around*|(|u|)>du|x<rsup|2>>=<below|lim\<nospace\>|x\<rightarrow\>0><frac|3*x<rsup|2>*g<around*|(|x<rsup|3>|)>|2*x>=0；<space|5em>>
+
+      故 <equation*|f<rsup|\<prime\>><around*|(|x|)>=<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|-<frac|1|x<rsup|2>><big|int><rsub|0><rsup|x<rsup|3>>g<around*|(|u|)>\<mathd\>u+3*x*g<around*|(|x<rsup|3>|)>>>|<cell|<with|math-level|0|math-display|false|x\<neq\>0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|x=0>>>>>>|\<nobracket\>>>；
+
+      又 <equation*|<below|lim\<nospace\>|x\<rightarrow\>0>f<rsup|\<prime\>><around*|(|x|)>=<below|lim\<nospace\>|x\<rightarrow\>0><around*|[|-<frac|1|x<rsup|2>><big|int><rsub|0><rsup|x<rsup|3>>g<around*|(|u|)>\<mathd\>u+3*x*g<around*|(|x<rsup|3>|)>|]>=0=f<rsup|\<prime\>><around*|(|0|)>>，
+
+      所以<nbsp><math|f<rsup|\<prime\>><around*|(|x|)>><nbsp>在<nbsp><math|x=0><nbsp>处连续。
+
+      <item>（本题满分12分）
+
+      求函数 <equation*|f<around*|(|x,y|)>=<around*|(|2*x<rsup|2>-y<rsup|2>|)>*e<rsup|x>> 的极值。
+
+      <with|marked-color|#aff|<marked|【答案】<math|f<around*|(|x,y|)>> 在点 <math|<around*|(|-2,0|)>> 处取极大值 <math|8*e<rsup|-2>>>>
+
+      【解析】 由 <equation*|<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|<with|math-display|true|math-level|0|<frac|\<partial\>f|\<partial\>x>>=<around*|(|4*x+2*x<rsup|2>-y<rsup|2>|)>*e<rsup|x>=0>>>|<row|<cell|<with|math-level|0|math-display|false|<with|math-display|true|math-level|0|<frac|\<partial\>f|\<partial\>y>>=-2*y*e<rsup|x>=0>>>>>>|\<nobracket\>>>，解得 <equation*|<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|x=0>>>|<row|<cell|<with|math-level|0|math-display|false|y=0>>>>>>|\<nobracket\>>>，
+
+      易得 <equation*|<frac|\<partial\><rsup|2>f|\<partial\>x<rsup|2>>=<around*|(|4+8*x+2*x<rsup|2>-y<rsup|2>|)>*e<rsup|x>，<frac|\<partial\><rsup|2>f|\<partial\>x\<partial\>y>=-2*y*e<rsup|x>，<frac|\<partial\><rsup|2>f|\<partial\>y<rsup|2>>=-2*e<rsup|x>>；
+
+      在点<nbsp><math|<around*|(|0,0|)>><nbsp>处：<equation*|A=<frac|\<partial\><rsup|2>f|\<partial\>x<rsup|2>>\<mid\><rsub|<around*|(|0,0|)>>=4，B=<frac|\<partial\><rsup|2>f|\<partial\>x\<partial\>y>\<mid\><rsub|<around*|(|0,0|)>>=0，C=<frac|\<partial\><rsup|2>f|\<partial\>y<rsup|2>>\<mid\><rsub|<around*|(|0,0|)>>=-2，>
+
+      由<nbsp><math|B<rsup|2>-AC\<gtr\>0><nbsp>知，<math|<around*|(|0,0|)>><nbsp>不是极值点；
+
+      在点<nbsp><math|<around*|(|-2,0|)>><nbsp>处：<equation*|A=<frac|\<partial\><rsup|2>f|\<partial\>x<rsup|2>>\<mid\><rsub|<around*|(|-2,0|)>>=-4*e<rsup|-2>，B=<frac|\<partial\><rsup|2>f|\<partial\>x\<partial\>y>\<mid\><rsub|<around*|(|-2,0|)>>=0，C=<frac|\<partial\><rsup|2>f|\<partial\>y<rsup|2>>\<mid\><rsub|<around*|(|-2,0|)>>=-2*e<rsup|-2>，>
+
+      由<nbsp><math|B<rsup|2>-AC\<less\>0,<with|mode|text|<nbsp>>A\<less\>0><nbsp>知：<math|<around*|(|-2,0|)>><nbsp>是极大值点，极大值为
+
+      <equation*|f<around*|(|-2,0|)>=8*e<rsup|-2>>
+
+      <item>（本题满分12分）
+
+      已知平面区域 <equation*|D=<around*|{|<around*|(|x,y|)>\<mid\>0\<leq\>x\<leq\>1,<with|mode|text|<nbsp>>0\<leq\>y\<leq\>1|}>,>计算二重积分<equation*|<big|iint><rsub|D><frac|y|<around*|(|1+x<rsup|2>+y<rsup|2>|)><rsup|<frac|3|2>>><with|mode|text| >\<mathd\>x*\<mathd\>y>。
+
+      <with|marked-color|#aff|<marked|【答案】<equation*|ln\<nospace\><around*|(|2+<sqrt|2>|)>-ln\<nospace\><around*|(|1+<sqrt|3>|)>>>>
+
+      【解析】<equation*|<big|iint><rsub|D><rsub|\<nosymbol\>><frac|y|<around*|(|1+x<rsup|2>+y<rsup|2>|)><rsup|<frac|3|2>>><with|mode|text| >\<mathd\>x*\<mathd\>y=<big|int><rsub|0><rsup|1>\<mathd\>x*<big|int><rsub|0><rsup|1><frac|y|<around*|(|1+x<rsup|2>+y<rsup|2>|)><rsup|<frac|3|2>>><with|mode|text| >\<mathd\>y.>
+
+      <\align>
+        <tformat|<table|<row|<cell|其中：<big|int><rsub|0><rsup|1><frac|y|<around*|(|1+x<rsup|2>+y<rsup|2>|)><rsup|<frac|3|2>>><with|mode|text| >\<mathd\>y=>|<cell|<frac|1|2>*<big|int><rsub|0><rsup|1><frac|1|<around*|(|1+x<rsup|2>+y<rsup|2>|)><rsup|<frac|3|2>>><with|mode|text| >d<around*|(|1+x<rsup|2>+y<rsup|2>|)><space|12em>>>|<row|<cell|=>|<cell|<frac|1|2>\<cdot\><around*|(|-2|)><around*|(|1+x<rsup|2>+y<rsup|2>|)><rsup|-<frac|1|2>>\<mid\><rsub|0><rsup|1>>>|<row|<cell|=>|<cell|<frac|1|<sqrt|1+x<rsup|2>>>-<frac|1|<sqrt|2+x<rsup|2>>>>>>>
+      </align>
+
+      <\align>
+        <tformat|<table|<row|<cell|原式=<big|int><rsub|0><rsup|1><around*|(|<frac|1|<sqrt|1+x<rsup|2>>>-<frac|1|<sqrt|2+x<rsup|2>>>|)>\<mathd\>x=>|<cell|ln\<nospace\><around*|(|x+<sqrt|1+x<rsup|2>>|)>\<mid\><rsub|0><rsup|1>-ln\<nospace\><around*|(|x+<sqrt|2+x<rsup|2>>|)>\<mid\><rsub|0><rsup|1>>>|<row|<cell|=>|<cell|ln\<nospace\><around*|(|1+<sqrt|2>|)>-ln\<nospace\><around*|(|1+<sqrt|3>|)>+ln\<nospace\><around*|(|<sqrt|2>|)><space|9em>>>|<row|<cell|=>|<cell|ln\<nospace\><around*|(|<frac|2+<sqrt|2>|1+<sqrt|3>>|)>>>>>
+      </align>
+
+      <item>（本题满分 12 分）
+
+      已知向量组<nbsp><math|\<alpha\><rsub|1>=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>>>>>|)>,\<alpha\><rsub|2>=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|-2>>>>>>|)>,\<alpha\><rsub|3>=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>>>>>|)>,\<alpha\><rsub|4>=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|1>>>>>>|)>>，设<nbsp><math|A=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>|)>>，
+
+      <equation*|G=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>|)>>
+
+      （1）证明：<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>><nbsp>是<nbsp><math|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>><nbsp>的极大线性无关组；
+
+      （2）求矩阵<nbsp><math|H><nbsp>使得<nbsp><math|A=G H>，并求<nbsp><math|A<rsup|10>>。
+
+      【答案】
+
+      <with|marked-color|#aff|<\marked>
+        （1）思路：证明 <math|r<around*|(|A|)>=r<around*|(|G|)>=2>；
+
+        （2）<math|H=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>>>>>|)>,A<rsup|10>=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-8>>|<cell|<with|math-level|0|math-display|false|-9>>|<cell|<with|math-level|0|math-display|false|9>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|9>>|<cell|<with|math-level|0|math-display|false|10>>|<cell|<with|math-level|0|math-display|false|-10>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|7>>|<cell|<with|math-level|0|math-display|false|8>>|<cell|<with|math-level|0|math-display|false|-8>>>>>>|)>>
+      </marked>>
+
+      【解析】
+
+      (1) 将<nbsp><math|A><nbsp>作初等行变换化为行最简得：<equation*|A=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>|)>\<rightarrow\><around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|0>>>>>>|)>>，
+
+      则<nbsp><math|r<around*|(|A|)>=2>，且<nbsp><math|\<alpha\><rsub|1>,\<alpha\><rsub|2>><nbsp>不成比例，故<nbsp><math|\<alpha\><rsub|1>,\<alpha\><rsub|2>><nbsp>为<nbsp><math|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>><nbsp>的极大线性无关组，
+
+      <math|\<alpha\><rsub|3>,\<alpha\><rsub|4>><nbsp>可由<nbsp><math|\<alpha\><rsub|1>,\<alpha\><rsub|2>><nbsp>线性表示：<equation*|\<alpha\><rsub|3>=-\<alpha\><rsub|1>+\<alpha\><rsub|2>，\<alpha\><rsub|4>=\<alpha\><rsub|1>-\<alpha\><rsub|2>>。
+
+      (2) <equation*|A=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>|)>=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,-\<alpha\><rsub|1>+\<alpha\><rsub|2>,\<alpha\><rsub|1>-\<alpha\><rsub|2>|)>=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>|)><around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-1>>>>>>|)>>，
+
+      则 <equation*|H=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-1>>>>>>|)>>，<equation*|A<rsup|10>=<around*|(|G H|)><rsup|10>=G<around*|(|H G|)><rsup|9>H<with|mode|text|。>>
+
+      其中，<equation*|H G=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-1>>>>>>|)><around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|0>>>>>>|)>=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>>>>>|)>，<around*|(|H G|)><rsup|9>=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-9>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>>>>>|)>>，
+
+      从而 <equation*|A<rsup|10>=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|0>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|0>>>>>>|)><around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-9>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>>>>>|)><around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-1>>>>>>|)>=<around*|(|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|c>|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|3|3|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<table|<row|<cell|<with|math-level|0|math-display|false|1>>|<cell|<with|math-level|0|math-display|false|-8>>|<cell|<with|math-level|0|math-display|false|-9>>|<cell|<with|math-level|0|math-display|false|9>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|1>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|9>>|<cell|<with|math-level|0|math-display|false|10>>|<cell|<with|math-level|0|math-display|false|-10>>>|<row|<cell|<with|math-level|0|math-display|false|-1>>|<cell|<with|math-level|0|math-display|false|7>>|<cell|<with|math-level|0|math-display|false|8>>|<cell|<with|math-level|0|math-display|false|-8>>>>>>|)>>。
+
+      <item>（本题满分 12 分）
+
+      假设某种元件的寿命服从指数分布，其均值<nbsp><math|\<theta\>><nbsp>是未知参数，为估计<nbsp><math|\<theta\>>，取<nbsp><math|n><nbsp>个这种元件同时做寿命试验，试验到出现<nbsp><math|k><nbsp>个元件失效时停止。
+
+      (1) 若<nbsp><math|k=1>，失效元件的寿命记为<nbsp><math|T>，
+
+       (i) 求<nbsp><math|T><nbsp>的概率密度；
+
+       (ii) 记<nbsp><math|<wide|\<theta\>|^>=a*T>，确定<nbsp><math|a>，使得 <equation*|E<around*|(|<wide|\<theta\>|^>|)>=\<theta\><with|mode|text|并求>D<around*|(|<wide|\<theta\>|^>|)>;>
+
+      (2) 已知<nbsp><math|k><nbsp>个失效元件寿命值分别为<nbsp><math|t<rsub|1>,t<rsub|2>,\<ldots\>,t<rsub|k>>，且<nbsp><math|t<rsub|1>\<leq\>t<rsub|2>\<leq\>\<cdots\>\<leq\>t<rsub|k>>，似然函数为
+
+      <equation*|L<around*|(|\<theta\>|)>=<frac|1|\<theta\><rsup|k>>*e<rsup|-<frac|1|\<theta\>><around*|[|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>*t<rsub|k>|]>>>
+
+      求<nbsp><math|\<theta\>><nbsp>的最大似然估计值。
+
+      <strong|【答案】>
+
+      <with|marked-color|#aff|<\marked>
+        (1) 易知 <math|T\<sim\>E<around*|(|<frac|1|\<theta\>>|)>>，<math|T=min\<nospace\><around*|{|T<rsub|1>,T<rsub|2>,\<ldots\>,T<rsub|n>|}>>，那么 <math|T\<sim\>E<around*|(|<frac|n|\<theta\>>|)>>，<equation*|a=n,D<around*|(|<wide|\<theta\>|^>|)>=n<rsup|2>*D<around*|(|T|)>=\<theta\><rsup|2>.>
+
+        (2)<equation*|<wide|\<theta\>|^>=<frac|1|k><around*|[|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>*t<rsub|k>|]>.>
+      </marked>>
+
+      【解析】
+
+      （1）设某元件寿命为<nbsp><math|X\<sim\>f<around*|(|x|)>=<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|<frac|1|\<theta\>>*e<rsup|-<frac|x|\<theta\>>>>>|<cell|<with|math-level|0|math-display|false|x\<geq\>0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|<with|mode|text|其他>>>>>>>|\<nobracket\>>>，这<nbsp><math|n><nbsp>个元件的寿命记为<nbsp><math|X<rsub|1>,X<rsub|2>,\<ldots\>,X<rsub|n>>，则<nbsp><math|X<rsub|1>,X<rsub|2>*\<ldots\>*X<rsub|n>><nbsp>相互独立且与<nbsp><math|X><nbsp>同分布。
+
+      当<nbsp><math|k=1><nbsp>时，<math|T=min\<nospace\><around*|{|X<rsub|1>,X<rsub|2>,\<ldots\>,X<rsub|n>|}>>；
+
+      <\align>
+        <tformat|<table|<row|<cell|则 F<rsub|T><around*|(|t|)>=>|<cell|P<around*|{|T\<leq\>t|}>>>|<row|<cell|=>|<cell|P<around*|{|min\<nospace\><around*|{|X<rsub|1>,X<rsub|2>,\<ldots\>,X<rsub|n>|}>\<leq\>t|}>>>|<row|<cell|=>|<cell|1-P<around*|{|min\<nospace\><around*|{|X<rsub|1>,X<rsub|2>,\<ldots\>,X<rsub|n>|}>\<gtr\>t|}><space|22em>>>|<row|<cell|=>|<cell|1-P<around*|{|X<rsub|1>\<gtr\>t,X<rsub|2>\<gtr\>t,\<ldots\>,X<rsub|n>\<gtr\>t|}>>>|<row|<cell|=>|<cell|1-<around*|[|P<around*|{|X\<gtr\>t|}>|]><rsup|n>>>|<row|<cell|=>|<cell|1-<around*|[|1-F<rsub|X><around*|(|t|)>|]><rsup|n>>>>>
+      </align>
+
+      <math|F<rsub|X><around*|(|t|)>=<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|1-e<rsup|-<frac|t|\<theta\>>>>>|<cell|<with|math-level|0|math-display|false|t\<geq\>0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|<with|mode|text|other>>>>>>>|\<nobracket\>>\<Rightarrow\>F<rsub|T><around*|(|t|)>=<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|1-e<rsup|-<frac|n|\<theta\>>*t>>>|<cell|<with|math-level|0|math-display|false|t\<geq\>0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|<with|mode|text|other>>>>>>>|\<nobracket\>>\<Rightarrow\>f<rsub|T><around*|(|t|)>=<around*|{|<tabular|<tformat|<cwith|1|-1|1|1|cell-halign|l>|<cwith|1|-1|2|2|cell-halign|l>|<table|<row|<cell|<with|math-level|0|math-display|false|<frac|n|\<theta\>>*e<rsup|-<frac|n|\<theta\>>*t>>>|<cell|<with|math-level|0|math-display|false|t\<geq\>0>>>|<row|<cell|<with|math-level|0|math-display|false|0>>|<cell|<with|math-level|0|math-display|false|<with|mode|text|other>>>>>>>|\<nobracket\>>>\ 
+
+      <equation*|>
+
+      <equation*|E<around*|(|<wide|\<theta\>|^>|)>=aE<around*|(|T|)>=a*<big|int><rsub|0><rsup|\<infty\>>t\<cdot\><frac|n|\<theta\>>*e<rsup|-<frac|n|\<theta\>>*t>\<mathd\>t=a\<cdot\><frac|\<theta\>|n>=\<theta\><with|mode|text|  >\<Rightarrow\><with|mode|text|  >a=n<space|18em>>
+
+      <equation*|D<around*|(|<wide|\<theta\>|^>|)>=a<rsup|2>*D<around*|(|T|)>=a<rsup|2><around*|[|E<around*|(|T<rsup|2>|)>-<around*|(|ET|)><rsup|2>|]><space|25em>>
+
+      其中 <equation*|E<around*|(|T<rsup|2>|)>=<big|int><rsub|0><rsup|\<infty\>>t<rsup|2>\<cdot\><frac|n|\<theta\>>*e<rsup|-<frac|n|\<theta\>>*t>\<mathd\>t=<frac|2*\<theta\><rsup|2>|n<rsup|2>>>，则 <equation*|D<around*|(|<wide|\<theta\>|^>|)>=n<rsup|2><around*|[|<frac|2*\<theta\><rsup|2>|n<rsup|2>>-<frac|\<theta\><rsup|2>|n<rsup|2>>|]>=\<theta\><rsup|2>>
+
+      (2) \ <math|L<around*|(|\<theta\>|)>=<frac|1|\<theta\><rsup|k>>*e<rsup|-<frac|1|\<theta\>><around*|[|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>*t<rsub|k>|]>>>，
+
+      则 <equation*|ln\<nospace\>L<around*|(|\<theta\>|)>=-k*ln\<nospace\>\<theta\>-<frac|1|\<theta\>><around*|[|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>*t<rsub|k>|]>> ，
+
+      那么 <math|<frac|\<mathd\><around*|[|ln\<nospace\>L<around*|(|\<theta\>|)>|]>|d*\<theta\>>=-<frac|k|\<theta\>>+<frac|1|\<theta\><rsup|2>><around*|[|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>*t<rsub|k>|]>=0> <equation*|\<Rightarrow\><with|mode|text|  ><wide|\<theta\>|^>=<frac|1|k><around*|[|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>*t<rsub|k>|]>>，
+
+      因此 <math|\<theta\>><nbsp>的最大似然估计值 <equation*|<wide|\<theta\>|^>=<frac|1|k><around*|[|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>*t<rsub|k>|]>>。
+
+      \;
+    </enumerate>>
+  </with>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|item-hsep|<macro|1.8fn>>
+    <associate|item-nr|18>
+    <associate|page-even-footer|<htab|5mm><page-the-page><htab|5mm>>
+    <associate|page-even-header|By Liii STEM<verbatim|（模板尽在官网: <slink|<verbatim|<verbatim|https://liiistem.cn>>>)> >
+    <associate|page-medium|paper>
+    <associate|page-odd-footer|<htab|5mm><page-the-page><htab|5mm>>
+    <associate|page-odd-header|>
+    <associate|page-screen-margin|false>
+    <associate|preamble|false>
+  </collection>
+</initial>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|?|1>>
+    <associate|auto-2|<tuple|10|5>>
+    <associate|auto-3|<tuple|16|6>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <with|par-left|<quote|1tab>|一、选择题：1～10小题,每小题5分,共50分,下列每题给出的四个选项中,只有一个选项是符合题目要求的。请将所选选项前的字母填在答题卡指定位置。<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.05fn>.<space|0.05fn>>>>>|<htab|5mm>><no-break><pageref|auto-1>>
+
+      <with|par-left|<quote|1tab>|二、填空题：11～16小题，每小题5分，共30分。<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.05fn>.<space|0.05fn>>>>>|<htab|5mm>><no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|1tab>|三、解答题：17～22小题，共70分.解答应写出文字说明、证明过程或演算步骤。<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.05fn>.<space|0.05fn>>>>>|<htab|5mm>><no-break><pageref|auto-3>>
+    </associate>
+  </collection>
+</auxiliary>
