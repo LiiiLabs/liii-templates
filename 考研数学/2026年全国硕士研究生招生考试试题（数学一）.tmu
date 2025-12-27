@@ -1,0 +1,408 @@
+<TMU|<tuple|1.1.0|2025.2.2>>
+
+<style|<tuple|generic|chinese|number-europe|llm>>
+
+<\body>
+  <doc-data|<doc-title|2026年全国硕士研究生招生考试试题>|<doc-subtitle|（数学一）>>
+
+  <subsubsection*|一、选择题：1<math|\<sim\>>10小题，每小题5分，共50分.下列每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选选项前的字母填在答题纸指定位置上.>
+
+  <\enumerate-numeric>
+    <item>设函数<math|z=z<around*|(|x,y|)>>由方程<math|x-a z=e<rsup|y+a z>>(<math|a>为非零常数)确定，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （Ａ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｂ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｃ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｄ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>幂级数<math|<with|math-display|true|<big|sum><rsup|\<infty\>><rsub|n=1><around*|(|<frac|3+<around*|(|-1|)><rsup|n>|4>|)><rsup|n>x<rsup|2n>>>的收敛域为（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<around*|[|-2,2|]>>
+      </cell>|<\cell>
+        （B）<math|<around*|[|-1,1|]>>
+      </cell>|<\cell>
+        （C）<math|<around*|(|-2,2|)>>
+      </cell>|<\cell>
+        （D）<math|<around*|(|-1,1|)>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设函数<math|f<around*|(|x|)>>在区间<math|<around*|[|-1,1|]>>上有定义，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）当<math|f<around*|(|x|)>>在<math|<around*|(|-1,0|)>>内单调递减，在<math|<around*|(|0,1|)>>内单调递增时，<math|f<around*|(|0|)>>为极小值
+
+        （B）当<math|f<around*|(|0|)>>为极小值时，<math|f<around*|(|x|)>>在<math|<around*|(|-1,0|)>>内单调递减，在<math|<around*|(|0,1|)>>内单调递增
+
+        （C）当<math|f<around*|(|x|)>>的图形在<math|<around*|[|-1,1|]>>上是凹的时，<math|<with|math-display|true|<frac|f<around*|(|x|)>-f<around*|(|1|)>|x-1>>>在<math|<around*|[|-1,1|)>>上单调递增
+
+        （D）当<math|<with|math-display|true|<frac|f<around*|(|x|)>-f<around*|(|1|)>|x-1>>>在<math|<around*|[|-1,1|)>>上单调递增时，<math|f<around*|(|x|)>>的图形在<math|<around*|[|-1,1|]>>上是凹的
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>已知有界区域<math|\<Omega\>>由曲面<math|z=<sqrt|4-x<rsup|2>-y<rsup|2>>>与<math|z=<sqrt|x<rsup|2>+y<rsup|2>>>围成，函数<math|f<around*|(|u|)>>连续，则
+
+    <math|<with|math-display|true|<below|<big|iiint><rsub|>|\<Omega\>>f<around*|(|x<rsup|2>+y<rsup|2>+z<rsup|2>|)>\<mathd\>V=>>（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<with|math-display|true|<math|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|2><rsub|0>\<mathd\>r<big|int><rsup|<sqrt|4-r<rsup|2>>><rsub|r>f<around*|(|r<rsup|2>+z<rsup|2>|)>r\<mathd\>z>>
+
+        （C）<with|math-display|true|<math|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|<frac|\<pi\>|4>><rsub|0>\<mathd\>\<varphi\><big|int><rsup|2><rsub|0>f<around*|(|r<rsup|2>|)>r<rsup|2>sin\<varphi\>\<mathd\>r>>
+      </cell>|<\cell>
+        （B）<math|<with|math-display|true|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|<sqrt|2>><rsub|0>\<mathd\>r<big|int><rsup|<sqrt|4-r<rsup|2>>><rsub|0>f<around*|(|r<rsup|2>+z<rsup|2>|)>r\<mathd\>z>>
+
+        （D）<verbatim|<with|math-display|true|<math|>>><with|math-display|true|<math|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|<frac|\<pi\>|2>><rsub|0>\<mathd\>\<varphi\><big|int><rsup|2><rsub|0>f<around*|(|r<rsup|2>|)>r<rsup|2>sin\<varphi\>\<mathd\>r>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>单位矩阵经若干次互换两行得到的矩阵为置换矩阵，设<math|A>为<math|n>阶置换矩阵，<math|A<rsup|\<ast\>>>为<math|A>的伴随矩阵，
+
+    则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|A<rsup|\<ast\>>>为置换矩阵
+      </cell>|<\cell>
+        （B）<math|A<rsup|-1>>为置换矩阵
+      </cell>|<\cell>
+        （C）<math|A<rsup|-1>=A<rsup|\<ast\>>>
+      </cell>|<\cell>
+        （D）<math|A<rsup|-1>=-A<rsup|\<ast\>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设<math|A,B>为<math|n>阶矩阵，<math|\<beta\>>为<math|n>维列向量，若<math|A>的列向量组可由<math|B>的列向量组线性表示，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）当<math|A x=\<beta\>>有解时，<math|B x=\<beta\>>有解
+
+        （C）当<math|B x=\<beta\>>有解时，<math|A x=\<beta\>>有解
+      </cell>|<\cell>
+        （B）当<math|A<rsup|T> x=\<beta\>>有解时，<math|B <rsup|T>x=\<beta\>>有解
+
+        （D）当<math|B <rsup|T>x=\<beta\>>有解时，<math|A<rsup|T> x=\<beta\>>有解
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设二次型<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>=a<around*|(|x<rsup|2><rsub|1>+x<rsup|2><rsub|2>+x<rsup|2><rsub|3>|)>+4x<rsub|1>x<rsub|2>+4x<rsub|1>x<rsub|3>+4x<rsub|2>x<rsub|3>>，若方程<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>=-1>表示
+
+    的曲面为圆柱面，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|a=-4>，且<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>的规范形为<math|-y<rsup|2><rsub|1>-y<rsup|2><rsub|2>-y<rsup|2><rsub|3>>
+
+        （B）<math|a=-4>，且<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>在正交变换下的标准形为<math|-6y<rsup|2><rsub|1>-6y<rsup|2><rsub|2>>
+
+        （C）<math|a=2>，且<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>的规范形为<math|-y<rsup|2><rsub|1>-y<rsup|2><rsub|2>-y<rsup|2><rsub|3>>
+
+        （D）<math|a=2，>且<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>在正交变换下的标准形为<math|-6y<rsup|2><rsub|1>-6y<rsup|2><rsub|2>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设随机变量<math|X\<sim\>N<around*|(|1,2|)>>，令<math|f<around*|(|t|)>=E<around*|[|<around*|(|X+t|)><rsup|2>|]>>，则<math|f<around*|(|t|)>>的最小值点和最小值分别为（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|1,2>
+      </cell>|<\cell>
+        （B）<math|1,4>
+      </cell>|<\cell>
+        （C）<math|-1,2>
+      </cell>|<\cell>
+        （D）<math|-1,4>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设连续型随机变量<math|X>的分布函数为<math|F<around*|(|x|)>>，随机变量<math|Y>的分布函数为<math|F<around*|(|a y+b|)>>，<math|X>的数学期望为
+
+    <math|\<mu\>>，方差为<math|\<sigma\><rsup|2>（\<sigma\>\<gtr\>0）>.若<math|Y>的数学期望和方差分别为<math|0>和<math|1>，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|a=\<sigma\>,b=\<mu\>>
+      </cell>|<\cell>
+        （B）<math|a=\<sigma\>,b=-\<mu\>>
+      </cell>|<\cell>
+        （C）<math|<with|math-display|true|a=<frac|1|\<sigma\>>,b=\<mu\>>>
+      </cell>|<\cell>
+        （D）<math|<with|math-display|true|a=<frac|1|\<sigma\>>,b=-\<mu\>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设随机变量<math|X>的概率分布为<math|<with|math-display|true|P<around*|{|X=k|}>=<frac|1|2<rsup|k+1>>+<frac|1|3<rsup|k>>,k=1,2,\<cdots\>>>，则对于正整数<math|m,n>，有（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>=P<around*|{|X\<gtr\>m|}>>
+
+        （C）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>\<gtr\>P<around*|{|X\<gtr\>m|}>>
+      </cell>|<\cell>
+        （B）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>=P<around*|{|X\<gtr\>n|}>>
+
+        （D）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>\<gtr\>P<around*|{|X\<gtr\>n|}>>
+      </cell>>>>
+    </wide-tabular>
+  </enumerate-numeric>
+
+  <subsubsection*|二、填空题：11<math|\<sim\>>16小题，每小题5分，共30分.>
+
+  <\enumerate>
+    <item>设向量<math|<wide|v<rsub|1>|\<vect\>>=<around*|(|0,x,z|)>,<wide|v<rsub|2>|\<vect\>>=<around*|(|y,0,1|)>>，令<math|<wide|F|\<vect\>><around*|(|x,y,z|)>=<wide|v<rsub|1>|\<vect\>>\<times\><wide|v<rsub|2>|\<vect\>>>，则<math|div<wide|F|\<vect\>>=><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item><math|<with|math-display|true|lim<rsub|x\<rightarrow\>0><around*|(|<frac|1|x>-<frac|ln<around*|(|1+x|)>|x sin x>|)>=>><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>设函数<math|y=y<around*|(|x|)>>由参数方程<math|<with|math-display|true|<choice|<tformat|<table|<row|<cell|x=2sin<rsup|2>t>>|<row|<cell|y=t+cos t>>>>>,t\<in\><around*|(|0,<frac|\<pi\>|2>|)>>>所确定<math|>，则<math|<with|math-display|true|<with|math-display|true|<around*|\<nobracket\>|<frac|\<mathd\><rsup|2>y|\<mathd\>x<rsup|2>>|\|><rsub|t=<frac|\<pi\>|4>>=>>><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item><math|<with|math-display|true|<big|int><rsup|+\<infty\>><rsub|1><frac|ln<around*|(|1+x|)>|x<rsup|2>>\<mathd\>x=>><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>设矩阵<math|A=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|2>|<cell|a>|<cell|2>>|<row|<cell|0>|<cell|2>|<cell|a>>>>>|)>,B=<around*|(|<tabular*|<tformat|<table|<row|<cell|a>|<cell|-1>|<cell|-1>>|<row|<cell|-1>|<cell|2>|<cell|1>>|<row|<cell|-1>|<cell|-1>|<cell|a>>>>>|)>>，设<math|m<around*|(|X|)>>为<math|3>阶矩阵<math|X>的实特征值中最大值，若
+
+    <math|m<around*|(|A|)>\<less\>m<around*|(|B|)>>，则<math|a>的取值范围是<underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>设随机变量<math|X>服从参数为<math|1>的泊松分布，随机变量<math|Y>服从参数为<math|3>的泊松分布，<math|X>与<math|Y-X>相互独
+
+    立，则<math|E<around*|(|XY|)>=><underline| \ \ \ \ \ \ \ \ \ >.
+  </enumerate>
+
+  <subsubsection*|三、解答题：17<math|\<sim\>>22小题，共70分.解答应写出文字说明、证明过程或演算步骤.>
+
+  <with|item-nr|16|<\enumerate>
+    <item>（本题满分10分）
+
+    求函数<math|f<around*|(|x,y|)>=<around*|(|2x<rsup|2>-y<rsup|2>|)>e<rsup|x>>的极值.
+
+    \;
+
+    <item>（本题满分12分）
+
+    设<math|f<around*|(|u|)>>在区间<math|<around*|(|0,+\<infty\>|)>>内具有<math|3>阶连续导数，且存在可微函数<math|F<around*|(|x,y|)>>使得
+
+    <\equation*>
+      \<mathd\>F<around*|(|x,y|)>=<frac|f<around*|(|x y|)>|x<rsup|2>y>\<mathd\>x+<frac|f<rprime|''><around*|(|x y|)>|x y<rsup|2>>\<mathd\>y<around*|(|x y\<gtr\>0|)>.
+    </equation*>
+
+    （1）证明：<math|<with|math-display|true|<frac|f<rprime|''><around*|(|u|)>|u>-<frac|f<around*|(|u|)>|u>=C>>，<math|C>为常数；
+
+    （2）设<math|f<around*|(|1|)>=1,f<rprime|'><around*|(|1|)>=-1,f<rprime|''><around*|(|1|)>=0>，求<math|f<around*|(|u|)>>的表达式.
+
+    \;
+
+    <item>（本题满分12分）
+
+    设有向曲线<math|L>为椭圆<math|x<rsup|2>+3y<rsup|2>=1>上沿逆时针方向从点<with|math-display|true|<math|A<around*|(|-<frac|1|2>,-<frac|1|2>|)>>>到点<math|<with|math-display|true|B<around*|(|<frac|1|2>,<frac|1|2>|)>>>的部分，计算
+
+    曲线积分
+
+    <\equation*>
+      I=<big|int><rsub|L><around*|(|e<rsup|x<rsup|2>>sin x-2x y|)>\<mathd\>x+<around*|(|6x-x<rsup|2>-y cos<rsup|4>y|)>\<mathd\>y.
+    </equation*>
+
+    \;
+
+    <item>（本题满分12分）
+
+    设可导函数<math|f<around*|(|x|)>>严格单调递增且满足<with|math-display|true|<math|<big|int><rsup|1><rsub|-1>f<around*|(|x|)>\<mathd\>x=0>>，记<math|<with|math-display|true|a=<big|int><rsup|1><rsub|0>f<around*|(|x|)>\<mathd\>x>>.
+
+    （1）证明：<math|a\<gtr\>0>；
+
+    （2）设<math|<with|math-display|true|F<around*|(|x|)>=a<around*|(|1-x<rsup|2>|)>+<big|int><rsup|x><rsub|1>f<around*|(|t|)>\<mathd\>t>>，证明：存在<math|\<xi\>\<in\><around*|(|-1,1|)>>，使得<math|F<rprime|''><around*|(|\<xi\>|)>=0>.
+
+    \;
+
+    <item>（本题满分12分）
+
+    已知向量组<math|\<alpha\><rsub|1>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>|<row|<cell|-1>>|<row|<cell|-1>>>>>|)>,\<alpha\><rsub|2>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>>|<row|<cell|-1>>|<row|<cell|0>>|<row|<cell|-2>>>>>|)>,\<alpha\><rsub|3>=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>>|<row|<cell|-1>>|<row|<cell|1>>|<row|<cell|-1>>>>>|)>,\<alpha\><rsub|4>=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>>|<row|<cell|1>>|<row|<cell|-1>>|<row|<cell|1>>>>>|)>>，设<math|A=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>|)>>，
+
+    <math|G=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>|)>.>
+
+    （1）证明：<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>>是<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>>的极大线性无关组；
+
+    （2）求矩阵<math|H>使得<math|A=G H>，并求<math|A<rsup|10>>.
+
+    \;
+
+    <item>（本题满分12分）
+
+    假设某种元件的寿命服从指数分布，其均值<math|\<theta\>>是未知参数，为估计<math|\<theta\>>，取<math|n>个这种元件同时做寿
+
+    命实验，试验到出现<math|k<around*|(|1\<leqslant\>k\<leqslant\>n|)>>个元件失效时停止.
+
+    （1）若<math|k=1>，失效元件寿命记为<math|T>.（i）求<math|T>的概率密度；（ii）确定<math|a>，使<math|<wide|\<theta\>|^>=a T>是<math|\<theta\>>的无偏估
+
+    计，并求<math|D<around*|(|<wide|\<theta\>|^>|)>>.
+
+    （2）已知<math|k>个失效元件的寿命分别为<math|t<rsub|1>,t<rsub|2>,\<cdots\>,t<rsub|k>>且<math|t<rsub|1>\<leqslant\>t<rsub|2>\<leqslant\>\<cdots\>\<leqslant\>t<rsub|k>>，似然函数为
+
+    <\equation*>
+      <with|math-display|true|L<around*|(|\<theta\>|)>=<frac|1|\<theta\><rsup|k><rsup|>>e<rsup|-<frac|1|\<theta\>><with|math-display|true|<around*|[|<with|math-display|true|<with|math-display|true|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>t<rsub|k>>>|]>>>>，
+    </equation*>
+
+    求<math|\<theta\>>的最大似然估计值.
+  </enumerate>>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|item-hsep|<macro|1.3fn>>
+    <associate|item-nr|10>
+    <associate|page-medium|paper>
+    <associate|page-screen-margin|false>
+  </collection>
+</initial>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-10|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-11|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-12|<tuple|a|?>>
+    <associate|auto-13|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-14|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-15|<tuple|a|?>>
+    <associate|auto-16|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-17|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-18|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-19|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-2|<tuple|11|2>>
+    <associate|auto-20|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-21|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|auto-22|<tuple|21|?>>
+    <associate|auto-3|<tuple|17|2>>
+    <associate|auto-4|<tuple|22|?>>
+    <associate|auto-5|<tuple|22|?>>
+    <associate|auto-6|<tuple|22|?>>
+    <associate|auto-7|<tuple|22|?>>
+    <associate|auto-8|<tuple|22|?>>
+    <associate|auto-9|<tuple|a|?>>
+    <associate|b-ux7684ux7279ux5f81ux503c|<tuple|16|?>>
+    <associate|iiux786eux5b9a-a-ux4f7f-hattheta-a-t-ux662f-theta-ux7684ux65e0ux504fux4f30ux8ba1|<tuple|22|?>>
+    <associate|iux6c42-t-ux7684ux6982ux7387ux5bc6ux5ea6|<tuple|22|?>>
+    <associate|ux4e00ux822c-a-ux7684ux591aux9879ux5f0f|<tuple|16|?>>
+    <associate|ux4e00ux822c-k-ux7684ux60c5ux51b5|<tuple|22|?>>
+    <associate|ux4e0bux6807-i-ux7684ux542bux4e49|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux4e0e-ma-ux6bd4ux8f83|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux4e24ux79cdux6807ux51c6ux53c2ux6570ux5316|<tuple|a|?>>
+    <associate|ux4e3aux4ec0ux4e48ux53ebux978dux70b9|<tuple|a|?>>
+    <associate|ux4ee4ux4e24ux8005ux76f8ux7b49|<tuple|a|?>>
+    <associate|ux4ee4ux504fux5bfcux6570ux4e3a-0-ux6c42ux9a7bux70b9|<tuple|18|?>>
+    <associate|ux4feeux6b63ux8bc1ux660eux4ecdux7528ux79efux5206ux4e2dux503cux5b9aux7406|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux5148ux770b-alpha_1-alpha_2-ux662fux5426ux7ebfux6027ux65e0ux5173|<tuple|a|?>>
+    <associate|ux518dux8bc1-alpha_3-alpha_4-ux53efux7531-alpha_1-alpha_2-ux7ebfux6027ux8868ux793a|<tuple|a|?>>
+    <associate|ux5206ux60c5ux51b5ux8ba8ux8bba-ma|<tuple|15|?>>
+    <associate|ux5206ux6790ux9898ux76ee|<tuple|20|?>>
+    <associate|ux5229ux7528ux5355ux8c03ux6027|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux5229ux7528ux5bf9ux79f0ux6027ux5316ux7b80|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux5229ux7528ux603bux79efux5206ux4e3aux96f6|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux53c2ux6570-theta-ux7684ux542bux4e49|<tuple|a|?>>
+    <associate|ux56deux5230ux683cux6797ux516cux5f0fux7ed3ux679c|<tuple|20|?>>
+    <associate|ux56e0ux5f0fux5206ux89e3|<tuple|16|?>>
+    <associate|ux5728ux672cux9898ux4e2dux7684ux4f8bux5b50|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux5728ux9a7bux70b9ux5904ux7528-hessian-ux5224ux522b|<tuple|18|?>>
+    <associate|ux5982ux4f55ux5224ux65ad|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux5bf9--10-ux7528ux79efux5206ux4e2dux503cux5b9aux7406|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux5bf9-01-ux7528ux79efux5206ux4e2dux503cux5b9aux7406|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux5df2ux77e5-f11-f1-1-f10|<tuple|a|?>>
+    <associate|ux5df2ux77e5ux6761ux4ef6|<tuple|20|?>>
+    <associate|ux5df2ux77e5ux77e9ux9635|<tuple|15|?>>
+    <associate|ux5e94ux7528ux683cux6797ux516cux5f0f|<tuple|20|?>>
+    <associate|ux5f53-k-1-ux7684ux60c5ux51b5|<tuple|22|?>>
+    <associate|ux627eux4e34ux754cux6761ux4ef6|<tuple|16|?>>
+    <associate|ux6307ux6570ux5206ux5e03ux8be6ux89e3|<tuple|c|?>>
+    <associate|ux6392ux9664ux7b49ux53f7ux60c5ux51b5ux5f97ux5230ux4e25ux683cux4e0dux7b49ux5f0f|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux63a8ux51fa-a0|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux63a8ux5bfcux4f3cux7136ux51fdux6570ux9898ux76eeux5df2ux7ed9ux51fa|<tuple|22|?>>
+    <associate|ux6570ux5b66ux5224ux522bux4e8cux5143ux51fdux6570-z-fx-y|<tuple|18|?>>
+    <associate|ux6700ux5927ux7279ux5f81ux503c-mb|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux6700ux7ec8ux89e3|<tuple|19|?>>
+    <associate|ux6781ux5927ux503c|<tuple|18|?>>
+    <associate|ux683cux6797ux516cux5f0fux7684ux9002ux7528ux6027|<tuple|20|?>>
+    <associate|ux6c42-a10|<tuple|22|?>>
+    <associate|ux6c42-ma|<tuple|15|?>>
+    <associate|ux6c42-mb|<tuple|16|?>>
+    <associate|ux6c42ux4e00ux9636ux504fux5bfcux6570|<tuple|18|?>>
+    <associate|ux6c42ux4e8cux9636ux504fux5bfcux6570|<tuple|18|?>>
+    <associate|ux6c42ux6700ux5927ux4f3cux7136ux4f30ux8ba1|<tuple|a|?>>
+    <associate|ux6c42ux77e9ux9635-h-ux4f7fux5f97-a-ghux5e76ux6c42-a10|<tuple|22|?>>
+    <associate|ux7279ux5f81ux591aux9879ux5f0fux8ba1ux7b97|<tuple|16|?>>
+    <associate|ux7528ux521dux59cbux6761ux4ef6ux6c42-a-b|<tuple|a|?>>
+    <associate|ux7528ux6570ux503cux8bd5ux63a2ux6cd5ux731c-mb-ux7684ux516cux5f0f|<tuple|16|?>>
+    <associate|ux76f4ux89c2ux7406ux89e3|<tuple|17|?>>
+    <associate|ux7b2cux4e00ux6b65ux627e-fx-ux7684ux96f6ux70b9|<tuple|21|?>>
+    <associate|ux7b2cux4e09ux6b65ux518dux627eux53e6ux4e00ux4e2a-f-ux7684ux96f6ux70b9|<tuple|21|?>>
+    <associate|ux7b2cux4e8cux6b65ux7528ux7f57ux5c14ux5b9aux7406ux4e8e-fx|<tuple|21|?>>
+    <associate|ux7ed3ux8bba|<tuple|b|?>>
+    <associate|ux7edfux4e00ux8bbaux8bc1|<tuple|21|?>>
+    <associate|ux8003ux8651ux7528ux683cux6797ux516cux5f0f|<tuple|20|?>>
+    <associate|ux8865ux7ebfux6784ux6210ux95edux533aux57df|<tuple|19|?>>
+    <associate|ux89e3ux6b64ux5e38ux5faeux5206ux65b9ux7a0b|<tuple|a|?>>
+    <associate|ux8ba1ux7b97-a10-g-m10-h|<tuple|22|?>>
+    <associate|ux8ba1ux7b97-fracpartial-ppartial-y|<tuple|a|?>>
+    <associate|ux8ba1ux7b97-fracpartial-qpartial-x|<tuple|a|?>>
+    <associate|ux8ba1ux7b97-m10|<tuple|22|?>>
+    <associate|ux8ba1ux7b97-textaread|<tuple|20|?>>
+    <associate|ux8ba1ux7b97ux76f4ux7ebfux6bb5-l_1-ux4e0aux7684ux79efux5206|<tuple|20|?>>
+    <associate|ux8bc1ux660e-a-0|<tuple|21|?>>
+    <associate|ux8bc1ux660e-a0|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux8bc1ux660e-alpha_1-alpha_2-ux662fux6781ux5927ux7ebfux6027ux65e0ux5173ux7ec4|<tuple|a|?>>
+    <associate|ux8bc1ux660eux5b58ux5728-xi-in--1-1-ux4f7f-fxi-0|<tuple|21|?>>
+    <associate|ux8bc1ux660eux5b58ux5728-xi-in--11-ux4f7f-fxi-0|<tuple|21|?>>
+    <associate|ux8bd5ux6839|<tuple|16|?>>
+    <associate|ux91cdux65b0ux63a8ux5bfcux591aux9879ux5f0f|<tuple|16|?>>
+    <associate|ux91cdux65b0ux7b97ux884cux5217ux5f0f|<tuple|16|?>>
+    <associate|ux9898ux76ee|<tuple|18|?>>
+    <associate|ux9a8cux8bc1-lambda-a-1|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <with|par-left|<quote|2tab>|一、选择题：1<with|mode|<quote|math>|\<sim\>>10小题，每小题5分，共50分.下列每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选选项前的字母填在答题纸指定位置上.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-1>>
+
+      <with|par-left|<quote|2tab>|二、填空题：11<with|mode|<quote|math>|\<sim\>>16小题，每小题5分，共30分.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|2tab>|三、解答题：17<with|mode|<quote|math>|\<sim\>>22小题，共70分.解答应写出文字说明、证明过程或演算步骤.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-3>>
+    </associate>
+  </collection>
+</auxiliary>

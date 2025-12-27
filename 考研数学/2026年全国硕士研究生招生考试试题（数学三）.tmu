@@ -1,0 +1,325 @@
+<TMU|<tuple|1.1.0|2025.2.2>>
+
+<style|<tuple|generic|number-europe|chinese|llm>>
+
+<\body>
+  <doc-data|<doc-title|2026年全国硕士研究生招生考试试题>|<doc-subtitle|（数学三）>>
+
+  <subsubsection*|一、选择题：1<math|\<sim\>>10小题，每小题5分，共50分.下列每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选选项前的字母填在答题纸指定位置上.>
+
+  <\enumerate-numeric>
+    <item>已知曲线<math|<with|math-display|true|<with|math-display|false|y=x e<rsup|<frac|1|x>>>>>，则该曲线（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）无水平渐近线，无铅直渐近线
+
+        （C）无水平渐近线，有铅直渐近线
+      </cell>|<\cell>
+        （B）有水平渐近线，有铅直渐近线
+
+        （D）有水平渐近线，无铅直渐近线
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设函数<math|z=z<around*|(|x,y|)>>由方程<math|x-a z=e<rsup|y+a z>>(<math|a>为非零常数)确定，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （Ａ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｂ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｃ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｄ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>已知函数<math|<with|math-display|true|f<around*|(|x|)>=<big|int><rsup|x<rsup|3>><rsub|1><frac|e<rsup|t>|1+t<rsup|2>>\<mathd\>t>>，<math|g<around*|(|x|)>>是<math|f<around*|(|x|)>>的反函数，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<with|math-display|true|g<around*|(|0|)>=1,g<rprime|'><around*|(|0|)>=<frac|3|2>e>>
+
+        （C）<math|<with|math-display|true|g<around*|(|1|)>=0,g<rprime|'><around*|(|1|)>=<frac|3|2>e>>
+      </cell>|<\cell>
+        （B）<with|math-display|true|<math|g<around*|(|0|)>=1,g<rprime|'><around*|(|0|)>=<frac|2|3e>>>
+
+        （D）<math|<with|math-display|true|g<around*|(|1|)>=0,g<rprime|'><around*|(|1|)>=<frac|2|3e>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设<math|t>时刻某证券的交易单价为<math|p<around*|(|t|)>>，某机构持有该证券的份额为<math|q<around*|(|t|)>>.若该机构在<math|t\<in\><around*|[|0,T|]>>内持续
+
+    购入一定份额该证券，则这些证券的平均购入价格为（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<with|math-display|true|<math|<frac|1|T><big|int><rsup|T><rsub|0>p<around*|(|t|)>\<mathd\>t>>
+
+        （C）<math|<with|math-display|true|<frac|1|T><big|int><rsup|T><rsub|0>p<around*|(|t|)>q<rprime|'><around*|(|t|)>\<mathd\>t>>
+      </cell>|<\cell>
+        （B）<math|<with|math-display|true|<frac|1|q<around*|(|T|)>-q<around*|(|0|)>><big|int><rsup|T><rsub|0>p<around*|(|t|)>\<mathd\>t>>
+
+        （D）<math|<with|math-display|true|<frac|1|q<around*|(|T|)>-q<around*|(|0|)>><big|int><rsup|T><rsub|0>p<around*|(|t|)>q<rprime|'><around*|(|t|)>\<mathd\>t>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>已知矩阵<math|A=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>|<cell|1>>|<row|<cell|0>|<cell|0>|<cell|1>>|<row|<cell|1>|<cell|1>|<cell|3>>|<row|<cell|1>|<cell|1>|<cell|1>>>>>|)>,C=<around*|(|<tabular*|<tformat|<table|<row|<cell|2>|<cell|0>>|<row|<cell|1>|<cell|1>>|<row|<cell|1>|<cell|1>>|<row|<cell|a>|<cell|b>>>>>|)>>，且存在矩阵<math|B>，使得<math|A B=C>，则<math|a,b>分别为（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|-1，-1>
+      </cell>|<\cell>
+        （B）<math|2，2>
+      </cell>|<\cell>
+        （C）<math|-1，2>
+      </cell>|<\cell>
+        （D）<math|<with|math-display|true|2，-1>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>已知<math|A>为三阶非零矩阵，<math|A<rsup|\<ast\>>>为<math|A>的伴随矩阵，且<math|A<rsup|\<ast\>>=-2A>，则<math|A<rsup|2>=>（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<around*|(|<tabular*|<tformat|<table|<row|<cell|-4>|<cell|0>|<cell|0>>|<row|<cell|0>|<cell|-4>|<cell|0>>|<row|<cell|0>|<cell|0>|<cell|-4>>>>>|)>>
+
+        （C）<math|<around*|(|<tabular*|<tformat|<table|<row|<cell|-4>|<cell|0>|0>|<row|<cell|0>|<cell|4>|<cell|0>>|<row|<cell|0>|<cell|0>|<cell|4>>>>>|)>>
+      </cell>|<\cell>
+        （B）<math|<around*|(|<tabular*|<tformat|<table|<row|<cell|-4>|<cell|0>|<cell|0>>|<row|<cell|0>|<cell|-4>|<cell|0>>|<row|<cell|0>|<cell|0>|<cell|4>>>>>|)>>
+
+        （D）<math|<around*|(|<tabular*|<tformat|<table|<row|<cell|4>|<cell|0>|<cell|0>>|<row|<cell|0>|<cell|4>|<cell|0>>|<row|<cell|0>|<cell|0>|<cell|4>>>>>|)>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设三阶矩阵<math|A,B>满足<math|A B+B A=A<rsup|2>+B<rsup|2>>，且<math|A\<neq\>B>，则下列选项错误的是（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<around*|(|A-B|)><rsup|3>=O>
+
+        （B）<math|A-B>只有零特征值
+
+        （C）<math|A,B>不全为对角矩阵
+
+        （D）<math|A-B>只有一个线性无关的特征向量
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>已知随机变量<math|X>和<math|Y>独立同分布，且<math|X>的概率密度为<math|<with|math-display|true|f<around*|(|x|)>=<choice|<tformat|<table|<row|<cell|<with|math-display|true|<frac|1|<around*|(|x+1|)><rsup|2>>>,>|<cell|x\<gtr\>0>>|<row|<cell|0,>|<cell|x\<leqslant\>0>>>>>>>，则
+
+    <math|P<around*|{|X Y\<leqslant\>1|}>=>（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<with|math-display|true|<frac|3|4>>>
+      </cell>|<\cell>
+        （B）<math|<with|math-display|true|<frac|1|2>>>
+      </cell>|<\cell>
+        （C）<math|<with|math-display|true|<frac|1|3>>>
+      </cell>|<\cell>
+        （D）<math|<with|math-display|true|<frac|1|6>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>随机变量<math|X\<sim\>N<around*|(|0,1|)>>，随机变量<math|Y\<sim\>B<around*|(|2,<with|math-display|true|<frac|1|2>>|)>>，且<math|X>与<math|Y>相互独立，则<math|X Y>与<math|X+Y>的相关系数
+
+    为（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<with|math-display|true|<frac|<sqrt|6>|3>>>
+      </cell>|<\cell>
+        （B）<math|<with|math-display|true|<frac|<sqrt|2>|2>>>
+      </cell>|<\cell>
+        （C）<math|<with|math-display|true|<frac|2|3>>>
+      </cell>|<\cell>
+        （D）<math|<with|math-display|true|<with|math-display|true|<frac|1|2>>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设随机变量<math|X>的概率分布为<math|<with|math-display|true|P<around*|(|X=k|)>=<frac|1|2<rsup|k+1>>+<frac|1|3<rsup|k>>,k=1,2,\<cdots\>>>，则对于正整数<math|m,n>，有（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>=P<around*|{|X\<gtr\>m|}>>
+
+        （C）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>\<gtr\>P<around*|{|X\<gtr\>m|}>>
+      </cell>|<\cell>
+        （B）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>=P<around*|{|X\<gtr\>n|}>>
+
+        （D）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>\<gtr\>P<around*|{|X\<gtr\>n|}>>
+      </cell>>>>
+    </wide-tabular>
+  </enumerate-numeric>
+
+  <subsubsection*|二、填空题：11<math|\<sim\>>16小题，每小题5分，共30分.>
+
+  <\enumerate>
+    <item><math|<with|math-display|true|<big|int><rsup|1><rsub|0>x<around*|(|x-1|)><around*|(|x-<frac|1|2>|)>\<mathd\>x=>><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item><math|<with|math-display|true|lim<rsub|x\<rightarrow\>0><frac|1|x><around*|[|<frac|<sqrt|1+x<rsup|2>>|sin x>-<frac|1|tan x>|]>=>><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>设<math|p>为常数，若反常积分<with|math-display|true|<math|<big|int><rsup|+\<infty\>><rsub|0><frac|arctan x|x<rsup|p><around*|(|1+x|)>>\<mathd\>x>>收敛，则<math|p>的取值范围是<underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>微分方程<math|y<rprime|''>-2y<rprime|'>=e<rsup|x>>满足条件<math|y<around*|(|0|)>=1,y<rprime|'><around*|(|0|)>=1>的特解为<math|y=><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>设矩阵<math|A=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|b>|<cell|-1>>|<row|<cell|a+2>|<cell|3>|<cell|-3a>>>>>|)>>，若二次型<math|x<rsup|T>A A<rsup|T>x>的规范形为<math|y<rsub|1><rsup|2>>，则<math|a+b=><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>设随机变量<math|X>服从参数为<math|1>的泊松分布，随机变量<math|Y>服从参数为<math|3>的泊松分布，<math|X>与<math|Y-X>相互独
+
+    立，则<math|E<around*|(|XY|)>=><underline| \ \ \ \ \ \ \ \ \ >.
+  </enumerate>
+
+  <subsubsection*|三、解答题：17<math|\<sim\>>22小题，共70分.解答应写出文字说明、证明过程或演算步骤.>
+
+  <with|item-nr|16|<\enumerate>
+    <item>（本题满分10分）
+
+    已知函数<math|f<around*|(|x|)>>满足<math|<with|math-display|true|f<around*|(|x|)>=<frac|1|<around*|(|2-x|)><rsup|2>>-<big|int><rsup|1><rsub|0>f<around*|(|x|)>\<mathd\>x>>，将<math|f<around*|(|x|)>>展开成<math|x>的幂级数.
+
+    \;
+
+    <item>（本题满分12分）
+
+    已知函数<math|g<around*|(|x|)>>连续，设<math|<with|math-display|true|f<around*|(|x|)>=<big|int><rsup|x<rsup|2>><rsub|0>g<around*|(|x t|)>\<mathd\>t>>，求<math|f<rprime|'><around*|(|x|)>>的表达式，并判断<math|f<rprime|'><around*|(|x|)>>在<math|x=0>处的连续性.
+
+    \;
+
+    <item>（本题满分12分）
+
+    求函数<math|f<around*|(|x,y|)>=<around*|(|2x<rsup|2>-y<rsup|2>|)>e<rsup|x>>的极值.
+
+    \;
+
+    <item>（本题满分12分）
+
+    设平面区域<math|D=<around*|{|<around*|(|x,y|)>\|0\<leqslant\>x\<leqslant\>1,0\<leqslant\>y\<leqslant\>1|}>>，计算二重积分<math|<with|math-display|true|<below|<big|iint>|D><frac|y|<around*|(|1+x<rsup|2>+y<rsup|2>|)><rsup|<frac|3|2>>>\<mathd\>x\<mathd\>y>>.
+
+    \;
+
+    <item>（本题满分12分）
+
+    已知向量组<math|\<alpha\><rsub|1>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>|<row|<cell|-1>>|<row|<cell|-1>>>>>|)>,\<alpha\><rsub|2>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>>|<row|<cell|-1>>|<row|<cell|0>>|<row|<cell|-2>>>>>|)>,\<alpha\><rsub|3>=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>>|<row|<cell|-1>>|<row|<cell|1>>|<row|<cell|-1>>>>>|)>,\<alpha\><rsub|4>=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>>|<row|<cell|1>>|<row|<cell|-1>>|<row|<cell|1>>>>>|)>>，设<math|A=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>|)>>，
+
+    <math|G=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>|)>.>
+
+    （1）证明：<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>>是<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>>的极大线性无关组；
+
+    （2）求矩阵<math|H>,使得<math|A=G H>，并求<math|A<rsup|10>>.
+
+    \;
+
+    <item>（本题满分12分）
+
+    假设某种元件的寿命服从指数分布，其均值<math|\<theta\>>是未知参数，为估计<math|\<theta\>>，取<math|n>个这种元件同时做寿
+
+    命实验，试验到出现<math|k<around*|(|1\<leqslant\>k\<leqslant\>n|)>>个元件失效时停止.
+
+    （1）若<math|k=1>，失效元件寿命记为<math|T>.（i）求<math|T>的概率密度；（ii）记<math|<wide|\<theta\>|^>=a T>，确定<math|a>，使得
+
+    <math|E<around*|(|<wide|\<theta\>|^>|)>=\<theta\>>，并求<math|D<around*|(|<wide|\<theta\>|^>|)>>.
+
+    （2）已知<math|k>个失效元件的寿命分别为<math|t<rsub|1>,t<rsub|2>,\<cdots\>,t<rsub|k>>且<math|t<rsub|1>\<leqslant\>t<rsub|2>\<leqslant\>\<cdots\>\<leqslant\>t<rsub|k>>，似然函数为
+
+    <\equation*>
+      <with|math-display|true|L<around*|(|\<theta\>|)>=<frac|1|\<theta\><rsup|k><rsup|>>e<rsup|-<frac|1|\<theta\>><with|math-display|true|<around*|[|<with|math-display|true|<with|math-display|true|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>t<rsub|k>>>|]>>>>，
+    </equation*>
+
+    求<math|\<theta\>>的最大似然估计值.
+  </enumerate>>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|item-hsep|<macro|1.3fn>>
+    <associate|item-nr|10>
+    <associate|page-medium|paper>
+    <associate|page-screen-margin|false>
+  </collection>
+</initial>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-10|<tuple|21|?>>
+    <associate|auto-11|<tuple|21|?>>
+    <associate|auto-12|<tuple|21|?>>
+    <associate|auto-13|<tuple|21|?>>
+    <associate|auto-14|<tuple|21|?>>
+    <associate|auto-15|<tuple|21|?>>
+    <associate|auto-16|<tuple|21|?>>
+    <associate|auto-2|<tuple|11|2>>
+    <associate|auto-3|<tuple|17|3>>
+    <associate|auto-4|<tuple|21|?>>
+    <associate|auto-5|<tuple|21|?>>
+    <associate|auto-6|<tuple|21|?>>
+    <associate|auto-7|<tuple|21|?>>
+    <associate|auto-8|<tuple|21|?>>
+    <associate|auto-9|<tuple|21|?>>
+    <associate|ux4ea4ux6362ux79efux5206ux6b21ux5e8f|<tuple|21|?>>
+    <associate|ux4ee3ux5165ux4e0aux4e0bux9650|<tuple|21|?>>
+    <associate|ux5185ux5c42ux79efux5206|<tuple|21|?>>
+    <associate|ux5316ux7b80|<tuple|21|?>>
+    <associate|ux539fux79efux5206|<tuple|21|?>>
+    <associate|ux5916ux5c42ux79efux5206|<tuple|21|?>>
+    <associate|ux5c06-frac12-x2-ux5c55ux5f00ux6210-x-ux7684ux5e42ux7ea7ux6570|<tuple|18|?>>
+    <associate|ux5f97ux5230-fx-ux7684ux5e42ux7ea7ux6570ux5c55ux5f00|<tuple|18|?>>
+    <associate|ux5f97ux5230-fx-ux7684ux663eux5f0fux8868ux8fbeux5f0f|<tuple|18|?>>
+    <associate|ux6362ux5143ux6cd5|<tuple|21|?>>
+    <associate|ux65b9ux7a0b|<tuple|15|?>>
+    <associate|ux6c42ux7279ux89e3|<tuple|15|?>>
+    <associate|ux7279ux89e3|<tuple|15|?>>
+    <associate|ux7528ux521dux59cbux6761ux4ef6ux786eux5b9aux5e38ux6570|<tuple|15|?>>
+    <associate|ux76f8ux51cf|<tuple|20|?>>
+    <associate|ux786eux5b9aux5e38ux6570-c|<tuple|18|?>>
+    <associate|ux79efux5206|<tuple|21|?>>
+    <associate|ux89e3ux9f50ux6b21ux65b9ux7a0b|<tuple|15|?>>
+    <associate|ux8ba1ux7b97ux4e24ux4e2aux79efux5206|<tuple|21|?>>
+    <associate|ux901aux89e3|<tuple|15|?>>
+    <associate|ux9898ux76ee|<tuple|21|?>>
+    <associate|ux9898ux76eeux6574ux7406|<tuple|18|?>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <with|par-left|<quote|2tab>|一、选择题：1<with|mode|<quote|math>|\<sim\>>10小题，每小题5分，共50分.下列每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选选项前的字母填在答题纸指定位置上.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-1>>
+
+      <with|par-left|<quote|2tab>|二、填空题：11<with|mode|<quote|math>|\<sim\>>16小题，每小题5分，共30分.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|2tab>|三、解答题：17<with|mode|<quote|math>|\<sim\>>22小题，共70分.解答应写出文字说明、证明过程或演算步骤.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-3>>
+    </associate>
+  </collection>
+</auxiliary>

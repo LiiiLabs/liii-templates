@@ -1,0 +1,1036 @@
+<TMU|<tuple|1.1.0|2025.2.2>>
+
+<style|<tuple|generic|chinese|number-europe|llm>>
+
+<\body>
+  <doc-data|<doc-title|2026年全国硕士研究生招生考试试题解析>|<doc-subtitle|（数学一）>>
+
+  <subsubsection*|一、选择题：1<math|\<sim\>>10小题，每小题5分，共50分.下列每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选选项前的字母填在答题纸指定位置上.>
+
+  <\enumerate-numeric>
+    <item>设函数<math|z=z<around*|(|x,y|)>>由方程<math|x-a z=e<rsup|y+a z>>(<math|a>为非零常数)确定，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （Ａ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｂ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｃ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｄ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>>
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（A）.
+
+    【解析】
+
+    在方程<math|x-a z=e<rsup|y+a z>>两侧同时取微分，<math|\<mathd\>x-a\<mathd\>z=e<rsup|y+a z><around*|(|\<mathd\>y+a\<mathd\>z|)>>，整理可得
+
+    <\equation*>
+      \<mathd\>z=<frac|1|a<around*|(|1+e<rsup|y+a z>|)>>\<mathd\>x-<frac|e<rsup|y+a z>|a<around*|(|1+e<rsup|y+a z>|)>>\<mathd\>y,
+    </equation*>
+
+    即
+
+    <\equation*>
+      <frac|\<partial\>z|\<partial\>x>=<frac|1|a<around*|(|1+e<rsup|y+a z>|)>>,<frac|\<partial\>z|\<partial\>y>=-<frac|e<rsup|y+a z>|a<around*|(|1+e<rsup|y+a z>|)>>,
+    </equation*>
+
+    即
+
+    <\equation*>
+      <frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=<frac|1|a>,
+    </equation*>
+
+    所以正确选项为（A）.
+
+    \;
+
+    <item>幂级数<math|<with|math-display|true|<big|sum><rsup|\<infty\>><rsub|n=1><around*|(|<frac|3+<around*|(|-1|)><rsup|n>|4>|)><rsup|n>x<rsup|2n>>>的收敛域为（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<around*|[|-2,2|]>>
+      </cell>|<\cell>
+        （B）<math|<around*|[|-1,1|]>>
+      </cell>|<\cell>
+        （C）<math|<around*|(|-2,2|)>>
+      </cell>|<\cell>
+        （D）<math|<around*|(|-1,1|)>>
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（D）.
+
+    【解析】
+
+    记
+
+    <\equation*>
+      a<rsub|n>=<around*|(|<frac|3+<around*|(|-1|)><rsup|n>|4>|)><rsup|n>
+    </equation*>
+
+    当<math|n>为偶数时，
+
+    <\equation*>
+      \<rho\><rsub|1>=lim<rsub|n\<rightarrow\>\<infty\>><around*|\||a<rsub|n>|\|><rsup|<frac|1|2n>>=1,
+    </equation*>
+
+    即<math|R<rsub|1>=1>，
+
+    当<math|n>为奇数时，
+
+    <\equation*>
+      \<rho\><rsub|2>=lim<rsub|n\<rightarrow\>\<infty\>><around*|\||a<rsub|n>|\|><rsup|<frac|1|2n>>=<frac|<sqrt|2>|2>,
+    </equation*>
+
+    即<math|R<rsub|2>=<sqrt|2>>，所以原幂级数的收敛半径<math|R=min<around*|{|R<rsub|1>,R<rsub|2>|}>=1>，收敛区间为<math|<around*|(|-1,1|)>>，
+
+    带入<math|x=\<pm\>1>可得常数项级数
+
+    <\equation*>
+      <big|sum><rsub|n=1><rsup|\<infty\>><around*|(|<frac|3+<around*|(|-1|)><rsup|n>|4>|)><rsup|n>
+    </equation*>
+
+    由于
+
+    <\equation*>
+      lim<rsub|n\<rightarrow\>\<infty\>><around*|(|<frac|3+<around*|(|-1|)><rsup|n>|4>|)><rsup|n>\<neq\>0
+    </equation*>
+
+    所以该常数项级数发散，即原幂级数的收敛域为<math|<around*|(|-1,1|)>>，正确选项为（D）.
+
+    事实上，也可以直接带入<math|x=\<pm\>1>可得常数项级数
+
+    <\equation*>
+      <big|sum><rsub|n=1><rsup|\<infty\>><around*|(|<frac|3+<around*|(|-1|)><rsup|n>|4>|)><rsup|n>
+    </equation*>
+
+    通过判断该常数项级数是发散的，排除选项（A）（B）（C）.
+
+    \;
+
+    <item>设函数<math|f<around*|(|x|)>>在区间<math|<around*|[|-1,1|]>>上有定义，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）当<math|f<around*|(|x|)>>在<math|<around*|(|-1,0|)>>内单调递减，在<math|<around*|(|0,1|)>>内单调递增时，<math|f<around*|(|0|)>>为极小值
+
+        （B）当<math|f<around*|(|0|)>>为极小值时，<math|f<around*|(|x|)>>在<math|<around*|(|-1,0|)>>内单调递减，在<math|<around*|(|0,1|)>>内单调递增
+
+        （C）当<math|f<around*|(|x|)>>的图形在<math|<around*|[|-1,1|]>>上是凹的时，<math|<with|math-display|true|<frac|f<around*|(|x|)>-f<around*|(|1|)>|x-1>>>在<math|<around*|[|-1,1|)>>上单调递增
+
+        （D）当<math|<with|math-display|true|<frac|f<around*|(|x|)>-f<around*|(|1|)>|x-1>>>在<math|<around*|[|-1,1|)>>上单调递增时，<math|f<around*|(|x|)>>的图形在<math|<around*|[|-1,1|]>>上是凹的
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（C）.
+
+    【解析】
+
+    对于选项（A），令
+
+    <\equation*>
+      f<around*|(|x|)>=<choice|<tformat|<table|<row|<cell|x<rsup|2>,>|<cell|x\<neq\>0>>|<row|<cell|1,>|<cell|x=0>>>>>,
+    </equation*>
+
+    显然<math|f<around*|(|x|)>>在区间<math|<around*|[|-1,1|]>>上有定义，且在<math|<around*|(|-1,0|)>>内单调递减，在<math|<around*|(|0,1|)>>内单调递增，但<math|f<around*|(|0|)>>不是
+
+    <math|f<around*|(|x|)>>的极小值，所以选项（A）错误；
+
+    对于选项（B），令
+
+    <\equation*>
+      f<around*|(|x|)>=<choice|<tformat|<table|<row|<cell|1-x<rsup|2>,>|<cell|x\<neq\>0>>|<row|<cell|0,>|<cell|x=0>>>>>,
+    </equation*>
+
+    显然<math|f<around*|(|x|)>>在区间<math|<around*|[|-1,1|]>>上有定义，<math|f<around*|(|0|)>>为<math|f<around*|(|x|)>>的极小值，但<math|f<around*|(|x|)>>在<math|<around*|(|-1,0|)>>内单调递增，在
+
+    <math|<around*|(|0,1|)>>内单调递减，所以选项（B）错误；
+
+    对于选项（D），令
+
+    <\equation*>
+      f<around*|(|x|)>=x<rsup|3>+2x<rsup|2>,g<around*|(|x|)>=<frac|f<around*|(|x|)>-f<around*|(|1|)>|x-1>=<frac|x<rsup|3>+2x<rsup|2>-3|x-1>=x<rsup|2>+3x+3,
+    </equation*>
+
+    <math|x\<in\><around*|[|-1,1|)>>时，<math|g<rprime|'><around*|(|x|)>=2x+3\<gtr\>0>，即<math|g<around*|(|x|)>>在<math|<around*|[|-1,1|)>>上单调递增，但<math|f<rprime|''><around*|(|x|)>=6x+4>，
+
+    <math|<with|math-display|true|x\<in\><around*|[|-1,-<frac|2|3>|)>>>时，<math|f<rprime|''><around*|(|x|)>\<less\>0>，即<math|f<around*|(|x|)>>在<math|<with|math-display|true|<around*|[|-1,-<frac|2|3>|]>>>上为凸函数，所以选项（D）错误；
+
+    对于选项（C），由于<math|f<around*|(|x|)>>的图形在<math|<around*|[|-1,1|]>>上是凹的，则根据凹函数的定义可知，对于任意
+
+    <math|t\<in\><around*|(|0,1|)>>，有<math|f<around*|(|t x<rsub|1>+<around*|(|1-t|)>\<cdot\>1|)>\<less\>t f<around*|(|x<rsub|1>|)>+<around*|(|1-t|)>f<around*|(|1|)>>，则对于任意<math|x<rsub|1>,x<rsub|2>\<in\><around*|[|-1,1|)>>，且<math|x<rsub|1>\<less\>x<rsub|2>>有
+
+    <\equation*>
+      t=<frac|1-x<rsub|2>|1-x<rsub|1>>\<in\><around*|(|0,1|)>,
+    </equation*>
+
+    所以
+
+    <\equation*>
+      f<around*|(|x<rsub|2>|)>\<less\><frac|1-x<rsub|2>|1-x<rsub|1>>f<around*|(|x<rsub|1>|)>+<around*|(|1-<frac|1-x<rsub|2>|1-x<rsub|1>>|)>f<around*|(|1|)>,
+    </equation*>
+
+    即
+
+    <\equation*>
+      <frac|f<around*|(|x<rsub|2>|)>-f<around*|(|1|)>|x<rsub|2>-1>\<gtr\><frac|f<around*|(|x<rsub|1>|)>-f<around*|(|1|)>|x<rsub|1>-1>,
+    </equation*>
+
+    即<math|<with|math-display|true|<frac|f<around*|(|x|)>-f<around*|(|1|)>|x-1>>>在<math|<around*|[|-1,1|)>>上单调递增，正确选项为（C）.
+
+    \;
+
+    <item>已知有界区域<math|\<Omega\>>由曲面<math|z=<sqrt|4-x<rsup|2>-y<rsup|2>>>与<math|z=<sqrt|x<rsup|2>+y<rsup|2>>>围成，函数<math|f<around*|(|u|)>>连续，则
+
+    <math|<with|math-display|true|<below|<big|iiint><rsub|>|\<Omega\>>f<around*|(|x<rsup|2>+y<rsup|2>+z<rsup|2>|)>\<mathd\>V=>>（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<with|math-display|true|<math|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|2><rsub|0>\<mathd\>r<big|int><rsup|<sqrt|4-r<rsup|2>>><rsub|r>f<around*|(|r<rsup|2>+z<rsup|2>|)>r\<mathd\>z>>
+
+        （C）<with|math-display|true|<math|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|<frac|\<pi\>|4>><rsub|0>\<mathd\>\<varphi\><big|int><rsup|2><rsub|0>f<around*|(|r<rsup|2>|)>r<rsup|2>sin\<varphi\>\<mathd\>r>>
+      </cell>|<\cell>
+        （B）<math|<with|math-display|true|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|<sqrt|2>><rsub|0>\<mathd\>r<big|int><rsup|<sqrt|4-r<rsup|2>>><rsub|0>f<around*|(|r<rsup|2>+z<rsup|2>|)>r\<mathd\>z>>
+
+        （D）<verbatim|<with|math-display|true|<math|>>><with|math-display|true|<math|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|<frac|\<pi\>|2>><rsub|0>\<mathd\>\<varphi\><big|int><rsup|2><rsub|0>f<around*|(|r<rsup|2>|)>r<rsup|2>sin\<varphi\>\<mathd\>r>>
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（C）.
+
+    【解析】
+
+    在柱面坐标系下计算该三重积分，令<math|D=<around*|{|<around*|(|x,y|)>\|x<rsup|2>+y<rsup|2>\<leqslant\>2|}>>，则
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<below|<big|iiint><rsub|>|\<Omega\>>f<around*|(|x<rsup|2>+y<rsup|2>+z<rsup|2>|)>\<mathd\>V>|<cell|=>|<cell|<below|<big|iint>|D>\<mathd\>x\<mathd\>y<big|int><rsup|<sqrt|4-x<rsup|2>-y<rsup|2>>><rsub|<sqrt|x<rsup|2>+y<rsup|2>>>f<around*|(|x<rsup|2>+y<rsup|2>+z<rsup|2>|)>\<mathd\>z>>|<row|<cell|>|<cell|=>|<cell|<below|<big|iint>|D>\<mathd\>x\<mathd\>y<big|int><rsup|<sqrt|4-r<rsup|2>>><rsub|r>f<around*|(|r<rsup|2>+z<rsup|2>|)>r\<mathd\>z>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|<sqrt|2>><rsub|0>\<mathd\>r<big|int><rsup|<sqrt|4-r<rsup|2>>><rsub|r>f<around*|(|r<rsup|2>+z<rsup|2>|)>r\<mathd\>z>>>>
+    </eqnarray*>
+
+    所以选项（A）与（B）均错误；
+
+    在球面坐标系下计算该三重积分，则
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<below|<big|iiint><rsub|>|\<Omega\>>f<around*|(|x<rsup|2>+y<rsup|2>+z<rsup|2>|)>\<mathd\>V>|<cell|=>|<cell|<below|<big|iiint><rsub|>|\<Omega\>>f<around*|(|r<rsup|2>|)>r<rsup|2>sin \<varphi\>\<mathd\>V>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsup|2\<pi\>><rsub|0>\<mathd\>\<theta\><big|int><rsup|<frac|\<pi\>|4>><rsub|0>d\<varphi\><big|int><rsup|2><rsub|0>f<around*|(|r<rsup|2>|)>r<rsup|2>sin \<varphi\>\<mathd\>r>>>>
+    </eqnarray*>
+
+    所以正确选项为（C）.
+
+    \;
+
+    <item>单位矩阵经若干次互换两行得到的矩阵为置换矩阵，设<math|A>为<math|n>阶置换矩阵，<math|A<rsup|\<ast\>>>为<math|A>的伴随矩阵，
+
+    则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|A<rsup|\<ast\>>>为置换矩阵
+      </cell>|<\cell>
+        （B）<math|A<rsup|-1>>为置换矩阵
+      </cell>|<\cell>
+        （C）<math|A<rsup|-1>=A<rsup|\<ast\>>>
+      </cell>|<\cell>
+        （D）<math|A<rsup|-1>=-A<rsup|\<ast\>>>
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（B）.
+
+    【解析】
+
+    若<math|A>为<math|n>阶置换矩阵，则存在<math|P<rsub|1>,P<rsub|2>,\<cdots\>,P<rsub|k>>，使得<math|A=P<rsub|1>P<rsub|2>\<cdots\>P<rsub|k>>，其中<math|P<rsub|1>,P<rsub|2>,\<cdots\>,P<rsub|k>>均为单位矩
+
+    阵互换两行得到的初等矩阵，所以<math|P<rsub|i>=P<rsub|i><rsup|-1>=P<rsub|i><rsup|T>,<around*|(|i=1,2,\<cdots\>,k|)>>，所以<math|<around*|\||A|\|>=\<pm\>1>，
+
+    <math|A A<rsup|T>=P<rsub|1>P<rsub|2>\<cdots\>P<rsub|k>P<rsub|k><rsup|T>\<cdots\>P<rsub|2><rsup|T>P<rsub|1><rsup|T>=E<rsub|>>，即<math|A<rsup|T>=A<rsup|-1>=P<rsub|k><rsup|T>\<cdots\>P<rsub|2><rsup|T>P<rsub|1><rsup|T>>，根据置换矩阵的定义可知，
+
+    <math|A<rsup|-1>>为置换矩阵，选项（B）正确；<math|k>为奇数时，<math|<around*|\||A|\|>=-1>，<math|A<rsup|\<ast\>>=-A<rsup|-1>=-A<rsup|T>>，所以选项（A）
+
+    （C）错误；<math|k>为偶数时，<math|<around*|\||A|\|>=1>，<math|A<rsup|\<ast\>>=A<rsup|-1>>，所以选项（D）错误.
+
+    \;
+
+    <item>设<math|A,B>为<math|n>阶矩阵，<math|\<beta\>>为<math|n>维列向量，若<math|A>的列向量组可由<math|B>的列向量组线性表示，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）当<math|A x=\<beta\>>有解时，<math|B x=\<beta\>>有解
+
+        （C）当<math|B x=\<beta\>>有解时，<math|A x=\<beta\>>有解
+      </cell>|<\cell>
+        （B）当<math|A<rsup|T> x=\<beta\>>有解时，<math|B <rsup|T>x=\<beta\>>有解
+
+        （D）当<math|B <rsup|T>x=\<beta\>>有解时，<math|A<rsup|T> x=\<beta\>>有解
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（A）.
+
+    【解析】
+
+    若<math|A>的列向量组可由<math|B>的列向量组线性表示，则存在<math|n>阶矩阵<math|C>，使得<math|A=B C>，
+
+    对于选项（A）与（C），当<math|A x=\<beta\>>有解时，即存在<math|n>为列向量<math|\<xi\>>，使得<math|A\<xi\>=\<beta\>>，即<math|B C\<xi\>=\<beta\>>，
+
+    此时<math|C\<xi\>>为<math|B x=\<beta\>>的解，即<math|B x=\<beta\>>有解，所以选项（A）正确，由于矩阵<math|C>不一定是可逆矩阵，
+
+    所以当<math|B x=\<beta\>>有解时，<math|A x=\<beta\>>不一定有解，反例，令
+
+    <\equation*>
+      B=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>>|<row|<cell|0>|<cell|1>>>>>|)>,C=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>>|<row|<cell|0>|<cell|0>>>>>|)>,A=B C=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>>|<row|<cell|0>|<cell|0>>>>>|)>,\<beta\>=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>>|<row|<cell|1>>>>>|)>,
+    </equation*>
+
+    此时<math|B x=\<beta\>>有解，但<math|A x=\<beta\>>无解，所以选项（C）错误；该反例中，<math|A<rsup|T>=A,B<rsup|T>=B>，所以也
+
+    可以说明选项（D）错误，对于选项（B），令
+
+    <\equation*>
+      B=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>>|<row|<cell|0>|<cell|0>>>>>|)>,C=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|1>>|<row|<cell|0>|<cell|0>>>>>|)>,A=B C=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|1>>|<row|<cell|0>|<cell|0>>>>>|)>,\<beta\>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>>|<row|<cell|1>>>>>|)>,
+    </equation*>
+
+    此时<math|A<rsup|T> x=\<beta\>>有解，但<math|B <rsup|T>x=\<beta\>>无解，所以选项（B）错误；事实上，由于<math|A>的列向量组可由
+
+    <math|B>的列向量组线性表示，所以<math|A<rsup|T>>的行向量组可由<math|B<rsup|T>>的行向量组线性表示，而<math|A<rsup|T> x=\<beta\>>有解说明
+
+    <math|\<beta\>>可由<math|A<rsup|T>>的列向量组线性表示，<math|B <rsup|T>x=\<beta\>>有解说明<math|\<beta\>>可由<math|B<rsup|T>>的列向量组线性表示，所以根据
+
+    <math|A<rsup|T>>与<math|B<rsup|T>>行向量组之间的关系，无法推出选项（B）与（D）.
+
+    \;
+
+    <item>设二次型<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>=a<around*|(|x<rsup|2><rsub|1>+x<rsup|2><rsub|2>+x<rsup|2><rsub|3>|)>+4x<rsub|1>x<rsub|2>+4x<rsub|1>x<rsub|3>+4x<rsub|2>x<rsub|3>>，若方程<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>=-1>表示
+
+    的曲面为圆柱面，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|a=-4>，且<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>的规范形为<math|-y<rsup|2><rsub|1>-y<rsup|2><rsub|2>-y<rsup|2><rsub|3>>
+
+        （B）<math|a=-4>，且<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>在正交变换下的标准形为<math|-6y<rsup|2><rsub|1>-6y<rsup|2><rsub|2>>
+
+        （C）<math|a=2>，且<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>的规范形为<math|-y<rsup|2><rsub|1>-y<rsup|2><rsub|2>-y<rsup|2><rsub|3>>
+
+        （D）<math|a=2，>且<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>在正交变换下的标准形为<math|-6y<rsup|2><rsub|1>-6y<rsup|2><rsub|2>>
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（B）.
+
+    【解析】
+
+    首先写出二次型的矩阵,
+
+    <\equation*>
+      A=<around*|(|<tabular*|<tformat|<table|<row|<cell|a>|<cell|2>|<cell|2>>|<row|<cell|2>|<cell|a>|<cell|2>>|<row|<cell|2>|<cell|2>|<cell|a>>>>>|)>
+    </equation*>
+
+    矩阵<math|A>的特征值为<math|\<lambda\><rsub|1>=\<lambda\><rsub|2>=a-2,\<lambda\><rsub|3>=a+4>，由于方程<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>=-1>表示的曲面为圆柱面，
+
+    所以矩阵<math|A>的特征值中有一个为<math|0>，另外两个相等且为负数，所以
+
+    <\equation*>
+      <choice|<tformat|<table|<row|<cell|a+4=0>>|<row|<cell|a-2\<less\>0>>>>>,
+    </equation*>
+
+    解得<math|a=-4>，所以选项（C）与（D）错误，并且矩阵<math|A>的特征值为<math|\<lambda\><rsub|1>=\<lambda\><rsub|2>=-6,\<lambda\><rsub|3>=0>，所以
+
+    <math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>的规范形为<math|-y<rsup|2><rsub|1>-y<rsup|2><rsub|2>>，<math|f<around*|(|x<rsub|1>,x<rsub|2>,x<rsub|3>|)>>在正交变换下的标准形为<math|-6y<rsup|2><rsub|1>-6y<rsup|2><rsub|2>>，选项（A）
+
+    错误，选项（B）正确.
+
+    \;
+
+    <item>设随机变量<math|X\<sim\>N<around*|(|1,2|)>>，令<math|f<around*|(|t|)>=E<around*|[|<around*|(|X+t|)><rsup|2>|]>>，则<math|f<around*|(|t|)>>的最小值点和最小值分别为（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|1,2>
+      </cell>|<\cell>
+        （B）<math|1,4>
+      </cell>|<\cell>
+        （C）<math|-1,2>
+      </cell>|<\cell>
+        （D）<math|-1,4>
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（C）.
+
+    【解析】
+
+    由于随机变量<math|X\<sim\>N<around*|(|1,2|)>>，所以<math|E X=1,D X=2>，所以
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|f<around*|(|t|)>>|<cell|=>|<cell|E<around*|[|<around*|(|X+t|)><rsup|2>|]>=E<around*|(|X<rsup|2>+2t X+t<rsup|2>|)>=E X<rsup|2>+2t E X+t<rsup|2>>>|<row|<cell|>|<cell|=>|<cell|D X+<around*|(|E X|)><rsup|2>+2t E X+t<rsup|2>=t<rsup|2>+2t+3,>>>>
+    </eqnarray*>
+
+    所以，<math|f<around*|(|t|)>>的最小值为<math|f<around*|(|-1|)>=2>，正确选项为（C）.
+
+    \;
+
+    <item>设连续型随机变量<math|X>的分布函数为<math|F<around*|(|x|)>>，随机变量<math|Y>的分布函数为<math|F<around*|(|a y+b|)>>，<math|X>的数学期望为
+
+    <math|\<mu\>>，方差为<math|\<sigma\><rsup|2>（\<sigma\>\<gtr\>0）>.若<math|Y>的数学期望和方差分别为<math|0>和<math|1>，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|a=\<sigma\>,b=\<mu\>>
+      </cell>|<\cell>
+        （B）<math|a=\<sigma\>,b=-\<mu\>>
+      </cell>|<\cell>
+        （C）<math|<with|math-display|true|a=<frac|1|\<sigma\>>,b=\<mu\>>>
+      </cell>|<\cell>
+        （D）<math|<with|math-display|true|a=<frac|1|\<sigma\>>,b=-\<mu\>>>
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（A）.
+
+    【解析】
+
+    首先，根据分布函数的性质，<math|F<around*|(|a y+b|)>>关于<math|y>单调不减，且<math|<below|lim|y\<rightarrow\>+\<infty\>>F<around*|(|a y+b|)>=1>，可知<math|a\<gtr\>0>，
+
+    其次，根据分布函数的定义，<math|F<around*|(|x|)>=P<around*|{|X\<leqslant\>x|}>,F<rsub|Y><around*|(|y|)>=P<around*|{|Y\<leqslant\>y|}>>，同时，
+
+    <\equation*>
+      F<rsub|Y><around*|(|y|)>=F<around*|(|a y+b|)>=P<around*|{|X\<leqslant\>a y+b|}>=P<around*|{|<frac|X-b|a>\<leqslant\>y|}>,
+    </equation*>
+
+    所以<math|<with|math-display|true|<frac|X-b|a>>>与<math|Y>同分布，所以
+
+    <\equation*>
+      E<around*|(|<frac|X-b|a>|)>=<frac|\<mu\>-b|a>=E Y=0,D<around*|(|<frac|X-b|a>|)>=<frac|\<sigma\><rsup|2>|a<rsup|2>>=D Y=1,
+    </equation*>
+
+    解得<math|a=\<sigma\>,b=\<mu\>>，正确选项为（A）.
+
+    \;
+
+    <item>设随机变量<math|X>的概率分布为<math|<with|math-display|true|P<around*|{|X=k|}>=<frac|1|2<rsup|k+1>>+<frac|1|3<rsup|k>>,k=1,2,\<cdots\>>>，则对于正整数<math|m,n>，有（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>=P<around*|{|X\<gtr\>m|}>>
+
+        （C）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>\<gtr\>P<around*|{|X\<gtr\>m|}>>
+      </cell>|<\cell>
+        （B）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>=P<around*|{|X\<gtr\>n|}>>
+
+        （D）<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>\<gtr\>P<around*|{|X\<gtr\>n|}>>
+      </cell>>>>
+    </wide-tabular>
+
+    【答案】（D）.
+
+    【解析】
+
+    首先计算<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>>，根据条件概率的定义，
+
+    <\equation*>
+      P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>=<frac|P<around*|{|X\<gtr\>m+n,X\<gtr\>m|}>|P<around*|{|X\<gtr\>m|}>>=<frac|P<around*|{|X\<gtr\>m+n|}>|P<around*|{|X\<gtr\>m|}>>,
+    </equation*>
+
+    其中，
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|P<around*|{|X\<gtr\>m|}>>|<cell|=>|<cell|<big|sum><rsup|\<infty\>><rsub|k=m+1>P<around*|{|X=k|}>=<big|sum><rsup|\<infty\>><rsub|k=m+1><frac|1|2<rsup|k+1>>+<frac|1|3<rsup|k>>=<big|sum><rsup|\<infty\>><rsub|k=m+1><frac|1|2<rsup|k+1>>+<big|sum><rsup|\<infty\>><rsub|k=m+1><frac|1|3<rsup|k>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2<rsup|m+2>><big|sum><rsup|\<infty\>><rsub|k=m+1><frac|1|2<rsup|k-m-1>>+<frac|1|3<rsup|m+1>><big|sum><rsup|\<infty\>><rsub|k=m+1><frac|1|3<rsup|k-m-1>>=<frac|1|2<rsup|m+2>><big|sum><rsup|\<infty\>><rsub|k=0><frac|1|2<rsup|k>>+<frac|1|3<rsup|m+1>><big|sum><rsup|\<infty\>><rsub|k=0><frac|1|3<rsup|k>>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|2<rsup|m+2>>\<cdot\><frac|1|1-<frac|1|2>>+<frac|1|3<rsup|m+1>>\<cdot\><frac|1|1-<frac|1|3>>=<frac|1|2><around*|(|<frac|1|2<rsup|m>>+<frac|1|3<rsup|m>>|)>>>>>
+    </eqnarray*>
+
+    进而，
+
+    <\equation*>
+      P<around*|{|X\<gtr\>m+n|}>=<frac|1|2><around*|(|<frac|1|2<rsup|m+n>>+<frac|1|3<rsup|m+n>>|)>,P<around*|{|X\<gtr\>n|}>=<frac|1|2><around*|(|<frac|1|2<rsup|n>>+<frac|1|3<rsup|n>>|)>,
+    </equation*>
+
+    由于
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|P<around*|{|X\<gtr\>m+n|}>-P<around*|{|X\<gtr\>m|}>P<around*|{|X\<gtr\>n|}>>|<cell|=>|<cell|<frac|1|2><around*|(|<frac|1|2<rsup|m+n>>+<frac|1|3<rsup|m+n>>|)>-<frac|1|2><around*|(|<frac|1|2<rsup|m>>+<frac|1|3<rsup|m>>|)>\<cdot\><frac|1|2><around*|(|<frac|1|2<rsup|n>>+<frac|1|3<rsup|n>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4><around*|(|<frac|1|2<rsup|m+n>>+<frac|1|3<rsup|m+n>>-<frac|1|2<rsup|m>3<rsup|n>>-<frac|1|2<rsup|n>3<rsup|m>>|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|1|4><around*|(|<frac|1|2<rsup|m>>-<frac|1|3<rsup|m>>|)>\<cdot\><around*|(|<frac|1|2<rsup|n>>-<frac|1|3<rsup|n>>|)>\<gtr\>0,>>>>
+    </eqnarray*>
+
+    所以<math|P<around*|{|X\<gtr\>m+n|}>\<gtr\>P<around*|{|X\<gtr\>m|}>P<around*|{|X\<gtr\>n|}>>，即<math|P<around*|{|X\<gtr\>m+n<around*|\||X\<gtr\>m|\<nobracket\>>|}>\<gtr\>P<around*|{|X\<gtr\>n|}>>，选项（D）
+
+    正确.
+  </enumerate-numeric>
+
+  <subsubsection*|二、填空题：11<math|\<sim\>>16小题，每小题5分，共30分.>
+
+  <\enumerate>
+    <item>设向量<math|<wide|v<rsub|1>|\<vect\>>=<around*|(|0,x,z|)>,<wide|v<rsub|2>|\<vect\>>=<around*|(|y,0,1|)>>，令<math|<wide|F|\<vect\>><around*|(|x,y,z|)>=<wide|v<rsub|1>|\<vect\>>\<times\><wide|v<rsub|2>|\<vect\>>>，则<math|div<wide|F|\<vect\>>=><underline| \ \ \ \ \ \ \ \ \ >.
+
+    【答案】<math|1+z>.
+
+    【解析】
+
+    首先计算叉积，
+
+    <\equation*>
+      <wide|F|\<vect\>><around*|(|x,y,z|)>=<wide|v<rsub|1>|\<vect\>>\<times\><wide|v<rsub|2>|\<vect\>>=<around*|\||<tabular*|<tformat|<table|<row|<cell|<wide|i|\<vect\>>>|<cell|<wide|j|\<vect\>>>|<cell|<wide|k|\<vect\>>>>|<row|<cell|0>|<cell|x>|<cell|z>>|<row|<cell|y>|<cell|0>|<cell|1>>>>>|\|>=<around*|(|x,y z,-x y|)>,
+    </equation*>
+
+    再计算散度，
+
+    <\equation*>
+      div<wide|F|\<vect\>>=<frac|\<partial\>|\<partial\>x><around*|(|x|)>+<frac|\<partial\>|\<partial\>y><around*|(|y z|)>+<frac|\<partial\>|\<partial\>z><around*|(|-x y|)>=1+z.
+    </equation*>
+
+    \;
+
+    <item><math|<with|math-display|true|lim<rsub|x\<rightarrow\>0><around*|(|<frac|1|x>-<frac|ln<around*|(|1+x|)>|x sin x>|)>=>><underline| \ \ \ \ \ \ \ \ \ >.
+
+    【答案】<math|<with|math-display|true|<frac|1|2>>>.
+
+    【解析】
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|lim<rsub|x\<rightarrow\>0><around*|(|<frac|1|x>-<frac|ln<around*|(|1+x|)>|x sin x>|)>>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>0><frac| sin x- ln<around*|(|1+x|)>|x<rsup|>sin x>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>0><frac|<around*|(|x+o<around*|(|x<rsup|2>|)>|)>-<around*|(|x-<frac|1|2>x<rsup|2>+o<around*|(|x<rsup|2>|)>|)>|x<rsup|2>>>>|<row|<cell|>|<cell|=>|<cell|lim<rsub|x\<rightarrow\>0><frac|<frac|1|2>x<rsup|2>+o<around*|(|x<rsup|2>|)>|x<rsup|2>>=<frac|1|2>.>>>>
+    </eqnarray*>
+
+    \;
+
+    <item>设函数<math|y=y<around*|(|x|)>>由参数方程<math|<with|math-display|true|<choice|<tformat|<table|<row|<cell|x=2sin<rsup|2>t>>|<row|<cell|y=t+cos t>>>>>,t\<in\><around*|(|0,<frac|\<pi\>|2>|)>>>所确定<math|>，则<math|<with|math-display|true|<with|math-display|true|<around*|\<nobracket\>|<frac|\<mathd\><rsup|2>y|\<mathd\>x<rsup|2>>|\|><rsub|t=<frac|\<pi\>|4>>=>>><underline| \ \ \ \ \ \ \ \ \ >.
+
+    【答案】<math|<with|math-display|true|-<frac|<sqrt|2>|8>>>.
+
+    【解析】
+
+    首先计算一阶导数，
+
+    <\equation*>
+      <frac|\<mathd\>y|\<mathd\>x>=<frac|y<rprime|'><around*|(|t|)>|x<rprime|'><around*|(|t|)>>=<frac|1-sin t|2sin2t>,
+    </equation*>
+
+    再计算二阶导数，令
+
+    <\equation*>
+      u<around*|(|t|)>=<frac|1-sin t|2sin2t>,
+    </equation*>
+
+    则
+
+    <\equation*>
+      <frac|\<mathd\><rsup|2>y|\<mathd\>x<rsup|2>>=<frac|u<rprime|'><around*|(|t|)>|x<rprime|'><around*|(|t|)>>=<frac|-2cos t sin2t-4cos2t<around*|(|1-sin t|)>|8sin<rsup|3>2t>,
+    </equation*>
+
+    最后带入<math|<with|math-display|true|t=<frac|\<pi\>|4>>>，则
+
+    <\equation*>
+      <with|math-display|true|<with|math-display|true|<around*|\<nobracket\>|<frac|\<mathd\><rsup|2>y|\<mathd\>x<rsup|2>>|\|><rsub|t=<frac|\<pi\>|4>>=>-><frac|<sqrt|2>|8>.
+    </equation*>
+
+    \;
+
+    <item><math|<with|math-display|true|<big|int><rsup|+\<infty\>><rsub|1><frac|ln<around*|(|1+x|)>|x<rsup|2>>\<mathd\>x=>><underline| \ \ \ \ \ \ \ \ \ >.
+
+    【答案】<math|2ln2>.
+
+    【解析】
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<big|int><rsup|+\<infty\>><rsub|1><frac|ln<around*|(|1+x|)>|x<rsup|2>>\<mathd\>x>|<cell|=>|<cell|<big|int><rsup|+\<infty\>><rsub|1>ln<around*|(|1+x|)>\<mathd\><around*|(|-<frac|1|x>|)>>>|<row|<cell|>|<cell|=>|<cell|-<around*|\<nobracket\>|<frac|ln<around*|(|1+x|)>|x>|\|><rsub|1><rsup|+\<infty\>>+<big|int><rsup|+\<infty\>><rsub|1><frac|1|x<around*|(|1+x|)>>\<mathd\>x>>|<row|<cell|>|<cell|=>|<cell|ln2+<big|int><rsup|+\<infty\>><rsub|1><frac|1|x>-<frac|1|1+x>\<mathd\>x>>|<row|<cell|>|<cell|=>|<cell|ln2+<around*|\<nobracket\>|ln<around*|(|<frac|x|1+x>|)>|\|><rsub|1><rsup|+\<infty\>>=2ln2.>>>>
+    </eqnarray*>
+
+    \;
+
+    <item>设矩阵<math|A=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>|<cell|0>>|<row|<cell|2>|<cell|a>|<cell|2>>|<row|<cell|0>|<cell|2>|<cell|a>>>>>|)>,B=<around*|(|<tabular*|<tformat|<table|<row|<cell|a>|<cell|-1>|<cell|-1>>|<row|<cell|-1>|<cell|2>|<cell|1>>|<row|<cell|-1>|<cell|-1>|<cell|a>>>>>|)>>，设<math|m<around*|(|X|)>>为<math|3>阶矩阵<math|X>的实特征值中最大值，若
+
+    <math|m<around*|(|A|)>\<less\>m<around*|(|B|)>>，则<math|a>的取值范围是<underline| \ \ \ \ \ \ \ \ \ >.
+
+    【答案】<math|a\<less\>0>.
+
+    【解析】
+
+    首先计算矩阵<math|A>的特征值，
+
+    <\equation*>
+      \<lambda\><rsub|1>=1,\<lambda\><rsub|2>\<lambda\><rsub|3>=<around*|\||<tabular*|<tformat|<table|<row|<cell|a>|<cell|2>>|<row|<cell|2>|<cell|a>>>>>|\|>=a<rsup|2>-4,\<lambda\><rsub|2>+\<lambda\><rsub|3>=2a,
+    </equation*>
+
+    所以矩阵<math|A>的特征值为<math|\<lambda\><rsub|1>=1,\<lambda\><rsub|2>=a-2,\<lambda\><rsub|3>=a+2>，所以
+
+    <\equation*>
+      m<around*|(|A|)>=max<around*|{|1,a-2,a+2|}>=<choice|<tformat|<table|<row|<cell|1,>|<cell|a\<leqslant\>-1>>|<row|<cell|a+2,>|<cell|a\<gtr\>-1>>>>>,
+    </equation*>
+
+    再计算矩阵<math|B>的特征值，
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|\||\<lambda\>E-B|\|>>|<cell|=>|<cell|<around*|\||<tabular*|<tformat|<table|<row|<cell|\<lambda\>-a>|<cell|1>|<cell|1>>|<row|<cell|1>|<cell|\<lambda\>-2>|<cell|-1>>|<row|<cell|1>|<cell|1>|<cell|\<lambda\>-a>>>>>|\|>=<around*|\||<tabular*|<tformat|<table|<row|<cell|\<lambda\>-a-1>|<cell|0>|<cell|1+a-\<lambda\>>>|<row|<cell|1>|<cell|\<lambda\>-2>|<cell|-1>>|<row|<cell|1>|<cell|1>|<cell|\<lambda\>-a>>>>>|\|>>>|<row|<cell|>|<cell|=>|<cell|<around*|\||<tabular*|<tformat|<table|<row|<cell|\<lambda\>-a-1>|<cell|0>|<cell|0>>|<row|<cell|1>|<cell|\<lambda\>-2>|<cell|0>>|<row|<cell|1>|<cell|1>|<cell|\<mathlambda\>-a+1>>>>>|\|>=<around*|(|\<lambda\>-2|)><around*|[|\<lambda\>-<around*|(|a+1|)>|]><around*|[|\<lambda\>-<around*|(|a-1|)>|]>=0,>>>>
+    </eqnarray*>
+
+    所以矩阵<math|B>的特征值为<math|\<lambda\><rsub|1>=2,\<lambda\><rsub|2>=a-1,\<lambda\><rsub|3>=a+1>，所以
+
+    <\equation*>
+      m<around*|(|B|)>=max<around*|{|2,a-1,a+1|}>=<choice|<tformat|<table|<row|<cell|2,>|<cell|a\<leqslant\>1>>|<row|<cell|a+1,>|<cell|a\<gtr\>1>>>>>,
+    </equation*>
+
+    当<math|a\<leqslant\>-1>时，<math|m<around*|(|A|)>=1,m<around*|(|B|)>=2,m<around*|(|A|)>\<less\>m<around*|(|B|)>>成立，
+
+    当<math|a\<gtr\>1>时，<math|m<around*|(|A|)>=a+2,m<around*|(|B|)>=a+1,m<around*|(|A|)>\<less\>m<around*|(|B|)>>不成立，
+
+    当<math|-1\<less\>a\<leqslant\>1>时，<math|m<around*|(|A|)>=a+2,m<around*|(|B|)>=2>，由<math|m<around*|(|A|)>\<less\>m<around*|(|B|)>>解得<math|-1\<less\>a\<less\>0>，
+
+    所以<math|m<around*|(|A|)>\<less\>m<around*|(|B|)>>时，<math|a\<less\>0>.
+
+    \;
+
+    <item>设随机变量<math|X>服从参数为<math|1>的泊松分布，随机变量<math|Y>服从参数为<math|3>的泊松分布，<math|X>与<math|Y-X>相互独
+
+    立，则<math|E<around*|(|XY|)>=><underline| \ \ \ \ \ \ \ \ \ >.
+
+    【答案】<math|4>.
+
+    【解析】
+
+    由于<math|X>与<math|Y-X>相互独立，则
+
+    <\equation*>
+      E<around*|[|X<around*|(|Y-X|)>|]>=E X E<around*|(|Y-X|)>
+    </equation*>
+
+    其中，
+
+    <\equation*>
+      E<around*|[|X<around*|(|Y-X|)>|]>=E X Y-E X<rsup|2>,E X E<around*|(|Y-X|)>=E X E Y-<around*|(|E X|)><rsup|2>
+    </equation*>
+
+    即
+
+    <\equation*>
+      E X Y=E X E Y+E X<rsup|2>-<around*|(|E X|)><rsup|2>=E X E Y+D X,
+    </equation*>
+
+    由于<math|X\<sim\>P<around*|(|1|)>,Y\<sim\>P<around*|(|3|)>>，则<math|E X=1,D X=1,E Y=3>，所以<math|E X Y=4>.
+  </enumerate>
+
+  <subsubsection*|三、解答题：17<math|\<sim\>>22小题，共70分.解答应写出文字说明、证明过程或演算步骤.>
+
+  <with|item-nr|16|<\enumerate>
+    <item>（本题满分10分）
+
+    求函数<math|f<around*|(|x,y|)>=<around*|(|2x<rsup|2>-y<rsup|2>|)>e<rsup|x>>的极值.
+
+    【答案】极大值<math|f<around*|(|-2,0|)>=8e<rsup|-2>>.
+
+    【解析】
+
+    首先计算函数的驻点，
+
+    <\equation*>
+      <choice|<tformat|<table|<row|<cell|f<rprime|'><rsub|x><around*|(|x,y|)>=<around*|(|2x<rsup|2>+4x-y<rsup|2>|)>e<rsup|x>=0>>|<row|<cell|f<rprime|'><rsub|y><around*|(|x,y|)>=-2y e<rsup|x>=0>>>>>,
+    </equation*>
+
+    解得函数的驻点为<math|<around*|(|0,0|)>>和<math|<around*|(|-2,0|)>>，
+
+    再计算函数的二阶偏导数，
+
+    <\equation*>
+      <choice|<tformat|<table|<row|<cell|f<rprime|''><rsub|x x><around*|(|x,y|)>=<around*|(|2x<rsup|2>+8x+4-y<rsup|2>|)>e<rsup|x>>>|<row|<cell|f<rprime|''><rsub|x y><around*|(|x,y|)>=-2y e<rsup|x>>>|<row|<cell|f<rprime|''><rsub|y y><around*|(|x,y|)>=-2e<rsup|x>>>>>>,
+    </equation*>
+
+    对于驻点<math|<around*|(|0,0|)>>，<math|A<rsub|1>=f<rprime|''><rsub|x x><around*|(|0,0|)>=4,B<rsub|1>=f<rprime|''><rsub|x y><around*|(|0,0|)>=0,C<rsub|1>=f<rprime|''><rsub|y y><around*|(|0,0|)>=-2>，由于<math|A<rsub|1>C<rsub|1>-B<rsub|1><rsup|2>\<less\>0>，
+
+    所以点<math|<around*|(|0,0|)>>不是函数的极值点，
+
+    对于驻点<math|<around*|(|-2,0|)>>，<math|A<rsub|2>=f<rprime|''><rsub|x x><around*|(|-2,0|)>=-4e<rsup|-2>,B<rsub|2>=f<rprime|''><rsub|x y><around*|(|-2,0|)>=0,C<rsub|2>=f<rprime|''><rsub|y y><around*|(|-2,0|)>=-2e<rsup|-2>>，由于
+
+    <math|A<rsub|2>C<rsub|2>-B<rsub|2><rsup|2>\<gtr\>0,A<rsub|2>\<less\>0>，所以<math|f<around*|(|-2,0|)>=8e<rsup|-2>>为函数的极大值.
+
+    \;
+
+    <item>（本题满分12分）
+
+    设<math|f<around*|(|u|)>>在区间<math|<around*|(|0,+\<infty\>|)>>内具有<math|3>阶连续导数，且存在可微函数<math|F<around*|(|x,y|)>>使得
+
+    <\equation*>
+      \<mathd\>F<around*|(|x,y|)>=<frac|f<around*|(|x y|)>|x<rsup|2>y>\<mathd\>x+<frac|f<rprime|''><around*|(|x y|)>|x y<rsup|2>>\<mathd\>y<around*|(|x y\<gtr\>0|)>.
+    </equation*>
+
+    （1）证明：<math|<with|math-display|true|<frac|f<rprime|''><around*|(|u|)>|u>-<frac|f<around*|(|u|)>|u>=C>>，<math|C>为常数；
+
+    （2）设<math|f<around*|(|1|)>=1,f<rprime|'><around*|(|1|)>=-1,f<rprime|''><around*|(|1|)>=0>，求<math|f<around*|(|u|)>>的表达式.
+
+    【答案】（1）略；（2）<math|f<around*|(|u|)>=-e<rsup|u-1>+e<rsup|1-u>+u>.
+
+    【解析】
+
+    （1）证明：由于存在可微函数<math|F<around*|(|x,y|)>>使得
+
+    <\equation*>
+      \<mathd\>F<around*|(|x,y|)>=<frac|f<around*|(|x y|)>|x<rsup|2>y>\<mathd\>x+<frac|f<rprime|''><around*|(|x y|)>|x y<rsup|2>>\<mathd\>y<around*|(|x y\<gtr\>0|)>，
+    </equation*>
+
+    所以
+
+    <\equation*>
+      <frac|\<partial\>|\<partial\>y><around*|(|<frac|f<around*|(|x y|)>|x<rsup|2>y>|)>=<frac|\<partial\>|\<partial\>x><around*|(|<frac|f<rprime|''><around*|(|x y|)>|x y<rsup|2>>|)>,
+    </equation*>
+
+    其中，
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<frac|\<partial\>|\<partial\>y><around*|(|<frac|f<around*|(|x y|)>|x<rsup|2>y>|)>>|<cell|=>|<cell|<frac|x<rsup|3>y f<rprime|'><around*|(|x y|)>-x<rsup|2>f<around*|(|x y|)>|x<rsup|4>y<rsup|2>>=<frac|x y f<rprime|'><around*|(|x y|)>-f<around*|(|x y|)>|x<rsup|2>y<rsup|2>>,>>|<row|<cell|<frac|\<partial\>|\<partial\>x><around*|(|<frac|f<rprime|''><around*|(|x y|)>|x y<rsup|2>>|)>>|<cell|=>|<cell|<frac|x y<rsup|3>f<rprime|'''><around*|(|x y|)>-y<rsup|2>f<rprime|''><around*|(|x y|)>|x<rsup|2>y<rsup|4>>=<frac|x y f<rprime|'''><around*|(|x y|)>-f<rprime|''><around*|(|x y|)>|x<rsup|2>y<rsup|2>>,>>>>
+    </eqnarray*>
+
+    令<math|u=x y>，则
+
+    <\equation*>
+      <frac|u f<rprime|'><around*|(|u|)>-f<around*|(|u|)>|u<rsup|2>>=<frac|u f<rprime|'''><around*|(|u|)>-f<rprime|''><around*|(|u|)>|u<rsup|2>>,
+    </equation*>
+
+    整理得
+
+    <\equation*>
+      <frac|1|u><around*|[|f<rprime|'><around*|(|u|)>-f<rprime|'''><around*|(|u|)>|]>-<frac|1|u<rsup|2>><around*|[|f<around*|(|u|)>-f<rprime|''><around*|(|u|)>|]>=0,
+    </equation*>
+
+    即
+
+    <\equation*>
+      <frac|\<mathd\>|\<mathd\>u><around*|[|<frac|f<around*|(|u|)>-f<rprime|''><around*|(|u|)>|u>|]>=0,
+    </equation*>
+
+    所以，
+
+    <\equation>
+      <with|math-display|true|<frac|f<rprime|''><around*|(|u|)>|u>-<frac|f<around*|(|u|)>|u>=C>，C为常数;
+    </equation>
+
+    （2）由于<math|f<around*|(|1|)>=1,f<rprime|''><around*|(|1|)>=0>，将<math|u=1>带入(1)式可得<math|C=-1>，即
+
+    <\equation*>
+      <with|math-display|true|<frac|f<rprime|''><around*|(|u|)>|u>-<frac|f<around*|(|u|)>|u>=-1>,
+    </equation*>
+
+    整理可得
+
+    <\equation*>
+      f<rprime|''><around*|(|u|)>-f<around*|(|u|)>=-u,
+    </equation*>
+
+    接下来求解该微分方程，写出特征方程
+
+    <\equation*>
+      r<rsup|2>-1=0,
+    </equation*>
+
+    解得特征根为<math|r<rsub|1>=1,r<rsub|2>=-1>，所以该方程的通解可以表示为
+
+    <\equation*>
+      f<around*|(|u|)>=C<rsub|1>e<rsup|u>+C<rsub|2>e<rsup|-u>+y<rsup|\<ast\>>,
+    </equation*>
+
+    其中<math|y<rsup|\<ast\>>=A u+B>为该方程的特解，<math|y<rsup|\<ast\>><rprime|'>=A,y<rsup|\<ast\>><rprime|''>=0>，带入微分方程可得<math|A=1,B=0>，所以该方
+
+    程的通解为
+
+    <\equation*>
+      f<around*|(|u|)>=C<rsub|1>e<rsup|u>+C<rsub|2>e<rsup|-u>+u,
+    </equation*>
+
+    又由于<math|f<around*|(|1|)>=1,f<rprime|'><around*|(|1|)>=-1,f<rprime|'><around*|(|u|)>=C<rsub|1>e<rsup|u>-C<rsub|2>e<rsup|-u>+1>，所以
+
+    <\equation*>
+      <choice|<tformat|<table|<row|<cell|C<rsub|1>e+C<rsub|2>e<rsup|-1>+1=1>>|<row|<cell|C<rsub|1>e-C<rsub|2>e<rsup|-1>+1=-1>>>>>,
+    </equation*>
+
+    解得<math|C<rsub|1>=-e<rsup|-1>,C<rsub|2>=e>，所以
+
+    <\equation*>
+      f<around*|(|u|)>=-e<rsup|u-1>+e<rsup|1-u>+u.
+    </equation*>
+
+    \;
+
+    <item>（本题满分12分）
+
+    设有向曲线<math|L>为椭圆<math|x<rsup|2>+3y<rsup|2>=1>上沿逆时针方向从点<with|math-display|true|<math|A<around*|(|-<frac|1|2>,-<frac|1|2>|)>>>到点<math|<with|math-display|true|B<around*|(|<frac|1|2>,<frac|1|2>|)>>>的部分，计算
+
+    曲线积分
+
+    <\equation*>
+      I=<big|int><rsub|L><around*|(|e<rsup|x<rsup|2>>sin x-2x y|)>\<mathd\>x+<around*|(|6x-x<rsup|2>-y cos<rsup|4>y|)>\<mathd\>y.
+    </equation*>
+
+    【答案】<with|math-display|true|<math|<sqrt|3>\<pi\>-<frac|1|4>>>.
+
+    【解析】
+
+    设<math|L<rsub|1>>为直线<math|y=x>上由点<math|<with|math-display|true|B<around*|(|<frac|1|2>,<frac|1|2>|)>>>到点<with|math-display|true|<math|A<around*|(|-<frac|1|2>,-<frac|1|2>|)>>>的部分，则
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|I>|<cell|=>|<cell|<big|int><rsub|L><around*|(|e<rsup|x<rsup|2>>sin x-2x y|)>\<mathd\>x+<around*|(|6x-x<rsup|2>-y cos<rsup|4>y|)>\<mathd\>y>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|L+L<rsub|1>><around*|(|e<rsup|x<rsup|2>>sin x-2x y|)>\<mathd\>x+<around*|(|6x-x<rsup|2>-y cos<rsup|4>y|)>\<mathd\>y>>|<row|<cell|>|<cell|->|<cell|<big|int><rsub|L<rsub|1>><around*|(|e<rsup|x<rsup|2>>sin x-2x y|)>\<mathd\>x+<around*|(|6x-x<rsup|2>-y cos<rsup|4>y|)>\<mathd\>y,>>>>
+    </eqnarray*>
+
+    根据格林公式，
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|I<rsub|1>>|<cell|=>|<cell|<big|int><rsub|L+L<rsub|1>><around*|(|e<rsup|x<rsup|2>>sin x-2x y|)>\<mathd\>x+<around*|(|6x-x<rsup|2>-y cos<rsup|4>y|)>\<mathd\>y>>|<row|<cell|>|<cell|=>|<cell|<below|<big|iint>|D><around*|(|6-2x|)>-<around*|(|-2x|)>\<mathd\>x\<mathd\>y=<below|6<big|iint>|D>\<mathd\>x\<mathd\>y=6\<cdot\><frac|1|2>\<cdot\>\<pi\>\<cdot\>1\<cdot\><frac|1|<sqrt|3>>=<sqrt|3>\<pi\>,>>>>
+    </eqnarray*>
+
+    其中，区域<math|D=<around*|{|<around*|(|x,y|)><around*|\|||\<nobracket\>>x<rsup|2>+3y<rsup|2>\<leqslant\>1,y\<leqslant\>x|}>>为由<math|L>和<math|L<rsub|1>>围成的封闭区域，
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|I<rsub|2>>|<cell|=>|<cell|<big|int><rsub|L<rsub|1>><around*|(|e<rsup|x<rsup|2>>sin x-2x y|)>\<mathd\>x+<around*|(|6x-x<rsup|2>-y cos<rsup|4>y|)>\<mathd\>y>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|<frac|1|2>><rsup|-<frac|1|2>><around*|(|e<rsup|x<rsup|2>>sin x-2x<rsup|2>|)>+<around*|(|6x-x<rsup|2>-x cos<rsup|4>x|)>\<mathd\>x>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|-<frac|1|2>><rsup|<frac|1|2>>3x<rsup|2>\<mathd\>x=2<big|int><rsub|0><rsup|<frac|1|2>>3x<rsup|2>\<mathd\>x=<frac|1|4>,>>>>
+    </eqnarray*>
+
+    所以，<with|math-display|true|<math|I=I<rsub|1>-I<rsub|2>=<sqrt|3>\<pi\>-<frac|1|4>>>.
+
+    \;
+
+    <item>（本题满分12分）
+
+    设可导函数<math|f<around*|(|x|)>>严格单调递增且满足<with|math-display|true|<math|<big|int><rsup|1><rsub|-1>f<around*|(|x|)>\<mathd\>x=0>>，记<math|<with|math-display|true|a=<big|int><rsup|1><rsub|0>f<around*|(|x|)>\<mathd\>x>>.
+
+    （1）证明：<math|a\<gtr\>0>；
+
+    （2）设<math|<with|math-display|true|F<around*|(|x|)>=a<around*|(|1-x<rsup|2>|)>+<big|int><rsup|x><rsub|1>f<around*|(|t|)>\<mathd\>t>>，证明：存在<math|\<xi\>\<in\><around*|(|-1,1|)>>，使得<math|F<rprime|''><around*|(|\<xi\>|)>=0>.
+
+    【答案】略.
+
+    【解析】
+
+    （1）方法一：由于
+
+    <\equation*>
+      <big|int><rsup|1><rsub|-1>f<around*|(|x|)>\<mathd\>x=<big|int><rsup|0><rsub|-1>f<around*|(|x|)>\<mathd\>x+<big|int><rsup|1><rsub|0>f<around*|(|x|)>\<mathd\>x=<big|int><rsup|0><rsub|-1>f<around*|(|x|)>\<mathd\>x+a=0,
+    </equation*>
+
+    所以，
+
+    <\equation*>
+      a=-<big|int><rsup|0><rsub|-1>f<around*|(|x|)>\<mathd\>x,
+    </equation*>
+
+    由于<math|f<around*|(|x|)>>严格单调递增，所以
+
+    <\equation*>
+      a=<big|int><rsup|1><rsub|0>f<around*|(|x|)>\<mathd\>x\<gtr\><big|int><rsup|1><rsub|0>f<around*|(|0|)>\<mathd\>x=f<around*|(|0|)>,
+    </equation*>
+
+    <\equation*>
+      a=-<big|int><rsup|0><rsub|-1>f<around*|(|x|)>\<mathd\>x\<gtr\>-<big|int><rsup|0><rsub|-1>f<around*|(|0|)>\<mathd\>x=-f<around*|(|0|)>,
+    </equation*>
+
+    即<math|a\<gtr\><around*|\||f<around*|(|0|)>|\|>\<geqslant\>0>，得证；
+
+    方法二：令
+
+    <\equation*>
+      F<around*|(|x|)>=<big|int><rsup|x><rsub|0>f<around*|(|t|)>\<mathd\>t,
+    </equation*>
+
+    根据拉格朗日中值定理可得
+
+    <\equation*>
+      <big|int><rsup|1><rsub|0>f<around*|(|x|)>\<mathd\>x=F<around*|(|1|)>-F<around*|(|0|)>=f<around*|(|\<xi\><rsub|1>|)>,\<xi\><rsub|1>\<in\><around*|(|0,1|)>,
+    </equation*>
+
+    <\equation*>
+      <big|int><rsup|0><rsub|-1>f<around*|(|x|)>\<mathd\>x=F<around*|(|0|)>-F<around*|(|-1|)>=f<around*|(|\<xi\><rsub|2>|)>,\<xi\><rsub|2>\<in\><around*|(|-1,0|)>,
+    </equation*>
+
+    所以
+
+    <\equation*>
+      <big|int><rsup|1><rsub|-1>f<around*|(|x|)>\<mathd\>x=<big|int><rsup|0><rsub|-1>f<around*|(|x|)>\<mathd\>x+<big|int><rsup|1><rsub|0>f<around*|(|x|)>\<mathd\>x=f<around*|(|\<xi\><rsub|1>|)>+f<around*|(|\<xi\><rsub|2>|)>=0,
+    </equation*>
+
+    又由于<math|f<around*|(|x|)>>严格单调递增，<math|\<xi\><rsub|2>\<less\>\<xi\><rsub|1>>，所以<math|f<around*|(|\<xi\><rsub|2>|)>\<less\>f<around*|(|\<xi\><rsub|1>|)>>，进而
+
+    <\equation*>
+      f<around*|(|\<xi\><rsub|1>|)>=<big|int><rsup|1><rsub|0>f<around*|(|x|)>\<mathd\>x=a\<gtr\>0,
+    </equation*>
+
+    得证；
+
+    （2）显然，<math|F<around*|(|-1|)>=F<around*|(|0|)>=F<around*|(|1|)>=0>，根据罗尔中值定理可知，
+
+    <math|\<exists\>\<eta\><rsub|1>\<in\><around*|(|-1,0|)>>，使得<math|F<rprime|'><around*|(|\<eta\><rsub|1>|)>=0>，<math|\<exists\>\<eta\><rsub|2>\<in\><around*|(|0,1|)>>，使得<math|F<rprime|'><around*|(|\<eta\><rsub|2>|)>=0>，
+
+    再根据罗尔中值定理可知，<math|\<exists\>\<xi\>\<in\><around*|(|\<eta\><rsub|1>,\<eta\><rsub|2>|)>\<subset\><around*|(|-1,1|)>>，使得<math|F<rprime|''><around*|(|\<xi\>|)>=0>.
+
+    \;
+
+    <item>（本题满分12分）
+
+    已知向量组<math|\<alpha\><rsub|1>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>|<row|<cell|-1>>|<row|<cell|-1>>>>>|)>,\<alpha\><rsub|2>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>>|<row|<cell|-1>>|<row|<cell|0>>|<row|<cell|-2>>>>>|)>,\<alpha\><rsub|3>=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>>|<row|<cell|-1>>|<row|<cell|1>>|<row|<cell|-1>>>>>|)>,\<alpha\><rsub|4>=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>>|<row|<cell|1>>|<row|<cell|-1>>|<row|<cell|1>>>>>|)>>，设<math|A=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>|)>>，
+
+    <math|G=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>|)>.>
+
+    （1）证明：<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>>是<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>>的极大线性无关组；
+
+    （2）求矩阵<math|H>使得<math|A=G H>，并求<math|A<rsup|10>>.
+
+    【答案】（1）略；（2）<math|H=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>|<cell|-1>|<cell|1>>|<row|<cell|0>|<cell|1>|<cell|1>|<cell|-1>>>>>|)>>，<math|A<rsup|10>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|-8>|<cell|-9>|<cell|9>>|<row|<cell|0>|<cell|-1>|<cell|-1>|<cell|1>>|<row|<cell|-1>|<cell|9>|<cell|10>|<cell|-10>>|<row|<cell|-1>|<cell|7>|<cell|8>|<cell|-8>>>>>|)>>.
+
+    【解析】
+
+    （1）显然<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>>线性无关，且<math|\<alpha\><rsub|3>=\<alpha\><rsub|2>-\<alpha\><rsub|1>,\<alpha\><rsub|4>=\<alpha\><rsub|1>-\<alpha\><rsub|2>>，所以<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>>可以由<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>>线性表
+
+    示，所以<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>>是<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>>的极大线性无关组；
+
+    （2）
+
+    <\equation*>
+      A=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>|)>=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|2>-\<alpha\><rsub|1>,\<alpha\><rsub|1>-\<alpha\><rsub|2>|)>=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>|)><around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>|<cell|-1>|<cell|1>>|<row|<cell|0>|<cell|1>|<cell|1>|<cell|-1>>>>>|)>=G H,
+    </equation*>
+
+    所以
+
+    <\equation*>
+      H=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>|<cell|-1>|<cell|1>>|<row|<cell|0>|<cell|1>|<cell|1>|<cell|-1>>>>>|)>,
+    </equation*>
+
+    进而<math|A<rsup|10>=<around*|(|G H|)><rsup|10>=G<around*|(|H G|)><rsup|9>H>，记
+
+    <\equation*>
+      B=H G=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>|<cell|-1>|<cell|1>>|<row|<cell|0>|<cell|1>|<cell|1>|<cell|-1>>>>>|)><around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|1>>|<row|<cell|0>|<cell|-1>>|<row|<cell|-1>|<cell|0>>|<row|<cell|-1>|<cell|-2>>>>>|)>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|-1>>|<row|<cell|0>|<cell|1>>>>>|)>，
+    </equation*>
+
+    则<math|A<rsup|10>=G B<rsup|9>H>，
+
+    记
+
+    <\equation*>
+      C=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>|<cell|-1>>|<row|<cell|0>|<cell|0>>>>>|)>,
+    </equation*>
+
+    则<math|n\<geqslant\>2>时，<math|C<rsup|n>=O>，所以
+
+    <\equation*>
+      B<rsup|9>=<around*|(|E+C|)><rsup|9>=E+9C=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|-9>>|<row|<cell|0>|<cell|1>>>>>|)>,
+    </equation*>
+
+    进而
+
+    <\equation*>
+      A<rsup|10>=G B<rsup|9>H=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|1>>|<row|<cell|0>|<cell|-1>>|<row|<cell|-1>|<cell|0>>|<row|<cell|-1>|<cell|-2>>>>>|)><around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|-9>>|<row|<cell|0>|<cell|1>>>>>|)><around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>|<cell|-1>|<cell|1>>|<row|<cell|0>|<cell|1>|<cell|1>|<cell|-1>>>>>|)>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|-8>|<cell|-9>|<cell|9>>|<row|<cell|0>|<cell|-1>|<cell|-1>|<cell|1>>|<row|<cell|-1>|<cell|9>|<cell|10>|<cell|-10>>|<row|<cell|-1>|<cell|7>|<cell|8>|<cell|-8>>>>>|)>.
+    </equation*>
+
+    \;
+
+    <item>（本题满分12分）
+
+    假设某种元件的寿命服从指数分布，其均值<math|\<theta\>>是未知参数，为估计<math|\<theta\>>，取<math|n>个这种元件同时做寿
+
+    命实验，试验到出现<math|k<around*|(|1\<leqslant\>k\<leqslant\>n|)>>个元件失效时停止.
+
+    （1）若<math|k=1>，失效元件寿命记为<math|T>.（i）求<math|T>的概率密度；（ii）确定<math|a>，使<math|<wide|\<theta\>|^>=a T>是<math|\<theta\>>的无偏估
+
+    计，并求<math|D<around*|(|<wide|\<theta\>|^>|)>>.
+
+    （2）已知<math|k>个失效元件的寿命分别为<math|t<rsub|1>,t<rsub|2>,\<cdots\>,t<rsub|k>>且<math|t<rsub|1>\<leqslant\>t<rsub|2>\<leqslant\>\<cdots\>\<leqslant\>t<rsub|k>>，似然函数为
+
+    <\equation*>
+      <with|math-display|true|L<around*|(|\<theta\>|)>=<frac|1|\<theta\><rsup|k><rsup|>>e<rsup|-<frac|1|\<theta\>><with|math-display|true|<around*|[|<with|math-display|true|<with|math-display|true|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>t<rsub|k>>>|]>>>>，
+    </equation*>
+
+    求<math|\<theta\>>的最大似然估计值.
+
+    【答案】（1）（i）<math|<with|math-display|true|f<rsub|T><around*|(|t|)>=<choice|<tformat|<table|<row|<cell|<with|math-display|true|<frac|n|\<theta\>>e<rsup|-<frac|n t|\<theta\>>>>,>|<cell|t\<gtr\>0>>|<row|<cell|0>|<cell|t\<leqslant\>0>>>>>,>>（ii）<math|a=n>，<math|D<wide|\<theta\>|^>=\<theta\><rsup|2>>；
+
+    （2）<math|<wide|\<theta\><rsub|1>|^>=<frac|1|k><around*|[|<with|math-display|true|<with|math-display|true|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>t<rsub|k>>>|]>>.
+
+    【解析】
+
+    （1）（i）设<math|n>个这种元件的寿命分别为<math|X<rsub|1>,X<rsub|2>,\<cdots\>,X<rsub|n>>，则<math|X<rsub|1>,X<rsub|2>,\<cdots\>,X<rsub|n>>独立同分布，且
+
+    <\equation*>
+      X<rsub|i>\<sim\>E<around*|(|<frac|1|\<theta\>>|)>,i=1,2,\<cdots\>,n,
+    </equation*>
+
+    当<math|k=1>时，
+
+    <\equation*>
+      T=min<around*|{|X<rsub|1>,X<rsub|2>,\<cdots\>,X<rsub|n>|}>,
+    </equation*>
+
+    先求<math|T>的分布函数，
+
+    当<math|t\<less\>0>时，<math|F<rsub|T><around*|(|t|)>=P<around*|{|T\<leqslant\>t|}>=0>，
+
+    当<math|t\<geqslant\>0>时，
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|F<rsub|T><around*|(|t|)>>|<cell|=>|<cell|P<around*|{|T\<leqslant\>t|}>=P<around*|{|min<around*|{|X<rsub|1>,X<rsub|2>,\<cdots\>,X<rsub|n>|}>\<leqslant\>t|}>=1-P<around*|{|min<around*|{|X<rsub|1>,X<rsub|2>,\<cdots\>,X<rsub|n>|}>\<gtr\>t|}>>>|<row|<cell|>|<cell|=>|<cell|1-P<around*|{|X<rsub|1>\<gtr\>t,X<rsub|2>\<gtr\>t,\<cdots\>,X<rsub|n>\<gtr\>t|}>=1-<around*|(|P<around*|{|X<rsub|1>\<gtr\>t|}>|)><rsup|n>=1-<around*|(|1-P<around*|{|X<rsub|1>\<leqslant\>t|}>|)><rsup|n>>>|<row|<cell|>|<cell|=>|<cell|1-<around*|(|1-F<rsub|X<rsub|1>><around*|(|t|)>|)><rsup|n>=1-<around*|[|1-<around*|(|1-e<rsup|-<frac|t|\<theta\>>>|)>|]><rsup|n>=1-e<rsup|-<frac|n t|\<theta\>>>,>>>>
+    </eqnarray*>
+
+    所以<math|T>的分布函数为
+
+    <\equation*>
+      F<rsub|T><around*|(|t|)>=<choice|<tformat|<table|<row|<cell|1-e<rsup|-<frac|n t|\<theta\>>>,>|<cell|t\<geqslant\>0>>|<row|<cell|0,>|<cell|t\<less\>0>>>>>,
+    </equation*>
+
+    进而<math|T>的概率密度为
+
+    <\equation*>
+      f<rsub|T><around*|(|t|)>=<choice|<tformat|<table|<row|<cell|<with|math-display|true|<frac|n|\<theta\>>e<rsup|-<frac|n t|\<theta\>>>>,>|<cell|t\<gtr\>0>>|<row|<cell|0>|<cell|t\<leqslant\>0>>>>>,
+    </equation*>
+
+    即<math|<with|math-display|true|T\<sim\>E<around*|(|<frac|n|\<theta\>>|)>>>；
+
+    （ii）由（i）可知，<math|<with|math-display|true|E T=<frac|\<theta\>|n>,D T=<frac|\<theta\><rsup|2>|n<rsup|2>>>>，所以
+
+    <\equation*>
+      <with|math-display|true|E<wide|\<theta\>|^>=E<around*|(|a T|)>=a E T=<frac|a\<theta\>|n>>,
+    </equation*>
+
+    如果<math|<wide|\<theta\>|^>>为<math|\<theta\>>的无偏估计量，那么<math|<with|math-display|true|E<wide|\<theta\>|^>=\<theta\>>>，所以<math|a=n>，进而
+
+    <\equation*>
+      D<wide|\<theta\>|^>=D<around*|(|n T|)>=n<rsup|2>D T=n<rsup|2>\<cdot\><frac|\<theta\><rsup|2>|n<rsup|2>>=\<theta\><rsup|2>;
+    </equation*>
+
+    （2）首先对似然函数取对数，
+
+    <\equation*>
+      ln L<around*|(|\<theta\>|)>=-k ln \<theta\>-<frac|1|\<theta\>><around*|[|<with|math-display|true|<with|math-display|true|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>t<rsub|k>>>|]>,
+    </equation*>
+
+    再令
+
+    <\equation*>
+      <frac|\<mathd\><around*|(|ln L<around*|(|\<theta\>|)>|)>|\<mathd\>\<theta\>>=-<frac|k|\<theta\>>+<frac|1|\<theta\><rsup|2>><around*|[|<with|math-display|true|<with|math-display|true|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>t<rsub|k>>>|]>=0,
+    </equation*>
+
+    解得<math|\<theta\>>的最大似然估计值为
+
+    <\equation*>
+      <wide|\<theta\><rsub|1>|^>=<frac|1|k><around*|[|<with|math-display|true|<with|math-display|true|<big|sum><rsub|i=1><rsup|k>t<rsub|i>+<around*|(|n-k|)>t<rsub|k>>>|]>.
+    </equation*>
+  </enumerate>>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|item-hsep|<macro|1.3fn>>
+    <associate|item-nr|10>
+    <associate|page-medium|paper>
+    <associate|page-screen-margin|false>
+  </collection>
+</initial>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-2|<tuple|11|7>>
+    <associate|auto-3|<tuple|17|9>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <with|par-left|<quote|2tab>|一、选择题：1<with|mode|<quote|math>|\<sim\>>10小题，每小题5分，共50分.下列每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选选项前的字母填在答题纸指定位置上.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-1>>
+
+      <with|par-left|<quote|2tab>|二、填空题：11<with|mode|<quote|math>|\<sim\>>16小题，每小题5分，共30分.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|2tab>|三、解答题：17<with|mode|<quote|math>|\<sim\>>22小题，共70分.解答应写出文字说明、证明过程或演算步骤.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-3>>
+    </associate>
+  </collection>
+</auxiliary>

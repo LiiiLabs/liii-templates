@@ -1,0 +1,378 @@
+<TMU|<tuple|1.1.0|2025.2.2>>
+
+<style|<tuple|generic|number-europe|chinese|llm>>
+
+<\body>
+  <doc-data|<doc-title|2026年全国硕士研究生招生考试试题>|<doc-subtitle|（数学二）>>
+
+  <subsubsection*|一、选择题：1<math|\<sim\>>10小题，每小题5分，共50分.下列每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选选项前的字母填在答题纸指定位置上.>
+
+  <\enumerate-numeric>
+    <item>已知当<math|x\<rightarrow\>0>时，<math|a x<rsup|2>+b x+arcsin x>与<math|<sqrt|1+x<rsup|2>|3>-1>是等价无穷小，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （Ａ）<math|<with|math-display|true|a=<frac|1|3>,b=-1>>
+      </cell>|<\cell>
+        （Ｂ）<math|<with|math-display|true|<with|math-display|true|a=<frac|1|3>,b=1>>>
+      </cell>|<\cell>
+        （Ｃ）<math|<with|math-display|true|a=<frac|2|3>,b=-1>>
+      </cell>|<\cell>
+        （Ｄ）<math|<with|math-display|true|a=<frac|2|3>,b=1>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设<math|y<rsub|1><around*|(|x|)>,y<rsub|2><around*|(|x|)>>是某二阶非齐次线性微分方程的两个特解.若常数<math|\<lambda\>,\<mu\>>使得<math|2\<lambda\>y<rsub|1><around*|(|x|)>+\<mu\>y<rsub|2><around*|(|x|)>>是该方
+
+    程的解，<math|\<lambda\>y<rsub|1><around*|(|x|)>-2\<mu\>y<rsub|2><around*|(|x|)>>是该方程对应的齐次方程的解，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<with|math-display|true|\<lambda\>=<frac|1|5>,\<mu\>=<frac|2|5>>>
+      </cell>|<\cell>
+        （B）<math|<with|math-display|true|\<lambda\>=<frac|2|5>,\<mu\>=<frac|1|5>>>
+      </cell>|<\cell>
+        （C）<math|<with|math-display|true|\<lambda\>=<frac|1|4>,\<mu\>=<frac|1|2>>>
+      </cell>|<\cell>
+        （D）<math|<with|math-display|true|\<lambda\>=<frac|1|2>,\<mu\>=<frac|1|4>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设函数<math|z=z<around*|(|x,y|)>>由方程<math|x-a z=e<rsup|y+a z>>(<math|a>为非零常数)确定，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （Ａ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｂ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｃ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>-<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>>
+      </cell>|<\cell>
+        （Ｄ）<math|<with|math-display|true|<frac|\<partial\>z|\<partial\>x>+<frac|\<partial\>z|\<partial\>y>=-<frac|1|a>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设线密度为<math|1>的细直棒的两个端点分别位于点<math|<around*|(|-1,0|)>>和点<math|<around*|(|1,0|)>>处，质量为<math|m>的质点位于点
+
+    <math|<around*|(|0,1|)>>处，<math|G>为引力常量，则该细直棒对该质点的引力大小为（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<with|math-display|true|<math|<big|int><rsup|1><rsub|0><frac|2G m x|<around*|(|x<rsup|2>+1|)><rsup|<frac|1|2>>>\<mathd\>x>>
+      </cell>|<\cell>
+        （B）<with|math-display|true|<math|<big|int><rsup|1><rsub|0><frac|2G m|<around*|(|x<rsup|2>+1|)><rsup|<frac|1|2>>>\<mathd\>x>>
+      </cell>|<\cell>
+        （C）<math|<with|math-display|true|<big|int><rsup|1><rsub|0><frac|2G m x|<around*|(|x<rsup|2>+1|)><rsup|<frac|3|2>>>\<mathd\>x>>
+      </cell>|<\cell>
+        （D）<math|<with|math-display|true|<big|int><rsup|1><rsub|0><frac|2G m|<around*|(|x<rsup|2>+1|)><rsup|<frac|3|2>>>\<mathd\>x>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设函数<math|f<around*|(|x|)>>在区间<math|<around*|[|-1,1|]>>上有定义，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）当<math|f<around*|(|x|)>>在<math|<around*|(|-1,0|)>>内单调递减，在<math|<around*|(|0,1|)>>内单调递增时，<math|f<around*|(|0|)>>为极小值
+
+        （B）当<math|f<around*|(|0|)>>为极小值时，<math|f<around*|(|x|)>>在<math|<around*|(|-1,0|)>>内单调递减，在<math|<around*|(|0,1|)>>内单调递增
+
+        （C）当<math|f<around*|(|x|)>>的图形在<math|<around*|[|-1,1|]>>上是凹的时，<math|<with|math-display|true|<frac|f<around*|(|x|)>-f<around*|(|1|)>|x-1>>>在<math|<around*|[|-1,1|)>>上单调递增
+
+        （D）当<math|<with|math-display|true|<frac|f<around*|(|x|)>-f<around*|(|1|)>|x-1>>>在<math|<around*|[|-1,1|)>>上单调递增时，<math|f<around*|(|x|)>>的图形在<math|<around*|[|-1,1|]>>上是凹的
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>已知函数<math|<with|math-display|true|f<around*|(|x|)>=<big|int><rsup|x<rsup|3>><rsub|1><frac|e<rsup|t>|1+t<rsup|2>>\<mathd\>t>>，<math|g<around*|(|x|)>>是<math|f<around*|(|x|)>>的反函数，则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<with|math-display|true|g<around*|(|0|)>=1,g<rprime|'><around*|(|0|)>=<frac|3|2>e>>
+
+        （C）<math|<with|math-display|true|g<around*|(|1|)>=0,g<rprime|'><around*|(|1|)>=<frac|3|2>e>>
+      </cell>|<\cell>
+        （B）<with|math-display|true|<math|g<around*|(|0|)>=1,g<rprime|'><around*|(|0|)>=<frac|2|3e>>>
+
+        （D）<math|<with|math-display|true|g<around*|(|1|)>=0,g<rprime|'><around*|(|1|)>=<frac|2|3e>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>已知<math|f<around*|(|x,y|)>>在区域<math|D=<around*|{|<around*|(|x,y|)>\|0\<leqslant\>x\<leqslant\>1,0\<leqslant\>y\<leqslant\>1|}>>上连续，且<math|f<around*|(|x,y|)>=f<around*|(|y,x|)>>，则
+
+    <with|math-display|true|<math|<below|<big|iint>|D>f<around*|(|x,y|)>\<mathd\>\<sigma\>=>>（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<with|math-display|true|2lim<rsub|n\<rightarrow\>\<infty\>><big|sum><rsup|n><rsub|i=1><big|sum><rsub|j=n+1-i><rsup|n>f<around*|(|<frac|i|n>,<frac|j|n>|)><frac|1|n<rsup|2>>>>
+
+        （C）<math|<with|math-display|true|2lim<rsub|n\<rightarrow\>\<infty\>><big|sum><rsup|2n><rsub|i=1><big|sum><rsub|j=1><rsup|2n+1-i>f<around*|(|<frac|i|2n>,<frac|j|2n>|)><frac|1|n<rsup|2>>>>
+      </cell>|<\cell>
+        （B）<math|<with|math-display|true|<frac|1|2>lim<rsub|n\<rightarrow\>\<infty\>><big|sum><rsup|n><rsub|i=1><big|sum><rsub|j=1><rsup|n>f<around*|(|<frac|i|n>,<frac|j|n>|)><frac|1|n<rsup|2>>>>
+
+        （D）<math|<with|math-display|true|<frac|1|2>lim<rsub|n\<rightarrow\>\<infty\>><big|sum><rsup|2n><rsub|i=1><big|sum><rsub|j=1><rsup|i>f<around*|(|<frac|i|2n>,<frac|j|2n>|)><frac|1|n<rsup|2>>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>单位矩阵经若干次互换两行得到的矩阵为置换矩阵，设<math|A>为<math|n>阶置换矩阵，<math|A<rsup|\<ast\>>>为<math|A>的伴随矩阵，
+
+    则（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|A<rsup|\<ast\>>>为置换矩阵
+      </cell>|<\cell>
+        （B）<math|A<rsup|-1>>为置换矩阵
+      </cell>|<\cell>
+        （C）<math|A<rsup|-1>=A<rsup|\<ast\>>>
+      </cell>|<\cell>
+        （D）<math|A<rsup|-1>=-A<rsup|\<ast\>>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>已知矩阵<math|A=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|0>|<cell|1>>|<row|<cell|0>|<cell|0>|<cell|1>>|<row|<cell|1>|<cell|1>|<cell|3>>|<row|<cell|1>|<cell|1>|<cell|1>>>>>|)>,C=<around*|(|<tabular*|<tformat|<table|<row|<cell|2>|<cell|0>>|<row|<cell|1>|<cell|1>>|<row|<cell|1>|<cell|1>>|<row|<cell|a>|<cell|b>>>>>|)>>，且存在矩阵<math|B>，使得<math|A B=C>，则<math|a,b>分别为（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|-1，-1>
+      </cell>|<\cell>
+        （B）<math|2，2>
+      </cell>|<\cell>
+        （C）<math|-1，2>
+      </cell>|<\cell>
+        （D）<math|<with|math-display|true|2，-1>>
+      </cell>>>>
+    </wide-tabular>
+
+    \;
+
+    <item>设三阶矩阵<math|A,B>满足<math|A B+B A=A<rsup|2>+B<rsup|2>>，且<math|A\<neq\>B>，则下列选项中错误的是（ \ \ \ \ ）.
+
+    <\wide-tabular>
+      <tformat|<table|<row|<\cell>
+        （A）<math|<around*|(|A-B|)><rsup|3>=O>
+
+        （B）<math|A-B>只有零特征值
+
+        （C）<math|A,B>不全为对角矩阵
+
+        （D）<math|A-B>只有一个线性无关的特征向量
+      </cell>>>>
+    </wide-tabular>
+  </enumerate-numeric>
+
+  <subsubsection*|二、填空题：11<math|\<sim\>>16小题，每小题5分，共30分.>
+
+  <\enumerate>
+    <item>设<math|p>为常数，若反常积分<with|math-display|true|<math|<big|int><rsup|+\<infty\>><rsub|0><frac|arctan x|x<rsup|p><around*|(|1+x|)>>\<mathd\>x>>收敛，则<math|p>的取值范围是<underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item><math|<with|math-display|true|lim<rsub|x\<rightarrow\>0><around*|(|<frac|1|x>-<frac|ln<around*|(|1+x|)>|x sin x>|)>=>><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>曲线<math|x<rsup|2>+2<sqrt|3>x y+y<rsup|2>=1>在<math|<around*|(|0,1|)>>处的曲率半径<math|R=><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>已知函数<math|f<around*|(|x,y|)>>可微，且<math|\<mathd\>f<around*|(|0,0|)>=\<pi\>\<mathd\>x+3\<mathd\>y>，记<math|g<around*|(|x|)>=f<around*|(|ln x,sin \<pi\>x|)>>，则<math|g<rprime|'><around*|(|1|)>=><underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>函数<math|f<around*|(|x|)>=ln<around*|(|2+x|)>>在<math|<around*|[|0,2|]>>上的平均值为<underline| \ \ \ \ \ \ \ \ \ >.
+
+    \;
+
+    <item>设矩阵<math|A=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>|<cell|b>|<cell|-1>>|<row|<cell|a+2>|<cell|3>|<cell|-3a>>>>>|)>>，若二次型<math|x<rsup|T>A A<rsup|T>x>的规范形为<math|y<rsub|1><rsup|2>>，则<math|a+b=><underline| \ \ \ \ \ \ \ \ \ >.
+  </enumerate>
+
+  <subsubsection*|三、解答题：17<math|\<sim\>>22小题，共70分.解答应写出文字说明、证明过程或演算步骤.>
+
+  <with|item-nr|16|<\enumerate>
+    <item>（本题满分10分）
+
+    计算<math|<with|math-display|true|I=<big|int><rsup|1><rsub|-1>\<mathd\>x<big|int><rsup|<sqrt|2-x<rsup|2>>><rsub|<around*|\||x|\|>>y sin<sqrt|x<rsup|2>+y<rsup|2>>\<mathd\>y>>.
+
+    \;
+
+    <item>（本题满分12分）
+
+    已知函数<math|g<around*|(|x|)>>连续，设<math|<with|math-display|true|f<around*|(|x|)>=<big|int><rsup|x<rsup|2>><rsub|0>g<around*|(|x t|)>\<mathd\>t>>，求<math|f<rprime|'><around*|(|x|)>>的表达式，并判断<math|f<rprime|'><around*|(|x|)>>在<math|x=0>处的连续性.
+
+    \;
+
+    <item>（本题满分12分）
+
+    求函数<math|f<around*|(|x,y|)>=<around*|(|2x<rsup|2>-y<rsup|2>|)>e<rsup|x>>的极值.
+
+    \;
+
+    <item>（本题满分12分）
+
+    已知<math|M<around*|(|x<rsub|0>,y<rsub|0>|)>>是曲线<math|<with|math-display|true|y=<frac|1|1+x<rsup|2>><around*|(|x\<geqslant\>0|)>>>的拐点，<math|O>为坐标原点，记区域<math|D>是第一象限中以曲线
+
+    <math|<with|math-display|true|y=<frac|1|1+x<rsup|2>><around*|(|x\<geqslant\>x<rsub|0>|)>>>，线段<math|O M>及<math|x>轴正半轴为边界的无界区域，求区域<math|D>绕<math|x>轴旋转所生成的旋
+
+    转体的体积.
+
+    \;
+
+    <item>（本题满分12分）
+
+    求微分方程<math|x<rsup|2>y<rprime|''>-2x y<rprime|'>-<around*|(|y<rprime|'>|)><rsup|2>=0<around*|(|x\<gtr\>2|)>>满足条件<math|<with|math-display|true|y<around*|\||<rsub|x=3>=<frac|1|2>,y<rprime|'>|\|><rsub|x=3>=-9>>的解.
+
+    \;
+
+    <item>（本题满分12分）
+
+    已知向量组<math|\<alpha\><rsub|1>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>>|<row|<cell|0>>|<row|<cell|-1>>|<row|<cell|-1>>>>>|)>,\<alpha\><rsub|2>=<around*|(|<tabular*|<tformat|<table|<row|<cell|1>>|<row|<cell|-1>>|<row|<cell|0>>|<row|<cell|-2>>>>>|)>,\<alpha\><rsub|3>=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>>|<row|<cell|-1>>|<row|<cell|1>>|<row|<cell|-1>>>>>|)>,\<alpha\><rsub|4>=<around*|(|<tabular*|<tformat|<table|<row|<cell|0>>|<row|<cell|1>>|<row|<cell|-1>>|<row|<cell|1>>>>>|)>>，设<math|A=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>|)>>，
+
+    <math|G=<around*|(|\<alpha\><rsub|1>,\<alpha\><rsub|2>|)>.>
+
+    （1）证明：<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>>是<math|\<alpha\><rsub|1>,\<alpha\><rsub|2>,\<alpha\><rsub|3>,\<alpha\><rsub|4>>的极大线性无关组；
+
+    （2）求矩阵<math|H>,使得<math|A=G H>，并求<math|A<rsup|10>>.
+  </enumerate>>
+</body>
+
+<\initial>
+  <\collection>
+    <associate|item-hsep|<macro|1.3fn>>
+    <associate|item-nr|10>
+    <associate|page-medium|paper>
+    <associate|page-screen-margin|false>
+  </collection>
+</initial>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|1|1>>
+    <associate|auto-10|<tuple|22|?>>
+    <associate|auto-11|<tuple|22|?>>
+    <associate|auto-12|<tuple|11|?>>
+    <associate|auto-13|<tuple|17|?>>
+    <associate|auto-14|<tuple|8|?>>
+    <associate|auto-15|<tuple|8|?>>
+    <associate|auto-16|<tuple|8|?>>
+    <associate|auto-17|<tuple|8|?>>
+    <associate|auto-18|<tuple|11|?>>
+    <associate|auto-19|<tuple|17|?>>
+    <associate|auto-2|<tuple|11|2>>
+    <associate|auto-3|<tuple|17|2>>
+    <associate|auto-4|<tuple|22|?>>
+    <associate|auto-5|<tuple|22|?>>
+    <associate|auto-6|<tuple|22|?>>
+    <associate|auto-7|<tuple|22|?>>
+    <associate|auto-8|<tuple|22|?>>
+    <associate|auto-9|<tuple|22|?>>
+    <associate|ux4e0eux9009ux9879ux5bf9ux7167|<tuple|5|?>>
+    <associate|ux4e0eux9898ux76eeux8981ux6c42ux7684ux79efux5206ux6bd4ux8f83|<tuple|8|?>>
+    <associate|ux4ee3ux56de-u-px|<tuple|22|?>>
+    <associate|ux4ee4-p-x-u|<tuple|22|?>>
+    <associate|ux4ee4-u-xt|<tuple|19|?>>
+    <associate|ux51fdux6570ux5c55ux5f00|<tuple|2|?>>
+    <associate|ux5206ux5b50ux9636ux6570ux7684ux8981ux6c42|<tuple|2|?>>
+    <associate|ux5206ux6790ux9009ux9879|<tuple|11|?>>
+    <associate|ux5206ux79bbux53d8ux91cf|<tuple|22|?>>
+    <associate|ux5206ux89e3ux5f15ux529b|<tuple|5|?>>
+    <associate|ux5224ux65ad-fx-ux5728-x0-ux5904ux7684ux8fdeux7eedux6027|<tuple|19|?>>
+    <associate|ux5229ux7528-y3-frac12|<tuple|22|?>>
+    <associate|ux5229ux7528ux521dux59cbux6761ux4ef6-y3-p3--9|<tuple|22|?>>
+    <associate|ux5229ux7528ux5bf9ux79f0ux6027ux79efux5206|<tuple|5|?>>
+    <associate|ux5229ux7528ux7ebfux6027ux7b97ux5b50ux6027ux8d28|<tuple|3|?>>
+    <associate|ux533aux57df-d-ux7684ux8fb9ux754c|<tuple|a|?>>
+    <associate|ux53cdux4f8bux9a8cux8bc1|<tuple|8|?>>
+    <associate|ux53d6ux5faeux5143|<tuple|5|?>>
+    <associate|ux53eaux53d6-d_1-ux90e8ux5206|<tuple|8|?>>
+    <associate|ux53efux80fdux6b63ux786eux9009ux9879|<tuple|8|?>>
+    <associate|ux5408ux5e76|<tuple|21|?>>
+    <associate|ux5728-p01-ux5904ux7684ux659cux7387|<tuple|14|?>>
+    <associate|ux5728-x-to-0-ux65f6ux7684ux884cux4e3a|<tuple|12|?>>
+    <associate|ux5728-x-to-infty-ux65f6ux7684ux884cux4e3a|<tuple|12|?>>
+    <associate|ux5bf9-fx-ux7684ux5c55ux5f00|<tuple|2|?>>
+    <associate|ux5bf9-gx-ux7684ux5c55ux5f00|<tuple|2|?>>
+    <associate|ux5bf9-x-ux6c42ux504fux5bfc|<tuple|4|?>>
+    <associate|ux5bf9-y-ux6c42ux504fux5bfc|<tuple|4|?>>
+    <associate|ux5bf9ux5e94ux9009ux9879|<tuple|3|?>>
+    <associate|ux5df2ux77e5ux65b9ux7a0b|<tuple|4|?>>
+    <associate|ux5df2ux77e5ux66f2ux7ebfux65b9ux7a0b|<tuple|14|?>>
+    <associate|ux5df2ux77e5ux6761ux4ef6|<tuple|19|?>>
+    <associate|ux5df2ux77e5ux6761ux4ef6ux56deux987e|<tuple|10|?>>
+    <associate|ux5df2ux77e5ux6761ux4ef6ux7ffbux8bd1|<tuple|3|?>>
+    <associate|ux5efaux7acbux5750ux6807ux7cfbux4e0eux5bf9ux79f0ux6027|<tuple|5|?>>
+    <associate|ux60c5ux51b5-1x-neq-0|<tuple|19|?>>
+    <associate|ux60c5ux51b5-2x-0|<tuple|19|?>>
+    <associate|ux6539ux5199ux4e3aux9eceux66fcux548cux7684ux6807ux51c6ux5f62ux5f0f|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux6539ux5199ux65b9ux7a0b|<tuple|11|?>>
+    <associate|ux6574ux7406-fx-ux8868ux8fbeux5f0f|<tuple|19|?>>
+    <associate|ux65b9ux7a0bux4e0eux53d8ux91cfux4ee3ux6362|<tuple|22|?>>
+    <associate|ux65cbux8f6cux4f53ux4f53ux79ef|<tuple|21|?>>
+    <associate|ux66f2ux7387ux516cux5f0f|<tuple|14|?>>
+    <associate|ux66f2ux7387ux534aux5f84|<tuple|14|?>>
+    <associate|ux6700ux7ec8ux7b54ux6848|<tuple|11|?>>
+    <associate|ux6700ux7ec8ux89e3|<tuple|22|?>>
+    <associate|ux6781ux5750ux6807ux53d8ux6362|<tuple|18|?>>
+    <associate|ux6781ux9650ux503c|<tuple|8|?>>
+    <associate|ux6781ux9650ux6761ux4ef6ux5206ux6790|<tuple|2|?>>
+    <associate|ux6784ux9020-a-ux548c-b|<tuple|10|?>>
+    <associate|ux6784ux9020ux4e00ux4e2a-m-ux6ee1ux8db3-m20-ux4e14ux6709ux4e24ux4e2aux7ebfux6027ux65e0ux5173ux7684ux7279ux5f81ux5411ux91cf|<tuple|10|?>>
+    <associate|ux68c0ux67e5-c-ux548c-d-ux7684ux683cux5b50ux9762ux79ef|<tuple|8|?>>
+    <associate|ux68c0ux67e5ux7aefux70b9|<tuple|11|?>>
+    <associate|ux68c0ux67e5ux9009ux9879|<tuple|8|?>>
+    <associate|ux6b63ux786eux9009ux9879|<tuple|8|?>>
+    <associate|ux6c42-f0ux7528ux5b9aux4e49|<tuple|19|?>>
+    <associate|ux6c42-fxx-neq-0|<tuple|19|?>>
+    <associate|ux6c42-m-ux7684ux7279ux5f81ux5411ux91cf|<tuple|10|?>>
+    <associate|ux6c42ux4e8cux9636ux5bfcux6570-y|<tuple|14|?>>
+    <associate|ux6c42ux62d0ux70b9|<tuple|a|?>>
+    <associate|ux786eux5b9aux6c42ux548cux533aux57dfux5bf9ux5e94ux7684ux79efux5206ux533aux57df|<tuple|<with|mode|<quote|math>|\<bullet\>>|?>>
+    <associate|ux79efux5206ux533aux57df|<tuple|18|?>>
+    <associate|ux79efux5206ux6c42-y|<tuple|22|?>>
+    <associate|ux7b49ux4ef7ux65e0ux7a77ux5c0fux6761ux4ef6ux5206ux6790|<tuple|2|?>>
+    <associate|ux7b49ux4ef7ux65e0ux7a77ux5c0fux7684ux5b9aux4e49|<tuple|2|?>>
+    <associate|ux7ed3ux8bba|<tuple|11|?>>
+    <associate|ux7efcux5408|<tuple|12|?>>
+    <associate|ux89e3ux65b9ux7a0bux7ec4|<tuple|3|?>>
+    <associate|ux8ba1ux7b97-fracpartial-zpartial-x---fracpartial-zpartial-y|<tuple|4|?>>
+    <associate|ux8ba1ux7b97-fracpartial-zpartial-x-fracpartial-zpartial-y|<tuple|4|?>>
+    <associate|ux8ba1ux7b97ux4e24ux4e2aux79efux5206|<tuple|18|?>>
+    <associate|ux8ba1ux7b97ux6781ux9650|<tuple|2|?>>
+    <associate|ux8ba1ux7b97ux7b2cux4e00ux6bb5ux79efux5206|<tuple|21|?>>
+    <associate|ux8ba1ux7b97ux7b2cux4e8cux6bb5ux79efux5206|<tuple|21|?>>
+    <associate|ux8bbeux65b9ux7a0bux5f62ux5f0f|<tuple|3|?>>
+    <associate|ux8f6cux5316ux4e3aux6781ux9650ux548cux5f0f|<tuple|8|?>>
+    <associate|ux9009ux9879-c-ux548c-d|<tuple|8|?>>
+    <associate|ux9009ux9879-c-ux7684ux8868ux8fbeux5f0f|<tuple|8|?>>
+    <associate|ux95eeux9898ux63cfux8ff0|<tuple|2|?>>
+    <associate|ux9690ux51fdux6570ux6c42ux5bfc|<tuple|14|?>>
+    <associate|ux9898ux76ee|<tuple|12|?>>
+    <associate|ux9898ux76eeux4fe1ux606f|<tuple|7|?>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <with|par-left|<quote|2tab>|一、选择题：1<with|mode|<quote|math>|\<sim\>>10小题，每小题5分，共50分.下列每小题给出的四个选项中，只有一个选项是符合题目要求的，请将所选选项前的字母填在答题纸指定位置上.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-1>>
+
+      <with|par-left|<quote|2tab>|二、填空题：11<with|mode|<quote|math>|\<sim\>>16小题，每小题5分，共30分.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-2>>
+
+      <with|par-left|<quote|2tab>|三、解答题：17<with|mode|<quote|math>|\<sim\>>22小题，共70分.解答应写出文字说明、证明过程或演算步骤.<datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|.>>>>|<htab|5mm>><no-break><pageref|auto-3>>
+    </associate>
+  </collection>
+</auxiliary>
