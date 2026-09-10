@@ -1,5 +1,5 @@
 (document (TeXmacs "2.1.4")
-  (style (tuple "beamer" "no-page-numbers" "doc" "chinese" "ccnu_beamer"))
+  (style (tuple "beamer" "no-page-numbers" "doc" "chinese" "beamer/ccnu_beamer"))
   (body (document (hide-preamble (document ""))
           (screens (shown (document ""
                             ""
