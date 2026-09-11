@@ -6,7 +6,6 @@
                                      ) ;src-title
                            ) ;document
                   ) ;active*
-          (use-package "no-page-numbers" "doc" "chinese")
           (active* (document (src-comment (document "Style parameters."))))
           (assign "full-screen-mode" "false")
           (assign "info-flag" "minimal")

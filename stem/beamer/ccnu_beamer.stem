@@ -6,7 +6,7 @@
                                      ) ;src-title
                            ) ;document
                   ) ;active*
-          (use-package "stem/daxue_beamer")
+          (use-package "beamer/daxue_beamer")
           (active* (document (src-comment (document "Style parameters."))))
           (assign "font-base-size" "8")
           (assign "stem-doc-id" "788EDDDC-105E-4740-8CD0-3F49F99BCC80")
