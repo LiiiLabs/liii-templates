@@ -1,0 +1,208 @@
+(document (TeXmacs "2.1.4")
+  (style (tuple "source"))
+  (body (document (active* (document (src-title (document (src-package "daxue_beamer-macros" "1.0")
+                                                  (src-purpose "Automatically generated style package.")
+                                                ) ;document
+                                     ) ;src-title
+                           ) ;document
+                  ) ;active*
+          (active* (document (src-comment (document "Style parameters."))))
+          (assign "full-screen-mode" "false")
+          (assign "info-flag" "minimal")
+          (assign "page-even" "57pt")
+          (assign "page-height" "auto")
+          (assign "page-medium" "beamer")
+          (assign "page-odd" "57pt")
+          (assign "page-right" "57pt")
+          (assign "page-screen-margin" "false")
+          (assign "page-type" "16:9")
+          (assign "page-width" "auto")
+          (assign "stem-doc-id" "5558EB92-ACEE-4B7C-99B4-9F8189D20A10")
+          (assign "strong-color" "#11315d")
+          (assign "title-shadow-color" "#5bb4b2")
+          (active* (document (src-comment (document "Macro definitions."))))
+          (assign "really-huge" (macro "body" (with "font-size" "2.7" (arg "body"))))
+          (assign "huge" (macro "body" (with "font-size" "2" (arg "body"))))
+          (assign "title-font-size" "1.6")
+          (assign "section-vsize" "0.07pag")
+          (assign "slide-vsize" "0.12pag")
+          (assign "slide-vsize2" "0.14par")
+          (assign "tit"
+            (macro "body"
+              (document (no-margins (document (surround (assign "page-this-top" "0mm")
+                                                (assign "gpag-length"
+                                                  (macro (minus "1pag"
+                                                           (plus (times "2" (value "title-vpadding"))
+                                                             (times (value "title-font-size") "1.5fn")
+                                                             "0.8fn"
+                                                             (value "par-par-sep")
+                                                           ) ;plus
+                                                         ) ;minus
+                                                  ) ;macro
+                                                ) ;assign
+                                                (document (with "par-par-sep"
+                                                            "0fn"
+                                                            "color"
+                                                            (value "title-shadow-color")
+                                                            "font-size"
+                                                            (if (value "title-old-style") "1" (value "title-font-size"))
+                                                            (resize (tabular* (tformat (twith "table-width" "1par")
+                                                                                (twith "table-hmode" "exact")
+                                                                                (cwith "1" "1" "1" "-1" "cell-tsep" (value "title-vpadding"))
+                                                                                (cwith "1" "1" "1" "-1" "cell-bsep" (value "title-vpadding"))
+                                                                                (cwith "1" "1" "1" "-1" "cell-background" (title-bar-color))
+                                                                                (cwith "1" "1" "1" "1" "cell-hyphen" "t")
+                                                                                (cwith "2" "2" "1" "1" "cell-vcorrect" "n")
+                                                                                (cwith "1" "-1" "1" "1" "cell-halign" "l")
+                                                                                (twith "table-valign" "T")
+                                                                                (cwith "1" "1" "1" "1" "cell-bborder" (value "title-border"))
+                                                                                (cwith "2" "2" "1" "1" "cell-hyphen" "t")
+                                                                                (cwith "2" "2" "1" "1" "cell-lsep" "0spc")
+                                                                                (cwith "2" "2" "1" "1" "cell-rsep" "0spc")
+                                                                                (cwith "2" "2" "1" "1" "cell-bsep" "0spc")
+                                                                                (cwith "2" "2" "1" "1" "cell-tsep" "0spc")
+                                                                                (table (row (cell (document (with-tit-color (concat "<gtr> "
+                                                                                                                              (arg "body")
+                                                                                                                              (htab "5mm")
+                                                                                                                              (value "section-logo")
+                                                                                                                              (value "section-text")
+                                                                                                                            ) ;concat
+                                                                                                            ) ;with-tit-color
+                                                                                                  ) ;document
+                                                                                            ) ;cell
+                                                                                       ) ;row
+                                                                                  (row (cell (document (title-sub-bar-frame (title-sub-bar-contents (arg "body")))))
+                                                                                  ) ;row
+                                                                                ) ;table
+                                                                              ) ;tformat
+                                                                    ) ;tabular*
+                                                              ""
+                                                              (plus "1b" "0.2fn")
+                                                              ""
+                                                              ""
+                                                            ) ;resize
+                                                          ) ;with
+                                                ) ;document
+                                              ) ;surround
+                                    ) ;document
+                        ) ;no-margins
+              ) ;document
+            ) ;macro
+          ) ;assign
+          (assign "tit-slide"
+            (macro "body"
+              (document (no-margins (document (surround (assign "page-this-top" "0mm")
+                                                (assign "gpag-length"
+                                                  (macro (minus "1pag"
+                                                           (plus (times "2" (value "title-vpadding"))
+                                                             (times (value "title-font-size") "1.5fn")
+                                                             "0.8fn"
+                                                             (value "par-par-sep")
+                                                           ) ;plus
+                                                         ) ;minus
+                                                  ) ;macro
+                                                ) ;assign
+                                                (document (with "par-par-sep"
+                                                            "0fn"
+                                                            "color"
+                                                            (value "title-shadow-color")
+                                                            "font-size"
+                                                            (if (value "title-old-style") "1" (value "title-font-size"))
+                                                            (resize (tabular* (tformat (twith "table-width" "1par")
+                                                                                (twith "table-hmode" "exact")
+                                                                                (cwith "1" "1" "1" "-1" "cell-tsep" (value "title-vpadding"))
+                                                                                (cwith "1" "1" "1" "-1" "cell-bsep" (value "title-vpadding"))
+                                                                                (cwith "1" "1" "1" "1" "cell-hyphen" "t")
+                                                                                (cwith "1" "-1" "1" "1" "cell-halign" "l")
+                                                                                (twith "table-valign" "T")
+                                                                                (cwith "1" "1" "1" "1" "cell-bborder" (value "title-border"))
+                                                                                (table (row (cell (document (with-tit-color (concat (arg "body")
+                                                                                                                              (htab "5mm")
+                                                                                                                              (value "section-main-logo")
+                                                                                                                              (value "section-main-text")
+                                                                                                                            ) ;concat
+                                                                                                            ) ;with-tit-color
+                                                                                                  ) ;document
+                                                                                            ) ;cell
+                                                                                       ) ;row
+                                                                                ) ;table
+                                                                              ) ;tformat
+                                                                    ) ;tabular*
+                                                              ""
+                                                              (plus "1b" "0.2fn")
+                                                              ""
+                                                              ""
+                                                            ) ;resize
+                                                          ) ;with
+                                                ) ;document
+                                              ) ;surround
+                                    ) ;document
+                        ) ;no-margins
+              ) ;document
+            ) ;macro
+          ) ;assign
+          (assign "title-slide"
+            (macro "logo"
+              "title"
+              "author"
+              "institute"
+              (document (with "color"
+                          (value "main-color")
+                          (document (wide-tabular (document (tformat (cwith "1" "2" "1" "1" "cell-halign" "c")
+                                                              (cwith "1" "2" "1" "1" "cell-valign" "b")
+                                                              (cwith "3" "4" "1" "1" "cell-halign" "r")
+                                                              (table (row (cell (document (arg "logo") "")))
+                                                                (row (cell (document (underline (document (with "font-series" "bold" (document (really-huge (arg "title")))))
+                                                                                     ) ;underline
+                                                                           ) ;document
+                                                                     ) ;cell
+                                                                ) ;row
+                                                                (row (cell (document "" (concat (arg "author") (space "5.2em")))))
+                                                                (row (cell (document (concat (arg "institute") (space "5.2em")))))
+                                                              ) ;table
+                                                            ) ;tformat
+                                                  ) ;document
+                                    ) ;wide-tabular
+                          ) ;document
+                        ) ;with
+                ""
+              ) ;document
+            ) ;macro
+          ) ;assign
+          (assign "section-slide"
+            (macro "title"
+              (document (wide-tabular (document (tformat (cwith "1" "1" "1" "1" "cell-valign" "c")
+                                                  (cwith "1" "1" "1" "1" "cell-halign" "c")
+                                                  (cwith "1" "1" "1" "1" "cell-height" "0.8pag")
+                                                  (cwith "1" "1" "1" "1" "cell-vmode" "exact")
+                                                  (table (row (cell (document (tabular (tformat (cwith "1" "1" "1" "1" "cell-halign" "c")
+                                                                                         (cwith "2" "2" "1" "1" "cell-width" "0.7par")
+                                                                                         (cwith "2" "2" "1" "1" "cell-hmode" "exact")
+                                                                                         (twith "table-width" "0.7par")
+                                                                                         (twith "table-hmode" "exact")
+                                                                                         (table (row (cell (with "font-series"
+                                                                                                             "bold"
+                                                                                                             (with "color" (value "main-color") (huge (arg "title")))
+                                                                                                           ) ;with
+                                                                                                     ) ;cell
+                                                                                                ) ;row
+                                                                                           (row (cell (with "color" (value "main-color") (strike-through (space "0.68par"))))
+                                                                                           ) ;row
+                                                                                         ) ;table
+                                                                                       ) ;tformat
+                                                                              ) ;tabular
+                                                                    ) ;document
+                                                              ) ;cell
+                                                         ) ;row
+                                                  ) ;table
+                                                ) ;tformat
+                                      ) ;document
+                        ) ;wide-tabular
+              ) ;document
+            ) ;macro
+          ) ;assign
+        ) ;document
+  ) ;body
+  (initial (collection (associate "stem-doc-id" "7BC4A9A6-A3CD-442E-8E8E-4E9A7056E3F2"))
+  ) ;initial
+) ;document
